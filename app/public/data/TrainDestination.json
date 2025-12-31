@@ -1,0 +1,711 @@
+[
+    {
+        "TrainDestination": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "name": "西馬込",
+        "Line": "都営浅草線",
+        "code": "A-01",
+        "color": "#ec6e65" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "name": "泉岳寺",
+        "Line": "都営浅草線",
+        "code": "A-07",
+        "color": "#ec6e65" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Asakusa.Asakusabashi",
+        "name": "浅草橋",
+        "Line": "都営浅草線",
+        "code": "A-16",
+        "color": "#ec6e65" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Asakusa.Oshiage",
+        "name": "押上",
+        "Line": "都営浅草線",
+        "code": "A-20",
+        "color": "#ec6e65" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Main.Shinagawa",
+        "name": "品川",
+        "Line": "京急本線",
+        "code": "KK-01",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2",
+        "name": "羽田空港第1・第2ターミナル",
+        "Line": "京急空港線",
+        "code": "KK-17",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Kurihama.Miurakaigan",
+        "name": "三浦海岸",
+        "Line": "京急久里浜線",
+        "code": "KK-71",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Main.KanagawaShimmachi",
+        "name": "神奈川新町",
+        "Line": "京急本線",
+        "code": "KK-34",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Main.KanazawaBunko",
+        "name": "金沢文庫",
+        "Line": "京急本線",
+        "code": "KK-49",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Kurihama.KeikyuKurihama",
+        "name": "京急久里浜",
+        "Line": "京急久里浜線",
+        "code": "KK-67",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Kurihama.Misakiguchi",
+        "name": "三崎口",
+        "Line": "京急久里浜線",
+        "code": "KK-72",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Zushi.ZushiHayama",
+        "name": "逗子・葉山",
+        "Line": "京急逗子線",
+        "code": "KK-53",
+        "color": "#33c2e4" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keisei.NaritaSkyAccess.NaritaAirportTerminal1",
+        "name": "アクセス線経由成田空港",
+        "Line": "成田スカイアクセス線",
+        "code": "KS-42",
+        "color": "#ee7a00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keisei.Main.KeiseiNarita",
+        "name": "京成成田",
+        "Line": "京成本線",
+        "code": "KS-40",
+        "color": "#011a68" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keisei.Main.KeiseiSakura",
+        "name": "京成佐倉",
+        "Line": "京成本線",
+        "code": "KS-35",
+        "color": "#011a68" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keisei.Main.Sogosando",
+        "name": "宗吾参道",
+        "Line": "京成本線",
+        "code": "KS-38",
+        "color": "#011a68" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keisei.Main.KeiseiTakasago",
+        "name": "京成高砂",
+        "Line": "京成本線",
+        "code": "KS-10",
+        "color": "#011a68" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keisei.Oshiage.Aoto",
+        "name": "青砥",
+        "Line": "京成押上線",
+        "code": "KS-09",
+        "color": "#011a68" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keisei.Main.NaritaAirportTerminal1",
+        "name": "京成本線経由成田空港",
+        "Line": "京成本線",
+        "code": "KS-42",
+        "color": "#011a68" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Hokuso.Hokuso.ImbaNihonIdai",
+        "name": "印旛日本医大",
+        "Line": "北総線",
+        "code": "HS-14",
+        "color": "#051b6d" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Hokuso.Hokuso.InzaiMakinohara",
+        "name": "印西牧の原",
+        "Line": "北総線",
+        "code": "HS-13",
+        "color": "#051b6d" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Shibayama.Shibayama.ShibayamaChiyoda",
+        "name": "芝山千代田",
+        "Line": "芝山鉄道線",
+        "code": "SR-01",
+        "color": "#007f5a" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Mita.NishiTakashimadaira",
+        "name": "西高島平",
+        "Line": "都営三田線",
+        "code": "I-27",
+        "color": "#0079c2" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Mita.Takashimadaira",
+        "name": "高島平",
+        "Line": "都営三田線",
+        "code": "I-25",
+        "color": "#0079c2" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Mita.ShirokaneTakanawa",
+        "name": "白金高輪",
+        "Line": "都営三田線",
+        "code": "I-03",
+        "color": "#0079c2" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Tokyu.Meguro.MusashiKosugi",
+        "name": "武蔵小杉",
+        "Line": "東急目黒線",
+        "code": "MG-11",
+        "color": "#009cd3" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Tokyu.Meguro.Hiyoshi",
+        "name": "日吉",
+        "Line": "東急目黒線",
+        "code": "MG-12",
+        "color": "#009cd3" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Tokyu.Meguro.Motosumiyoshi",
+        "name": "元住吉",
+        "Line": "東急目黒線",
+        "code": "MG-13",
+        "color": "#009cd3" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Tokyu.TokyuShinYokohama.ShinYokohama",
+        "name": "新横浜",
+        "Line": "東急新横浜線",
+        "code": "SH-01",
+        "color": "#890d84" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Sotetsu.SotetsuShinYokohama.Nishiya",
+        "name": "西谷",
+        "Line": "相鉄新横浜線",
+        "code": "SO-08",
+        "color": "#041452" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Sotetsu.Main.Yamato",
+        "name": "大和",
+        "Line": "相鉄本線",
+        "code": "SO-14",
+        "color": "#041452" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Sotetsu.Main.Ebina",
+        "name": "海老名",
+        "Line": "相鉄本線",
+        "code": "SO-18",
+        "color": "#041452" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Sotetsu.Izumino.Shonandai",
+        "name": "湘南台",
+        "Line": "相鉄いずみ野線",
+        "code": "SO-37",
+        "color": "#041452" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Arakawa.Minowabashi",
+        "name": "三ノ輪橋",
+        "Line": "都電荒川線",
+        "code": "SA-01",
+        "color": "#ee86a7" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Arakawa.Waseda",
+        "name": "早稲田",
+        "Line": "都電荒川線",
+        "code": "SA-30",
+        "color": "#ee86a7" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Arakawa.ArakawaShakomae",
+        "name": "荒川車庫前",
+        "Line": "都電荒川線",
+        "code": "SA-13",
+        "color": "#ee86a7" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Shinjuku.Motoyawata",
+        "name": "本八幡",
+        "Line": "都営新宿線",
+        "code": "S-21",
+        "color": "#b0bf1e" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Shinjuku.Mizue",
+        "name": "瑞江",
+        "Line": "都営新宿線",
+        "code": "S-19",
+        "color": "#b0bf1e" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Shinjuku.Ojima",
+        "name": "大島",
+        "Line": "都営新宿線",
+        "code": "S-15",
+        "color": "#b0bf1e" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Shinjuku.Iwamotocho",
+        "name": "岩本町",
+        "Line": "都営新宿線",
+        "code": "S-08",
+        "color": "#b0bf1e" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Shinjuku.Shinjuku",
+        "name": "新宿",
+        "Line": "都営新宿線",
+        "code": "S-01",
+        "color": "#b0bf1e" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keio.KeioNew.Sasazuka",
+        "name": "笹塚",
+        "Line": "京王新線",
+        "code": "KO-04",
+        "color": "#d5007f" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keio.Sagamihara.Wakabadai",
+        "name": "若葉台",
+        "Line": "京王相模原線",
+        "code": "KO-39",
+        "color": "#d5007f" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keio.Sagamihara.KeioTamaCenter",
+        "name": "京王多摩センター",
+        "Line": "京王相模原線",
+        "code": "KO-41",
+        "color": "#d5007f" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Keio.Sagamihara.Hashimoto",
+        "name": "橋本",
+        "Line": "京王相模原線",
+        "code": "KO-45",
+        "color": "#d5007f" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Oedo.Tochomae",
+        "name": "都庁前",
+        "Line": "都営大江戸線",
+        "code": "E-28",
+        "color": "#b6007a" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Oedo.Hikarigaoka",
+        "name": "光が丘",
+        "Line": "都営大江戸線",
+        "code": "E-38",
+        "color": "#b6007a" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Oedo.KiyosumiShirakawa",
+        "name": "清澄白河",
+        "Line": "都営大江戸線",
+        "code": "E-14",
+        "color": "#b6007a" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Toei.Oedo.ShinOkachimachi",
+        "name": "新御徒町",
+        "Line": "都営大江戸線",
+        "code": "E-10",
+        "color": "#b6007a" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Musashino.Fuchuhommachi",
+        "name": "府中本町行き JM-35:JR武蔵野線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Musashino.HigashiTokorozawa",
+        "name": "東所沢行き JM-30:JR武蔵野線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Musashino.MinamiKoshigaya",
+        "name": "南越谷行き JM-22:JR武蔵野線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Musashino.NishiFunabashi",
+        "name": "西船橋行き JM-10:JR武蔵野線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Keiyo.NishiFunabashi",
+        "name": "西船橋行き JM-10:JR京葉線.武蔵野線直通列車",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Keiyo.Kaihimmakuhari",
+        "name": "海浜幕張行き JE-14:JR京葉線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Keiyo.ShinNarashino",
+        "name": "新習志野行き JE-12:JR京葉線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Keiyo.Soga",
+        "name": "蘇我行き :JR京葉線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Keiyo.MinamiFunabashi",
+        "name": "南船橋行き JE-11:JR京葉線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Keiyo.Tokyo",
+        "name": "東京行き JE-01:JR京葉線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Omiya",
+        "name": "大宮行き JU-07:JR宇都宮線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.Hachioji",
+        "name": "八王子行き JH-32:JR横浜線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.Hashimoto",
+        "name": "橋本行き JH-28:JR横浜線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.Machida",
+        "name": "町田行き JH-23:JR横浜線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.HigashiKanagawa",
+        "name": "東神奈川行き JH-13:JR横浜線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Sakuragicho",
+        "name": "桜木町行き JK-11:JR京浜東北.根岸線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Isogo",
+        "name": "磯子行き JK-06:JR京浜東北.根岸線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Tokyo",
+        "name": "東京行き JC-01:JR中央線快速",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SobuRapid.Tokyo",
+        "name": "東京行き JO-19:JR総武快速線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Shinjuku",
+        "name": "新宿行き JC-05:JR中央線快速",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Tachikawa",
+        "name": "立川行き JC-19:JR中央線快速",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Chuo.Takao",
+        "name": "高尾行き JC-24:JR中央線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Chuo.Nirasaki",
+        "name": "韮崎行き CO-46:JR中央本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Chuo.Kobuchizawa",
+        "name": "小淵沢行き CO-51:JR中央本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Chuo.Enzan",
+        "name": "塩山行き CO-37:JR中央本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Chuo.Kofu",
+        "name": "甲府行き CO-43:JR中央本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Chuo.Ryuo",
+        "name": "竜王行き CO-44:JR中央本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Chuo.Otsuki",
+        "name": "大月行き JC-32:JR中央本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Shinonoi.Matsumoto",
+        "name": "松本行き :JR中央本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Shinonoi.Nagano",
+        "name": "長野行き :JR篠ノ井線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Oito.MinamiOtari",
+        "name": "南小谷行き 駅番号-９:大糸線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Fujikyu.Fujikyu.Kawaguchiko",
+        "name": "河口湖行き FJ-18:富士急行線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.NaritaAirportBranch.NaritaAirportTerminal1",
+        "name": "成田空港行き JO-37:JR成田線空港支線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Narita.Narita",
+        "name": "成田行き JO-35:JR成田線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Sobu.Sakura",
+        "name": "佐倉行き JO-33:JR総武本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Sotobo.KazusaIchinomiya",
+        "name": "上総一ノ宮行き :JR外房線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Uchibo.Kimitsu",
+        "name": "君津行き :JR内房線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Sobu.Choshi",
+        "name": "銚子行き :JR総武本線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoSobuLocal.Chiba",
+        "name": "千葉行き JB-39:JR総武線各駅停車",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SobuRapid.Chiba",
+        "name": "千葉行き JO-28:JR総武快速線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SobuRapid.Tsudanuma",
+        "name": "津田沼行き JO-26:JR総武快速線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokosuka.Tokyo",
+        "name": "東京行き JO-19:横須賀線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokosuka.Shinagawa",
+        "name": "品川行き JO-17:横須賀線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Tokaido.Kozu",
+        "name": "国府津行き JT-14:JR東海道線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokosuka.Ofuna",
+        "name": "大船行き JO-09:JR横須賀線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ShonanShinjuku.Ofuna",
+        "name": "大船行き JS-09:JR湘南新宿ライン",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokosuka.Kamakura",
+        "name": "鎌倉行き JO-07:JR横須賀線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Izukyu.Izukyu.IzukyuShimoda",
+        "name": "伊豆急下田行き IZ-16:伊豆急行線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokosuka.Zushi",
+        "name": "逗子行き JO-06:JR横須賀線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokosuka.Yokosuka",
+        "name": "横須賀行き JO-03:JR横須賀線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokosuka.Kurihama",
+        "name": "久里浜行き JO-01:JR横須賀線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Koga",
+        "name": "古河行き :JR宇都宮線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Koganei",
+        "name": "小金井行き :JR宇都宮線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Utsunomiya",
+        "name": "宇都宮行き :JR宇都宮線",
+        "short": "宇",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ShonanShinjuku.Shinjuku",
+        "name": "新宿行き JS-20:JR湘南新宿ライン",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ShonanShinjuku.Ikebukuro",
+        "name": "新宿行き JS-21:JR湘南新宿ライン",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "name": "籠原行き :JR高崎線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "name": "平塚行き JT-11:JR東海道線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Tokaido.Odawara",
+        "name": "小田原行き JT-16:JR東海道線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "name": "熊谷行き :JR高崎線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Takasaki",
+        "name": "高崎行き :JR高崎線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Ryomo.Maebashi",
+        "name": "前橋行き :JR両毛線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Tobu.Nikko.TobuNikko",
+        "name": "東武日光行き TN-25:東武日光線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:Tobu.Kinugawa.KinugawaOnsen",
+        "name": "鬼怒川温泉行き TN-56:東武鬼怒川線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Kawagoe",
+        "name": "川越行き :JR川越線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Omiya",
+        "name": "大宮行き JA-26:JR埼京線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.MusashiUrawa",
+        "name": "武蔵浦和行き JA-21:JR埼京線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Akabane",
+        "name": "新宿行き JA-15:JR埼京線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Ikebukuro",
+        "name": "池袋行き JA-12:JR埼京線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Shinjuku",
+        "name": "新宿行き JA-11:JR埼京線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:TWR.Rinkai.ShinKiba",
+        "name": "新木場行き R-01:りんかい線",
+        "color": "#00ff00" 
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Hasuda",
+        "name": "蓮田行き JR宇都宮線",
+        "color": "#00ff00"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Ito.Atami",
+        "name": "熱海行き JT-21:JR伊東線",
+        "color": "#00ff00"
+    }
+]

@@ -1,0 +1,28 @@
+[{
+    "company": "odpt.Operator:Toei",
+    "name": "東京都交通局"
+},{
+    "company": "odpt.Operator:Keisei",
+    "name": "京成電鉄"  
+},
+{
+    "company": "odpt.Operator:Hokuso",
+    "name": "北総鉄道"  
+},
+{
+    "company": "odpt.Operator:Keikyu",
+    "name": "京急電鉄"  
+},
+{
+    "company": "odpt.Operator:Keio",
+    "name": "京王電鉄"  
+},
+{
+    "company": "odpt.Operator:Tokyu",
+    "name": "東急電鉄"  
+},
+{
+    "company": "odpt.Operator:Sotetsu",
+    "name": "相模鉄道"  
+}
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "TrainType": "odpt.TrainType:Toei.AccessExpress",
+        "name": "アクセス特急",
+        "short": "ア特",
+        "color": "#d26002"
+    },
+    {
+        "TrainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+        "name": "エアポート快特",
+        "short": "エ快",
+        "color": "#d26002"
+    },
+    {
+        "TrainType": "odpt.TrainType:Toei.CommuterLimitedExpress",
+        "name": "通勤特急",
+        "short": "通特",
+        "color": "#02d2b3"
+    },
+    {
+        "TrainType": "odpt.TrainType:Toei.Express",
+        "name": "急行",
+        "short": "急行",
+        "color": "#0274d2"
+    },
+    {
+        "TrainType": "odpt.TrainType:Toei.LimitedExpress",
+        "name": "特急",
+        "short": "特急",
+        "color": "#d2024a"
+    },
+    {
+        "TrainType": "odpt.TrainType:Toei.Local",
+        "name": "普通",
+        "short": "普通",
+        "color": "#000000"
+    },
+    {
+        "TrainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+        "name": "快特",
+        "short": "快特",
+        "color": "#009200"
+    },
+    {
+        "TrainType": "odpt.TrainType:Toei.Rapid",
+        "name": "快速",
+        "short": "快速",
+        "color": "#e92b93"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.Local",
+        "name": "普通",
+        "short": "普通"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.Rapid",
+        "name": "快速",
+        "short": "快速"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.SpecialRapid",
+        "name": "特別快速",
+        "short": "特快"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.LimitedExpress",
+        "name": "特急",
+        "short": "特急"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.CommuterRapid",
+        "name": "通勤快速",
+        "short": "通快"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.CommuterSpecialRapid",
+        "name": "通勤特別快速",
+        "short": "通特快"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.ChuoSpecialRapid",
+        "name": "中央特快",
+        "short": "中特"
+    },
+    {
+        "TrainType": "odpt.TrainType:Keikyu.Local",
+        "name": "普通",
+        "short": "普通"
+    },
+    {
+        "TrainType": "odpt.TrainType:Keikyu.Express",
+        "name": "急行",
+        "short": "急行"
+    },
+    {
+        "TrainType": "odpt.TrainType:Keikyu.LimitedExpress",
+        "name": "特急",
+        "short": "特急"
+    },
+    {
+        "TrainType": "odpt.TrainType:Keikyu.RapidLimitedExpress",
+        "name": "快特",
+        "short": "快特"
+    },
+    {
+        "TrainType": "odpt.TrainType:Keikyu.AirportRapidLimitedExpress",
+        "name": "エアポート快特",
+        "short": "エ快"
+    }
+]
