@@ -109,6 +109,28 @@
                 </v-list-item>
             </v-list>
         </div>
+
+        <div class="lozdo-section">
+            <h2 class="mb-3">運営者について</h2>
+
+            <div class="site-container d-flex"></div>
+
+            <v-list class="rounded-lg pa-3 mb-2 border-md">
+                <v-list-item>
+                    <v-list-item-content>
+                        このサイトをご利用いただきありがとうございます。このサイトは102℃が運営しています。　読み方は、10-2-doでten-two-doで鉄道の語呂合わせになっています。RetrationはReal-time
+                        Train-Informationの略です。102℃の他のサービスについては<a
+                            href="https://lozdo.com"
+                            >こちら</a
+                        >から。このサイトに関するお問い合わせは<a
+                            class="normal-btn"
+                            href="/retration2/comments"
+                            >こちら</a
+                        >からお願いいたします。
+                    </v-list-item-content>
+                </v-list-item>
+            </v-list>
+        </div>
     </v-container>
 </template>
 
@@ -295,6 +317,12 @@ const formatDate = (dateStr: string) => {
 .about-section {
     max-width: 1000px;
     margin: 60px auto;
+    padding: 0 16px;
+}
+
+.lozdo-section {
+    max-width: 1000px;
+    margin: 45px auto;
     padding: 0 16px;
 }
 
