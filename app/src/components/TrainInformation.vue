@@ -15,29 +15,34 @@
             class="ma-1 text-body-2 font-weight-semibold"
             :class="textClass"
         >
-            {{ AsakusaInfo }}
+            {{ trainInfo }}
         </v-card-text>
     </v-card>
 </template>
 
-<style lang="css" scoped>
-.traininfo-main-view {
-    margin-top: 30px;
-}
-</style>
-
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 
 const jsonData = ref<any[]>([]);
-const AsakusaInfo = ref('Loading...');
+const trainInfo = ref('Loading...');
 const fetchTime = ref('');
 
 const normalMessage = '現在、１５分以上の遅延はありません。';
 
 const textClass = computed(() => {
-    return AsakusaInfo.value === normalMessage ? '' : 'text-error';
+    return trainInfo.value === normalMessage ? '' : 'text-error';
 });
+
+const props = defineProps<{
+    lineId: string;
+}>();
+
+const LINE_MAP: Record<string, string> = {
+    asakusa: 'odpt.TrainInformation:Toei.Asakusa',
+    mita: 'odpt.TrainInformation:Toei.Mita',
+    shinjuku: 'odpt.TrainInformation:Toei.Shinjuku',
+    oedo: 'odpt.TrainInformation:Toei.Oedo',
+};
 
 async function fetchTrainInfo() {
     try {
@@ -47,18 +52,26 @@ async function fetchTrainInfo() {
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
 
-        const asakusa = jsonData.value.find(
-            (item) =>
-                item['owl:sameAs'] === 'odpt.TrainInformation:Toei.Asakusa'
+        const lineKey = LINE_MAP[props.lineId];
+
+        if (!lineKey) {
+            trainInfo.value = '対応していない路線です';
+            fetchTime.value = formatTime(new Date());
+            return;
+        }
+
+        const info = jsonData.value.find(
+            (item) => item['owl:sameAs'] === lineKey
         );
-        AsakusaInfo.value =
-            asakusa?.['odpt:trainInformationText']?.ja || 'No information';
+
+        trainInfo.value =
+            info?.['odpt:trainInformationText']?.ja || 'No information';
 
         const now = new Date();
         fetchTime.value = formatTime(now);
     } catch (error) {
         console.error('Failed to fetch data:', error);
-        AsakusaInfo.value = 'データの取得に失敗しました / Failed to fetch data';
+        trainInfo.value = 'データの取得に失敗しました / Failed to fetch data';
         fetchTime.value = '取得できませんでした';
     }
 }
@@ -81,10 +94,22 @@ onMounted(() => {
 onUnmounted(() => {
     if (intervalId) clearInterval(intervalId);
 });
+
+watch(
+    () => props.lineId,
+    () => {
+        fetchTrainInfo();
+    }
+);
 </script>
 
 <style scoped>
 .traininfo-main-view {
     margin-top: 30px;
+}
+
+.text-error {
+    color: crimson !important;
+    font-weight: bold;
 }
 </style>

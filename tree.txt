@@ -1,0 +1,69 @@
+/Users/kinokokun/dev/togoshi
+|--.DS_Store
+|--.gitignore
+|--.prettierrc
+|--Dockerfile
+|--LICENSE
+|--README.md
+|--app
+| |--.DS_Store
+| |--.gitignore
+| |--README.md
+| |--dist
+| | |--.DS_Store
+| | |--Asakusa-symbole.png
+| | |--Asakusa-train.png
+| | |--assets
+| | | |--index-DM1H__70.js
+| | | |--index-DW5LClc5.css
+| | | |--materialdesignicons-webfont-B7mPwVP_.ttf
+| | | |--materialdesignicons-webfont-CSr8KVlo.eot
+| | | |--materialdesignicons-webfont-Dp5v-WZN.woff2
+| | | |--materialdesignicons-webfont-PXm3-2wK.woff
+| | |--data
+| | | |--.DS_Store
+| | | |--TrainCompany.json
+| | | |--TrainDestination.json
+| | | |--TrainLocationtest.json
+| | | |--TrainTimetable.json
+| | | |--TrainType.json
+| | | |--test.py
+| | |--index.html
+| |--env.d.ts
+| |--index.html
+| |--package-lock.json
+| |--package.json
+| |--public
+| | |--.DS_Store
+| | |--Asakusa-symbole.png
+| | |--Asakusa-train.png
+| | |--data
+| | | |--.DS_Store
+| | | |--TrainCompany.json
+| | | |--TrainDestination.json
+| | | |--TrainLocationtest.json
+| | | |--TrainTimetable.json
+| | | |--TrainType.json
+| | | |--test.py
+| |--src
+| | |--App.vue
+| | |--assets
+| | | |--base.css
+| | | |--logo.svg
+| | | |--main.css
+| | |--components
+| | | |--AboutSite.vue
+| | | |--TrainInformation.vue
+| | | |--TrainLocation.vue
+| | | |--icons
+| | |--main.ts
+| | |--types
+| | | |--japanese-holidays.d.ts
+| | |--utils
+| | | |--Calendar.ts
+| |--tsconfig.app.json
+| |--tsconfig.json
+| |--tsconfig.node.json
+| |--vite.config.ts
+|--docker-compose.yml
+|--howto.md

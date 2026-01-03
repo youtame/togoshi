@@ -42,7 +42,7 @@
                         <v-list-item>
                             <v-list-item-content>
                                 5.
-                                現在は車両の種類に関わらず全て同じ車両のアイコンが使用されます。
+                                現在は乗り入れ車両などの種類に関わらず全てその路線の車両のアイコンまたは仮のアイコンが使用されます。
                             </v-list-item-content>
                         </v-list-item>
                     </v-list>

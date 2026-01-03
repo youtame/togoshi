@@ -61,7 +61,7 @@
                                 />
 
                                 <v-img
-                                    src="Asakusa-train.png"
+                                    :src="lineIcon"
                                     max-height="40"
                                     max-width="40"
                                     contain
@@ -117,7 +117,7 @@
                                 />
 
                                 <v-img
-                                    src="Asakusa-train.png"
+                                    :src="lineIcon"
                                     max-height="40"
                                     max-width="40"
                                     contain
@@ -328,6 +328,17 @@
                                                 class="text-body-1 font-weight-bold"
                                             >
                                                 {{ row.stationName }}
+                                                <span
+                                                    class="text-body-2 font-weight-semibold"
+                                                >
+                                                    {{
+                                                        row.platform
+                                                            ? '（' +
+                                                              row.platform +
+                                                              '番線）'
+                                                            : ''
+                                                    }}
+                                                </span>
                                             </span>
                                         </div>
 
@@ -336,7 +347,7 @@
                                                 <span
                                                     v-if="row.timeAr"
                                                     :class="{
-                                                        'text-red':
+                                                        'text-blue':
                                                             row.isDelayed,
                                                     }"
                                                     class="text-h6"
@@ -354,7 +365,7 @@
                                                 <span
                                                     v-if="row.timeDe"
                                                     :class="{
-                                                        'text-red':
+                                                        'text-blue':
                                                             row.isDelayed,
                                                     }"
                                                     class="text-h6"
@@ -389,7 +400,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { getCalendar } from '@/utils/Calendar';
 
 interface Station {
@@ -432,6 +443,7 @@ interface TrainTimetableData {
     direction: string;
     timetable: {
         station: string;
+        platform?: string;
         time_ar?: string;
         time_de?: string;
     }[];
@@ -457,6 +469,27 @@ const TrainTimetableList = ref<TrainTimetableData[]>([]);
 const TrainCompanyMap = ref<Record<string, { company: string; name: string }>>(
     {}
 );
+const props = defineProps<{
+    lineId: string;
+}>();
+
+const LINE_MAP: Record<string, string> = {
+    asakusa: 'odpt.Railway:Toei.Asakusa',
+    mita: 'odpt.Railway:Toei.Mita',
+    shinjuku: 'odpt.Railway:Toei.Shinjuku',
+    oedo: 'odpt.Railway:Toei.Oedo',
+};
+
+const ROUTE_ICONS: Record<string, string> = {
+    asakusa: '/retration2/Asakusa-train.png',
+    mita: '/retration2/Mita-train.png',
+    shinjuku: '/retration2/Shinjuku-train.png',
+    oedo: '/retration2/Oedo-train.png',
+};
+
+const lineIcon = computed(() => {
+    return ROUTE_ICONS[props.lineId] || '/default-icon.png';
+});
 
 const dialog = ref(false);
 const selectedTrain = ref<any>({});
@@ -512,14 +545,21 @@ async function fetchTrainLocation() {
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
 
+        const lineKey = LINE_MAP[props.lineId];
+
+        if (!lineKey) {
+            console.warn('未対応の路線IDです:', props.lineId);
+            return;
+        }
+
         const location = jsonData.value.filter(
-            (item) => item['odpt:railway'] === 'odpt.Railway:Toei.Asakusa'
+            (item) => item['odpt:railway'] === lineKey
         );
 
         LocationInfo.value = location.map((item) => ({
             same: item['owl:sameAs'] ?? '',
             direction: item['odpt:railDirection'] ?? '',
-            owner: item['odpt:trainOwner'] ?? '列車保有会社データなし',
+            owner: item['odpt:trainOwner'] ?? '自社局',
             originstation:
                 item['odpt:originStation']?.[0] ?? '始発駅データなし',
             destinationstation:
@@ -549,8 +589,15 @@ async function fetchStationInfo() {
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
 
+        const lineKey = LINE_MAP[props.lineId];
+
+        if (!lineKey) {
+            console.warn('未対応の路線IDです:', props.lineId);
+            return;
+        }
+
         const station = jsonData.value.filter(
-            (item) => item['odpt:railway'] === 'odpt.Railway:Toei.Asakusa'
+            (item) => item['odpt:railway'] === lineKey
         );
 
         StationInfo.value = station.map((item) => ({
@@ -573,7 +620,7 @@ async function fetchStationInfo() {
 
 async function fetchTrainType() {
     try {
-        const response = await fetch('/retration-test/data/TrainType.json');
+        const response = await fetch('/retration2/data/TrainType.json');
         if (!response.ok) throw new Error('Network Error');
         const data: TrainType[] = await response.json();
 
@@ -594,9 +641,7 @@ async function fetchTrainType() {
 
 async function fetchTraindestination() {
     try {
-        const response = await fetch(
-            '/retration-test/data/TrainDestination.json'
-        );
+        const response = await fetch('/retration2/data/TrainDestination.json');
         if (!response.ok) throw new Error('Network Error');
         const data: TrainDestination[] = await response.json();
 
@@ -615,20 +660,24 @@ async function fetchTraindestination() {
 }
 
 async function fetchTrainTimetable() {
+    const lineId = props.lineId; // asakusa / mita / shinjuku / oedo
     try {
         const response = await fetch(
-            '/retration-test/data/TrainTimetable.json'
+            `/retration2/data/${lineId}-Timetable.json`
         );
         if (!response.ok) throw new Error('Network Error');
+
         TrainTimetableList.value = await response.json();
+        console.log(`${lineId} の時刻表を読み込みました`);
     } catch (error) {
-        console.error('Failed to fetch train timetable data', error);
+        console.error(`Failed to fetch timetable for ${lineId}`, error);
+        TrainTimetableList.value = [];
     }
 }
 
 async function fetchTrainCompnay() {
     try {
-        const response = await fetch('/retration-test/data/TrainCompany.json');
+        const response = await fetch('/retration2/data/TrainCompany.json');
         const data: TrainCompany[] = await response.json();
 
         TrainCompanyMap.value = data.reduce((acc, item) => {
@@ -740,6 +789,8 @@ const selectedTrainTimetableDisplay = computed(() => {
             stationSame: item.station,
             stationName: station?.name ?? item.station,
 
+            platform: item.platform ?? null,
+
             // 元時刻（検証・表示用）
             rawTimeAr: item.time_ar ?? null,
             rawTimeDe: item.time_de ?? null,
@@ -800,15 +851,25 @@ onUnmounted(() => {
         clearInterval(trainLocationTimer);
     }
 });
+
+watch(
+    () => props.lineId,
+    () => {
+        fetchStationInfo();
+        fetchTrainLocation();
+        fetchTrainTimetable();
+    },
+    { immediate: true }
+);
 </script>
 
-<style lang="css" scoped>
+<style>
 .trainlocation-main-view {
     margin-top: 30px;
 }
 
 .odd-row {
-    background-color: #ec6e65;
+    background-color: rgb(var(--v-theme-primary));
 }
 
 .v-list {
@@ -823,7 +884,7 @@ onUnmounted(() => {
     left: calc(1 / 5 * 100% + 3 / 7 * 100%);
     width: 7px;
     border-radius: 5px;
-    background-color: #cc4e45;
+    background-color: rgb(var(--v-theme-secondary));
     pointer-events: none;
 }
 
@@ -982,10 +1043,19 @@ onUnmounted(() => {
 
 .text-red {
     text-decoration: none;
-    color: #ffbb33 !important;
+    color: crimson !important;
 }
 
 .smaller {
     font-size: 15px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
 }
 </style>
