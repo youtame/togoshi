@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div class="comments-section">
-            <h2 class="mb-3">サイトに関して</h2>
+            <h2 class="mb-3">お問い合わせ</h2>
 
             <div class="site-container d-flex"></div>
 

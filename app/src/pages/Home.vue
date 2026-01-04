@@ -14,6 +14,19 @@
                 <h3>今、大体列車がどこにいるのかがわかります</h3>
             </div>
         </div>
+        <div class="main-visual">
+            <div class="visual-wrapper">
+                <Transition name="slide" mode="out-in">
+                    <v-img
+                        :key="currentImage"
+                        :src="currentImage"
+                        class="main-photo border-md"
+                        alt="Main Photo"
+                        eager
+                    />
+                </Transition>
+            </div>
+        </div>
         <div class="line-section">
             <h2 class="mb-3">対応中の路線</h2>
 
@@ -135,7 +148,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 type Notice = {
     title: string;
@@ -174,7 +187,17 @@ const lines = [
     },
 ];
 
+const images = ['/retration2/main-photo.png', '/retration2/main-photo2.png'];
+const currentIndex = ref(0);
+const currentImage = ref(images[0]);
+
+let timer: ReturnType<typeof setInterval> | null = null;
+
 onMounted(async () => {
+    timer = setInterval(() => {
+        currentIndex.value = (currentIndex.value + 1) % images.length;
+        currentImage.value = images[currentIndex.value];
+    }, 5000);
     try {
         const res = await fetch('/retration2/information/retration-info.json');
         if (!res.ok) throw new Error('fetch failed');
@@ -183,6 +206,12 @@ onMounted(async () => {
         error.value = true;
     } finally {
         loading.value = false;
+    }
+});
+
+onUnmounted(() => {
+    if (timer !== null) {
+        clearInterval(timer);
     }
 });
 
@@ -214,6 +243,22 @@ const formatDate = (dateStr: string) => {
     order: 2;
     width: 200px;
     height: 200px;
+}
+
+.main-visual {
+    max-width: 1000px;
+    margin: 45px auto 0;
+    padding: 0 16px;
+}
+
+.main-photo {
+    border-radius: 12px;
+    filter: grayscale(75%) brightness(0.9) contrast(0.95);
+}
+
+.visual-wrapper {
+    width: 100%;
+    aspect-ratio: 9 / 4;
 }
 
 .main-title {
@@ -324,6 +369,21 @@ const formatDate = (dateStr: string) => {
     max-width: 1000px;
     margin: 45px auto;
     padding: 0 16px;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.slide-enter-from {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.slide-leave-to {
+    transform: translateX(-20px);
+    opacity: 0;
 }
 
 @media (max-width: 960px) {

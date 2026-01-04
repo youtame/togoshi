@@ -766,7 +766,6 @@ const selectedTrainTimetableDisplay = computed(() => {
     const delaySec = selectedTrain.value?.delay ?? 0;
     const fromStation = selectedTrain.value?.fromstation ?? null;
 
-    // 時刻表に出てくる駅順
     const stationOrder = selectedTrainTimetable.value.timetable.map(
         (t) => t.station
     );
@@ -785,21 +784,17 @@ const selectedTrainTimetableDisplay = computed(() => {
             : null;
 
         return {
-            // 駅情報
             stationSame: item.station,
             stationName: station?.name ?? item.station,
 
             platform: item.platform ?? null,
 
-            // 元時刻（検証・表示用）
             rawTimeAr: item.time_ar ?? null,
             rawTimeDe: item.time_de ?? null,
 
-            // 遅延反映後
             timeAr,
             timeDe,
 
-            // 状態フラグ
             isDelayed: delaySec > 0,
             isPastStation: fromIndex !== -1 && index <= fromIndex,
         };
@@ -958,10 +953,11 @@ watch(
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: transform 0.4s ease, opacity 0.2s;
 }
 
 .v-card-text {
-    overflow-y: visible; /* 親の overflow を visible に */
+    overflow-y: visible;
 }
 
 .sticky-tabs {
