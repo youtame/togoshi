@@ -1,22 +1,22 @@
 <template>
     <v-container>
-        <div class="comments-section">
-            <h2 class="mb-3">お問い合わせ</h2>
+        <div class="manager-section">
+            <h2 class="mb-3">運営者について</h2>
 
             <div class="site-container d-flex"></div>
 
             <v-list class="rounded-lg pa-3 mb-2 border-md">
                 <v-list-item>
                     <v-list-item-content>
-                        1. 以下の<span class="font-weight-semibold"
-                            >Googleフォーム</span
-                        >からご意見・ご要望・不具合報告などをお寄せください。
-                    </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-content>
-                        2.
-                        下記のリンクをクリックしてフォームにアクセスしてください。フォームはこのサイトとは別のGoogleフォームのサイトで運営されているものです。
+                        このサイトをご利用いただきありがとうございます。このサイトは102℃が運営しています。　読み方は、10-2-doでten-two-doで鉄道の語呂合わせになっています。RetrationはReal-time
+                        Train-Informationの略です。102℃の他のサービスについては<a
+                            href="https://lozdo.com"
+                            >こちら</a
+                        >から。このサイトに関するお問い合わせは<a
+                            class="normal-btn"
+                            href="/retration2/comments"
+                            >こちら</a
+                        >からお願いいたします。
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
@@ -35,15 +35,14 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdyeRFBKR_QTMeqWeL5Fo7LkrVCtyPdEl4KSL9nPPcViuqP6A/viewform?usp=dialog"
+                    href="/"
                 >
                     <v-icon
-                        icon="mdi-comment-alert-outline"
+                        icon="mdi-home-outline"
                         class="mr-2"
                         size="large"
-                        target="_blank"
                     ></v-icon>
-                    お問い合わせへ
+                    ホームに戻る
                 </v-btn></v-col
             >
         </v-row>
@@ -51,7 +50,7 @@
 </template>
 
 <style scoped>
-.comments-section {
+.manager-section {
     max-width: 1000px;
     margin: 60px auto;
     margin-bottom: 30px;

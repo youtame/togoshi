@@ -2,9 +2,7 @@
     <v-container>
         <div class="hero">
             <v-img
-                src="/retration2/retration-icon.png"
-                width="180"
-                height="180"
+                src="/retration2/symbole/retration-icon.png"
                 alt="Main Visual"
                 class="hero-image"
             />
@@ -14,45 +12,21 @@
                 <h3>今、大体列車がどこにいるのかがわかります</h3>
             </div>
         </div>
+
         <div class="main-visual">
             <div class="visual-wrapper">
                 <Transition name="slide" mode="out-in">
                     <v-img
                         :key="currentImage"
                         :src="currentImage"
-                        class="main-photo border-md"
+                        class="main-photo"
                         alt="Main Photo"
                         eager
                     />
                 </Transition>
             </div>
         </div>
-        <div class="line-section">
-            <h2 class="mb-3">対応中の路線</h2>
 
-            <div class="line-container d-flex">
-                <v-btn
-                    v-for="line in lines"
-                    :key="line.id"
-                    variant="flat"
-                    rounded="lg"
-                    class="line-button d-flex align-center font-weight-bold border-md"
-                    color="surface"
-                    elevation="0"
-                    :to="line.to"
-                >
-                    <v-img
-                        :src="line.icon"
-                        width="50"
-                        height="50"
-                        class="line-icon"
-                        alt="Line icon"
-                    />
-
-                    <span class="line-text">{{ line.name }}</span>
-                </v-btn>
-            </div>
-        </div>
         <div class="notice-section">
             <h2 class="mb-3">サイトからお知らせ</h2>
 
@@ -73,11 +47,11 @@
                     >
                         <v-expansion-panel-title>
                             <div class="notice-header">
+                                <span class="notice-date font-weight-semibold">
+                                    {{ formatDate(item.info_date) }}
+                                </span>
                                 <span class="notice-title">
                                     {{ item.title || item.information }}
-                                </span>
-                                <span class="notice-date">
-                                    {{ formatDate(item.info_date) }}
                                 </span>
                             </div>
                         </v-expansion-panel-title>
@@ -90,59 +64,84 @@
             </v-list>
         </div>
 
-        <div class="about-section">
-            <h2 class="mb-3">サイトに関して</h2>
+        <v-row
+            class="px-4 gap-4 mb-12"
+            justify="start"
+            direction="column"
+            :md-direction="'row'"
+        >
+            <v-col>
+                <v-btn
+                    variant="flat"
+                    rounded="lg"
+                    class="main-button d-flex align-center font-weight-bold border-md"
+                    color="surface"
+                    elevation="0"
+                    rel="noopener"
+                    href="/retration2/aboutsite"
+                >
+                    <v-icon
+                        icon="mdi-alert-outline"
+                        class="mr-2"
+                        size="large"
+                    ></v-icon>
+                    サイト注意事項
+                </v-btn></v-col
+            >
+            <v-col>
+                <v-btn
+                    variant="flat"
+                    rounded="lg"
+                    class="main-button d-flex align-center font-weight-bold border-md"
+                    color="surface"
+                    elevation="0"
+                    rel="noopener"
+                    href="/retration2/manager"
+                >
+                    <v-icon
+                        icon="mdi-account-outline"
+                        class="mr-2"
+                        size="large"
+                    ></v-icon>
+                    サイト運営者
+                </v-btn></v-col
+            >
+        </v-row>
 
-            <div class="site-container d-flex"></div>
+        <div class="line-section">
+            <h2 class="mb-3">路線一覧</h2>
 
-            <v-list class="rounded-lg pa-3 mb-2 border-md">
-                <v-list-item>
-                    <v-list-item-content>
-                        1.
-                        取得しているAPIの都合上正確でないデータがある可能性があります
-                    </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-content>
-                        2.
-                        このページが利用する公共交通データは、公共交通オープンデータセンターにおいて提供されるものです
-                    </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-content>
-                        3.
-                        このページの表示内容について、公共交通事業者への直接の問合せは行わないでください。
-                    </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-content>
-                        4.
-                        サイトに関するお問い合わせは右側のメニューバーのリンクからお願いいたします。
-                    </v-list-item-content>
-                </v-list-item>
-            </v-list>
+            <div v-for="operator in operators" :key="operator.id" class="mb-4">
+                <h3 class="mb-2 mt-5">{{ operator.name }}</h3>
+
+                <div class="line-container d-flex">
+                    <v-btn
+                        v-for="line in operator.lines"
+                        :key="line.id"
+                        variant="flat"
+                        rounded="lg"
+                        class="line-button d-flex align-center font-weight-bold border-md"
+                        color="surface"
+                        elevation="0"
+                        :to="line.to"
+                    >
+                        <v-img
+                            :src="line.icon"
+                            width="50"
+                            height="50"
+                            class="line-icon"
+                            alt="Line icon"
+                        />
+                        <span class="line-text">{{ line.name }}</span>
+                    </v-btn>
+                </div>
+            </div>
         </div>
-
-        <div class="lozdo-section">
-            <h2 class="mb-3">運営者について</h2>
-
-            <div class="site-container d-flex"></div>
-
-            <v-list class="rounded-lg pa-3 mb-2 border-md">
-                <v-list-item>
-                    <v-list-item-content>
-                        このサイトをご利用いただきありがとうございます。このサイトは102℃が運営しています。　読み方は、10-2-doでten-two-doで鉄道の語呂合わせになっています。RetrationはReal-time
-                        Train-Informationの略です。102℃の他のサービスについては<a
-                            href="https://lozdo.com"
-                            >こちら</a
-                        >から。このサイトに関するお問い合わせは<a
-                            class="normal-btn"
-                            href="/retration2/comments"
-                            >こちら</a
-                        >からお願いいたします。
-                    </v-list-item-content>
-                </v-list-item>
-            </v-list>
+        <div class="warning-section">
+            <v-alert type="warning" variant="tonal" class="warning-card mt-12 rounded-lg">
+                ※このページの表示内容について、公共交通事業者への直接の問合せは行わないでください。<br />
+                ※このサイトは掲載されている交通機関の公式サイトではありません。表示されるデータは間違っている可能性があります。
+            </v-alert>
         </div>
     </v-container>
 </template>
@@ -160,30 +159,54 @@ const notices = ref<Notice[]>([]);
 const loading = ref(true);
 const error = ref(false);
 
-const lines = [
+const operators = [
     {
-        id: 'asakusa',
-        name: '都営浅草線',
-        icon: '/retration2/Asakusa-symbole.png',
-        to: '/line/asakusa',
+        id: 'toei',
+        name: '東京都交通局',
+        lines: [
+            {
+                id: 'asakusa',
+                name: '浅草線',
+                icon: '/retration2/symbole/Asakusa-symbole.png',
+                to: '/line/asakusa',
+            },
+            {
+                id: 'oedo',
+                name: '大江戸線',
+                icon: '/retration2/symbole/Oedo-symbole.png',
+                to: '/line/oedo',
+            },
+            {
+                id: 'shinjuku',
+                name: '新宿線',
+                icon: '/retration2/symbole/Shinjuku-symbole.png',
+                to: '/line/shinjuku',
+            },
+            {
+                id: 'mita',
+                name: '三田線',
+                icon: '/retration2/symbole/Mita-symbole.png',
+                to: '/line/mita',
+            },
+        ],
     },
     {
-        id: 'oedo',
-        name: '都営大江戸線',
-        icon: '/retration2/Oedo-symbole.png',
-        to: '/line/oedo',
-    },
-    {
-        id: 'shinjuku',
-        name: '都営新宿線',
-        icon: '/retration2/Shinjuku-symbole.png',
-        to: '/line/shinjuku',
-    },
-    {
-        id: 'mita',
-        name: '都営三田線',
-        icon: '/retration2/Mita-symbole.png',
-        to: '/line/mita',
+        id: 'yokohama',
+        name: '横浜市交通局',
+        lines: [
+            {
+                id: 'blueline',
+                name: 'ブルーライン',
+                icon: '/retration2/symbole/BlueLine-symbole.png',
+                to: '/line/blueline',
+            },
+            {
+                id: 'greenline',
+                name: 'グリーンライン',
+                icon: '/retration2/symbole/GreenLine-symbole.png',
+                to: '/line/greenline',
+            },
+        ],
     },
 ];
 
@@ -258,7 +281,7 @@ const formatDate = (dateStr: string) => {
 
 .visual-wrapper {
     width: 100%;
-    aspect-ratio: 9 / 4;
+    aspect-ratio: 16 / 9;
 }
 
 .main-title {
@@ -292,7 +315,7 @@ const formatDate = (dateStr: string) => {
 
 .line-section {
     max-width: 1000px;
-    margin: 60px auto 0;
+    margin: 10px auto 60px;
     padding: 0 16px;
 }
 
@@ -332,11 +355,12 @@ const formatDate = (dateStr: string) => {
 
 .line-text {
     font-size: 20px;
+    white-space: normal;
 }
 
 .notice-section {
     max-width: 1000px;
-    margin: 60px auto 0;
+    margin: 60px auto 30px;
     padding: 0 16px;
 }
 
@@ -345,29 +369,53 @@ const formatDate = (dateStr: string) => {
     padding: 18px 0;
 }
 
-.notice-title {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 1.5;
+.notice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    .notice-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        flex: 1 1 auto;
+        min-width: 0;
+        word-break: break-word;
+    }
+
+    .notice-date {
+        padding: 4px 18px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #16c683;
+        flex-shrink: 0;
+    }
 }
 
-.notice-date {
-    padding: 5px 2px 5px 2px;
-    margin-left: 12px 0px 0px 12px;
-    border-radius: 10px;
-    font-size: 15px;
-    color: #777;
-}
-
-.about-section {
+.main-button {
+    display: block;
+    width: 100%;
     max-width: 1000px;
-    margin: 60px auto;
+    min-width: 220px;
+    height: 50px;
+    gap: 12px;
     padding: 0 16px;
+
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
 }
 
-.lozdo-section {
+.warning-card {
     max-width: 1000px;
-    margin: 45px auto;
+    margin: 10px auto 45px;
+    font-size: 16px;
+}
+
+.warning-section {
+    max-width: 1000px;
     padding: 0 16px;
 }
 
@@ -432,6 +480,18 @@ const formatDate = (dateStr: string) => {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .notice-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+
+        .notice-date {
+            margin-top: 4px;
+        }
     }
 }
 </style>

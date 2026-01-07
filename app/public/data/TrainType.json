@@ -48,6 +48,18 @@
         "color": "#e92b93"
     },
     {
+        "TrainType": "odpt.TrainType:YokohamaMunicipal.Local",
+        "name": "普通",
+        "short": "普通",
+        "color": "#006bf0"
+    },
+    {
+        "TrainType": "odpt.TrainType:YokohamaMunicipal.Rapid",
+        "name": "快速",
+        "short": "快速",
+        "color": "#ff3333"
+    },
+    {
         "TrainType": "odpt.TrainType:JR-East.Local",
         "name": "普通",
         "short": "普通"

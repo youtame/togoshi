@@ -27,10 +27,10 @@ const jsonData = ref<any[]>([]);
 const trainInfo = ref('Loading...');
 const fetchTime = ref('');
 
-const normalMessage = '現在、１５分以上の遅延はありません。';
+const normalMessages = ['現在、１５分以上の遅延はありません。', '平常運行'];
 
 const textClass = computed(() => {
-    return trainInfo.value === normalMessage ? '' : 'text-error';
+    return normalMessages.includes(trainInfo.value) ? '' : 'text-error';
 });
 
 const props = defineProps<{
@@ -42,12 +42,14 @@ const LINE_MAP: Record<string, string> = {
     mita: 'odpt.TrainInformation:Toei.Mita',
     shinjuku: 'odpt.TrainInformation:Toei.Shinjuku',
     oedo: 'odpt.TrainInformation:Toei.Oedo',
+    blueline: 'odpt.TrainInformation:YokohamaMunicipal.Blue',
+    greenline: 'odpt.TrainInformation:YokohamaMunicipal.Green',
 };
 
 async function fetchTrainInfo() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:Toei&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4'
+            'https://api.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4'
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -109,7 +111,7 @@ watch(
 }
 
 .text-error {
-    color: crimson !important;
+    color: #F44336 !important;
     font-weight: bold;
 }
 </style>

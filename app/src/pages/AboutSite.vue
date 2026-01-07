@@ -1,22 +1,33 @@
 <template>
     <v-container>
-        <div class="comments-section">
-            <h2 class="mb-3">お問い合わせ</h2>
+        <div class="about-section">
+            <h2 class="mb-3">サイトに関して</h2>
 
             <div class="site-container d-flex"></div>
 
             <v-list class="rounded-lg pa-3 mb-2 border-md">
                 <v-list-item>
                     <v-list-item-content>
-                        1. 以下の<span class="font-weight-semibold"
-                            >Googleフォーム</span
-                        >からご意見・ご要望・不具合報告などをお寄せください。
+                        1.
+                        取得しているAPIの都合上正確でないデータがある可能性があります
                     </v-list-item-content>
                 </v-list-item>
                 <v-list-item>
                     <v-list-item-content>
                         2.
-                        下記のリンクをクリックしてフォームにアクセスしてください。フォームはこのサイトとは別のGoogleフォームのサイトで運営されているものです。
+                        このページが利用する公共交通データは、公共交通オープンデータセンターにおいて提供されるものです
+                    </v-list-item-content>
+                </v-list-item>
+                <v-list-item>
+                    <v-list-item-content>
+                        3.
+                        このページの表示内容について、公共交通事業者への直接の問合せは行わないでください。
+                    </v-list-item-content>
+                </v-list-item>
+                <v-list-item>
+                    <v-list-item-content>
+                        4.
+                        サイトに関するお問い合わせは右側のメニューバーのリンクからお願いいたします。
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
@@ -35,15 +46,14 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdyeRFBKR_QTMeqWeL5Fo7LkrVCtyPdEl4KSL9nPPcViuqP6A/viewform?usp=dialog"
+                    href="/"
                 >
                     <v-icon
-                        icon="mdi-comment-alert-outline"
+                        icon="mdi-home-outline"
                         class="mr-2"
                         size="large"
-                        target="_blank"
                     ></v-icon>
-                    お問い合わせへ
+                    ホームに戻る
                 </v-btn></v-col
             >
         </v-row>
@@ -51,7 +61,7 @@
 </template>
 
 <style scoped>
-.comments-section {
+.about-section {
     max-width: 1000px;
     margin: 60px auto;
     margin-bottom: 30px;

@@ -24,6 +24,8 @@ const LINE_NAME: Record<string, string> = {
     mita: '都営三田線',
     shinjuku: '都営新宿線',
     oedo: '都営大江戸線',
+    blueline: '横浜市営ブルーライン',
+    greenline: '横浜市営グリーンライン',
 };
 
 watchEffect(() => {

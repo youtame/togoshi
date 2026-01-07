@@ -6,7 +6,7 @@
         </v-card-title>
         <v-card-subtitle class="ma-1 text-subtitle-2">
             データ最終更新: {{ fetchTime }}<br />
-            データは30sで自動更新されます
+            データは45sで自動更新されます
         </v-card-subtitle>
         <v-card-text class="pa-3">
             <v-list class="train-line" dense>
@@ -43,7 +43,7 @@
                                         t.direction ===
                                             'odpt.RailDirection:InnerLoop' ||
                                         t.direction ===
-                                            'odpt.RailDirection:Inbound'
+                                            'odpt.RailDirection:Outbound'
                                 )"
                                 :key="train.trainnumber"
                                 class="train-wrapper-south"
@@ -99,7 +99,7 @@
                                         t.direction ===
                                             'odpt.RailDirection:OuterLoop' ||
                                         t.direction ===
-                                            'odpt.RailDirection:Outbound'
+                                            'odpt.RailDirection:Inbound'
                                 )"
                                 :key="train.trainnumber"
                                 class="train-wrapper-north"
@@ -222,9 +222,9 @@
                                         >
                                         <v-list-item-subtitle
                                             :class="{
-                                                'text-red':
+                                                'bg-red':
                                                     selectedTrain?.delay >= 300,
-                                                'text-yellow':
+                                                'bg-yellow':
                                                     selectedTrain?.delay >=
                                                         60 &&
                                                     selectedTrain?.delay < 300,
@@ -347,7 +347,7 @@
                                                 <span
                                                     v-if="row.timeAr"
                                                     :class="{
-                                                        'text-blue':
+                                                        'text-delayed':
                                                             row.isDelayed,
                                                     }"
                                                     class="text-h6"
@@ -365,7 +365,7 @@
                                                 <span
                                                     v-if="row.timeDe"
                                                     :class="{
-                                                        'text-blue':
+                                                        'text-delayed':
                                                             row.isDelayed,
                                                     }"
                                                     class="text-h6"
@@ -478,17 +478,23 @@ const LINE_MAP: Record<string, string> = {
     mita: 'odpt.Railway:Toei.Mita',
     shinjuku: 'odpt.Railway:Toei.Shinjuku',
     oedo: 'odpt.Railway:Toei.Oedo',
+    blueline: 'odpt.Railway:YokohamaMunicipal.Blue',
+    greenline: 'odpt.Railway:YokohamaMunicipal.Green',
 };
 
 const ROUTE_ICONS: Record<string, string> = {
-    asakusa: '/retration2/Asakusa-train.png',
-    mita: '/retration2/Mita-train.png',
-    shinjuku: '/retration2/Shinjuku-train.png',
-    oedo: '/retration2/Oedo-train.png',
+    asakusa: '/retration2/symbole/Asakusa-train.png',
+    mita: '/retration2/symbole/Mita-train.png',
+    shinjuku: '/retration2/symbole/Shinjuku-train.png',
+    oedo: '/retration2/symbole/Oedo-train.png',
+    blueline: '/retration2/symbole/BlueLine-train.png',
+    greenline: '/retration2/symbole/GreenLine-train.png',
 };
 
 const lineIcon = computed(() => {
-    return ROUTE_ICONS[props.lineId] || '/default-icon.png';
+    return (
+        ROUTE_ICONS[props.lineId] || '/retration2/symbole/retration-icon.png'
+    );
 });
 
 const dialog = ref(false);
@@ -540,7 +546,7 @@ function openTrainDialog(train: any) {
 async function fetchTrainLocation() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:Train?odpt:operator=odpt.Operator:Toei&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4' //
+            'https://api.odpt.org/api/v4/odpt:Train?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4' //
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -584,7 +590,7 @@ async function fetchTrainLocation() {
 async function fetchStationInfo() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:Station?odpt:operator=odpt.Operator:Toei&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4'
+            'https://api.odpt.org/api/v4/odpt:Station?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4'
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -618,6 +624,7 @@ async function fetchStationInfo() {
     }
 }
 
+// Function to get train type information from local JSON
 async function fetchTrainType() {
     try {
         const response = await fetch('/retration2/data/TrainType.json');
@@ -639,6 +646,7 @@ async function fetchTrainType() {
     }
 }
 
+// Function to get train destination information from local JSON
 async function fetchTraindestination() {
     try {
         const response = await fetch('/retration2/data/TrainDestination.json');
@@ -659,11 +667,12 @@ async function fetchTraindestination() {
     }
 }
 
+// Function to get train timetable information from local JSON
 async function fetchTrainTimetable() {
     const lineId = props.lineId; // asakusa / mita / shinjuku / oedo
     try {
         const response = await fetch(
-            `/retration2/data/${lineId}-Timetable.json`
+            `/retration2/data/timetable/${lineId}-Timetable.json`
         );
         if (!response.ok) throw new Error('Network Error');
 
@@ -675,7 +684,8 @@ async function fetchTrainTimetable() {
     }
 }
 
-async function fetchTrainCompnay() {
+// Function to get train company information from local JSON
+async function fetchTrainCompany() {
     try {
         const response = await fetch('/retration2/data/TrainCompany.json');
         const data: TrainCompany[] = await response.json();
@@ -830,15 +840,15 @@ onMounted(() => {
     fetchTrainType();
     fetchTraindestination();
     fetchTrainTimetable();
-    fetchTrainCompnay();
+    fetchTrainCompany();
 
     const calendar = getCalendar();
 
-    console.log('今日はどっちだcalendar', calendar);
+    console.log('Calendar ?', calendar);
 
     trainLocationTimer = window.setInterval(() => {
         fetchTrainLocation();
-    }, 30 * 1000);
+    }, 45 * 1000);
 });
 
 onUnmounted(() => {
@@ -1039,11 +1049,34 @@ watch(
 
 .text-red {
     text-decoration: none;
-    color: crimson !important;
+    color: #f44336 !important;
+}
+
+.text-delayed {
+    width: 185px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #f44336;
+    background-color: #f44336 !important;
+    color: #fff !important;
+    padding: 2px 4px;
+    border-radius: 6px;
 }
 
 .smaller {
     font-size: 15px;
+}
+
+.bg-yellow {
+    width: max-content;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+.bg-red {
+    width: max-content;
+    padding: 2px 6px;
+    border-radius: 6px;
 }
 
 .fade-enter-active,

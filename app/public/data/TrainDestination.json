@@ -63,6 +63,20 @@
         "color": "#33c2e4"
     },
     {
+        "TrainDestination": "odpt.Station:Keikyu.Main.KanazawaBunko",
+        "name": "金沢文庫",
+        "Line": "京急本線",
+        "code": "KK-49",
+        "color": "#33c2e4"
+    },
+    {
+        "TrainDestination": "odpt.Station:Keikyu.Main.Uraga",
+        "name": "浦賀",
+        "Line": "京急本線",
+        "code": "KK-64",
+        "color": "#33c2e4"
+    },
+    {
         "TrainDestination": "odpt.Station:Keikyu.Kurihama.KeikyuKurihama",
         "name": "京急久里浜",
         "Line": "京急久里浜線",
@@ -196,6 +210,13 @@
         "color": "#009cd3"
     },
     {
+        "TrainDestination": "odpt.Station:Tokyu.Meguro.Okusawa",
+        "name": "奥沢",
+        "Line": "東急目黒線",
+        "code": "MG-07",
+        "color": "#009cd3"
+    },
+    {
         "TrainDestination": "odpt.Station:Tokyu.TokyuShinYokohama.ShinYokohama",
         "name": "新横浜",
         "Line": "東急新横浜線",
@@ -315,6 +336,13 @@
         "color": "#d5007f"
     },
     {
+        "TrainDestination": "odpt.Station:Keio.Takao.Takao",
+        "name": "高尾",
+        "Line": "京王高尾線",
+        "code": "KO-52",
+        "color": "#d5007f"
+    },
+    {
         "TrainDestination": "odpt.Station:Toei.Oedo.Tochomae",
         "name": "都庁前",
         "Line": "都営大江戸線",
@@ -348,6 +376,69 @@
         "Line": "都営大江戸線",
         "code": "E-19",
         "color": "#b6007a"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Blue.Shonandai",
+        "name": "湘南台",
+        "Line": "横浜市営ブルーライン",
+        "code": "B01",
+        "color": "#2f56a5"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Blue.Azamino",
+        "name": "あざみ野",
+        "Line": "横浜市営ブルーライン",
+        "code": "B32",
+        "color": "#2f56a5"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Blue.Kaminagaya",
+        "name": "上永谷",
+        "Line": "横浜市営ブルーライン",
+        "code": "B09",
+        "color": "#2f56a5"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Blue.ShinYokohama",
+        "name": "新横浜",
+        "Line": "横浜市営ブルーライン",
+        "code": "B25",
+        "color": "#2f56a5"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Blue.Kamiooka",
+        "name": "上大岡",
+        "Line": "横浜市営ブルーライン",
+        "code": "B11",
+        "color": "#2f56a5"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Blue.Nippa",
+        "name": "新羽",
+        "Line": "横浜市営ブルーライン",
+        "code": "B27",
+        "color": "#2f56a5"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Blue.Odoriba",
+        "name": "踊場",
+        "Line": "横浜市営ブルーライン",
+        "code": "B05",
+        "color": "#2f56a5"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Green.Nakayama",
+        "name": "中山",
+        "Line": "横浜市営グリーンライン",
+        "code": "G01",
+        "color": "#048d58"
+    },
+    {
+        "TrainDestination": "odpt.Station:YokohamaMunicipal.Green.Hiyoshi",
+        "name": "日吉",
+        "Line": "横浜市営グリーンライン",
+        "code": "G10",
+        "color": "#048d58"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Musashino.Fuchuhommachi",

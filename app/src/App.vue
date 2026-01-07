@@ -122,7 +122,7 @@
                             to="/line/asakusa"
                         >
                             <v-img
-                                src="/retration2/Asakusa-symbole.png"
+                                src="/retration2/symbole/Asakusa-symbole.png"
                                 max-height="30"
                                 max-width="30"
                                 contain
@@ -140,7 +140,7 @@
                             to="/line/oedo"
                         >
                             <v-img
-                                src="/retration2/Oedo-symbole.png"
+                                src="/retration2/symbole/Oedo-symbole.png"
                                 max-height="30"
                                 max-width="30"
                                 contain
@@ -158,7 +158,7 @@
                             to="/line/shinjuku"
                         >
                             <v-img
-                                src="/retration2/Shinjuku-symbole.png"
+                                src="/retration2/symbole/Shinjuku-symbole.png"
                                 max-height="30"
                                 max-width="30"
                                 contain
@@ -176,7 +176,43 @@
                             to="/line/mita"
                         >
                             <v-img
-                                src="/retration2/Mita-symbole.png"
+                                src="/retration2/symbole/Mita-symbole.png"
+                                max-height="30"
+                                max-width="30"
+                                contain
+                                class="icon-press"
+                            />
+                        </v-btn>
+                    </v-list-item-title>
+                </v-list-item>
+                <v-list-item>
+                    <v-list-item-title>
+                        <v-btn
+                            elevation="0"
+                            size="large"
+                            width="auto"
+                            to="/line/blueline"
+                        >
+                            <v-img
+                                src="/retration2/symbole/BlueLine-symbole.png"
+                                max-height="30"
+                                max-width="30"
+                                contain
+                                class="icon-press"
+                            />
+                        </v-btn>
+                    </v-list-item-title>
+                </v-list-item>
+                <v-list-item>
+                    <v-list-item-title>
+                        <v-btn
+                            elevation="0"
+                            size="large"
+                            width="auto"
+                            to="/line/greenline"
+                        >
+                            <v-img
+                                src="/retration2/symbole/GreenLine-symbole.png"
                                 max-height="30"
                                 max-width="30"
                                 contain
@@ -224,19 +260,30 @@ const lineId = computed<LineKey>(() => {
 });
 
 const LINE_MAP = {
-    home: { name: 'Retration', icon: '/retration2/retration-icon.png' },
+    home: { name: 'Retration', icon: '/retration2/symbole/retration-icon.png' },
     asakusa: {
         name: '浅草線列車走行位置',
-        icon: '/retration2/Asakusa-symbole.png',
+        icon: '/retration2/symbole/Asakusa-symbole.png',
     },
-    mita: { name: '三田線列車走行位置', icon: '/retration2/Mita-symbole.png' },
+    mita: {
+        name: '三田線列車走行位置',
+        icon: '/retration2/symbole/Mita-symbole.png',
+    },
     shinjuku: {
         name: '新宿線列車走行位置',
-        icon: '/retration2/Shinjuku-symbole.png',
+        icon: '/retration2/symbole/Shinjuku-symbole.png',
     },
     oedo: {
         name: '大江戸線列車走行位置',
-        icon: '/retration2/Oedo-symbole.png',
+        icon: '/retration2/symbole/Oedo-symbole.png',
+    },
+    blueline: {
+        name: 'ブルーライン走行位置',
+        icon: '/retration2/symbole/BlueLine-symbole.png',
+    },
+    greenline: {
+        name: 'グリーンライン走行位置',
+        icon: '/retration2/symbole/GreenLine-symbole.png',
     },
 } as const;
 
@@ -260,6 +307,14 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
         oedo: {
             primary: '#b6007a',
             secondary: '#e066ad',
+        },
+        blueline: {
+            primary: '#2f56a5',
+            secondary: '#66b0e8',
+        },
+        greenline: {
+            primary: '#048d58',
+            secondary: '#66d18e',
         },
     };
 
