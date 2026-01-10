@@ -22,12 +22,12 @@ const props = defineProps<{
 const route = useRoute();
 
 const LINE_NAME: Record<string, string> = {
-    asakusa: '都営浅草線',
-    mita: '都営三田線',
-    shinjuku: '都営新宿線',
-    oedo: '都営大江戸線',
-    blueline: '横浜市営ブルーライン',
-    greenline: '横浜市営グリーンライン',
+    asakusa: '都営浅草線走行位置',
+    mita: '都営三田線走行位置',
+    shinjuku: '都営新宿線走行位置',
+    oedo: '都営大江戸線走行位置',
+    blueline: '横浜市営ブルーライン走行位置',
+    greenline: '横浜市営グリーンライン走行位置',
 };
 
 watchEffect(() => {

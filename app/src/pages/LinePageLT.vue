@@ -22,8 +22,8 @@ const props = defineProps<{
 const route = useRoute();
 
 const LINE_NAME: Record<string, string> = {
-    musashino: 'JR武蔵野線',
-    shonanshinjuku: 'JR湘南新宿ライン',
+    musashino: 'JR武蔵野線走行位置',
+    shonanshinjuku: 'JR湘南新宿ライン走行位置',
 };
 
 watchEffect(() => {

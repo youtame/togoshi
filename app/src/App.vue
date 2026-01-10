@@ -9,6 +9,7 @@
                         max-height="40"
                         max-width="40"
                         contain
+                        alt="site logo"
                         class="icon-press"
                     />
                     <span class="mr-2 pl-4 font-weight-bold">{{
