@@ -221,6 +221,42 @@
                         </v-btn>
                     </v-list-item-title>
                 </v-list-item>
+                <v-list-item>
+                    <v-list-item-title>
+                        <v-btn
+                            elevation="0"
+                            size="large"
+                            width="auto"
+                            to="/line/timelimited/shonanshinjuku"
+                        >
+                            <v-img
+                                src="/retration2/symbole/Shonanshinjuku-symbole.png"
+                                max-height="30"
+                                max-width="30"
+                                contain
+                                class="icon-press"
+                            />
+                        </v-btn>
+                    </v-list-item-title>
+                </v-list-item>
+                <v-list-item>
+                    <v-list-item-title>
+                        <v-btn
+                            elevation="0"
+                            size="large"
+                            width="auto"
+                            to="/line/timelimited/musashino"
+                        >
+                            <v-img
+                                src="/retration2/symbole/Musashino-symbole.png"
+                                max-height="30"
+                                max-width="30"
+                                contain
+                                class="icon-press"
+                            />
+                        </v-btn>
+                    </v-list-item-title>
+                </v-list-item>
             </v-list>
         </v-navigation-drawer>
         <v-main class="main-view">
@@ -285,6 +321,14 @@ const LINE_MAP = {
         name: 'グリーンライン走行位置',
         icon: '/retration2/symbole/GreenLine-symbole.png',
     },
+    musashino: {
+        name: 'JR武蔵野線列車走行位置',
+        icon: '/retration2/symbole/Musashino-symbole.png',
+    },
+    shonanshinjuku: {
+        name: '湘南新宿ライン走行位置',
+        icon: '/retration2/symbole/Shonanshinjuku-symbole.png',
+    },
 } as const;
 
 type LineKey = keyof typeof LINE_MAP;
@@ -315,6 +359,14 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
         greenline: {
             primary: '#048d58',
             secondary: '#66d18e',
+        },
+        musashino: {
+            primary: '#eb5a28',
+            secondary: '#ff8a50',
+        },
+        shonanshinjuku: {
+            primary: '#e31f26',
+            secondary: '#f32f36',
         },
     };
 

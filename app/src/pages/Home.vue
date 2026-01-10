@@ -78,7 +78,7 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
-                    href="/retration2/aboutsite"
+                    to="/aboutsite"
                 >
                     <v-icon
                         icon="mdi-alert-outline"
@@ -96,7 +96,7 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
-                    href="/retration2/manager"
+                    to="/manager"
                 >
                     <v-icon
                         icon="mdi-account-outline"
@@ -138,7 +138,11 @@
             </div>
         </div>
         <div class="warning-section">
-            <v-alert type="warning" variant="tonal" class="warning-card mt-12 rounded-lg">
+            <v-alert
+                type="warning"
+                variant="tonal"
+                class="warning-card mt-12 rounded-lg"
+            >
                 ※このページの表示内容について、公共交通事業者への直接の問合せは行わないでください。<br />
                 ※このサイトは掲載されている交通機関の公式サイトではありません。表示されるデータは間違っている可能性があります。
             </v-alert>
@@ -205,6 +209,24 @@ const operators = [
                 name: 'グリーンライン',
                 icon: '/retration2/symbole/GreenLine-symbole.png',
                 to: '/line/greenline',
+            },
+        ],
+    },
+    {
+        id: 'JR-East',
+        name: 'JR東日本(期間限定公開)',
+        lines: [
+            {
+                id: 'shonanshinjuku',
+                name: '湘南新宿ライン',
+                icon: '/retration2/symbole/Shonanshinjuku-symbole.png',
+                to: '/line/timelimited/shonanshinjuku',
+            },
+            {
+                id: 'musashino',
+                name: '武蔵野線',
+                icon: '/retration2/symbole/Musashino-symbole.png',
+                to: '/line/timelimited/musashino',
             },
         ],
     },

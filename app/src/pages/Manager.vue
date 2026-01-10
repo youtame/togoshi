@@ -35,7 +35,7 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
-                    href="/"
+                    to="/"
                 >
                     <v-icon
                         icon="mdi-home-outline"

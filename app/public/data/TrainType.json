@@ -62,27 +62,32 @@
     {
         "TrainType": "odpt.TrainType:JR-East.Local",
         "name": "普通",
-        "short": "普通"
+        "short": "普通",
+        "color": "#000000"
     },
     {
         "TrainType": "odpt.TrainType:JR-East.Rapid",
         "name": "快速",
-        "short": "快速"
+        "short": "快速",
+        "color": "#f58220"
     },
     {
         "TrainType": "odpt.TrainType:JR-East.SpecialRapid",
         "name": "特別快速",
-        "short": "特快"
+        "short": "特快",
+        "color": "#ff0022"
     },
     {
         "TrainType": "odpt.TrainType:JR-East.LimitedExpress",
         "name": "特急",
-        "short": "特急"
+        "short": "特急",
+        "color": "#ff0045"
     },
     {
         "TrainType": "odpt.TrainType:JR-East.CommuterRapid",
         "name": "通勤快速",
-        "short": "通快"
+        "short": "通快",
+        "color": "#005850"
     },
     {
         "TrainType": "odpt.TrainType:JR-East.CommuterSpecialRapid",

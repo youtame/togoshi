@@ -5,6 +5,7 @@ import comments from '@/pages/Comments.vue';
 import LinePage from '@/pages/LinePage.vue';
 import aboutSite from '@/pages/AboutSite.vue';
 import Manager from '@/pages/Manager.vue';
+import LinePageLT from '@/pages/LinePageLT.vue';
 
 const routes = [
     {
@@ -35,6 +36,13 @@ const routes = [
         path: '/line/:lineId',
         name: 'line',
         component: LinePage,
+        props: true,
+        meta: { title: 'Retration｜列車位置検索' },
+    },
+    {
+        path: '/line/timelimited/:lineId',
+        name: 'lineLT',
+        component: LinePageLT,
         props: true,
         meta: { title: 'Retration｜列車位置検索' },
     },

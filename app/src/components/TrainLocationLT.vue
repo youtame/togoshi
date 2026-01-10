@@ -474,21 +474,13 @@ const props = defineProps<{
 }>();
 
 const LINE_MAP: Record<string, string> = {
-    asakusa: 'odpt.Railway:Toei.Asakusa',
-    mita: 'odpt.Railway:Toei.Mita',
-    shinjuku: 'odpt.Railway:Toei.Shinjuku',
-    oedo: 'odpt.Railway:Toei.Oedo',
-    blueline: 'odpt.Railway:YokohamaMunicipal.Blue',
-    greenline: 'odpt.Railway:YokohamaMunicipal.Green',
+    musashino: 'odpt.Railway:JR-East.Musashino',
+    shonanshinjuku: 'odpt.Railway:JR-East.ShonanShinjuku',
 };
 
 const ROUTE_ICONS: Record<string, string> = {
-    asakusa: '/retration2/symbole/Asakusa-train.png',
-    mita: '/retration2/symbole/Mita-train.png',
-    shinjuku: '/retration2/symbole/Shinjuku-train.png',
-    oedo: '/retration2/symbole/Oedo-train.png',
-    blueline: '/retration2/symbole/BlueLine-train.png',
-    greenline: '/retration2/symbole/GreenLine-train.png',
+    musashino: '/retration2/symbole/Musashino-train.png',
+    shonanshinjuku: '/retration2/symbole/Shonanshinjuku-train.png',
 };
 
 const lineIcon = computed(() => {
@@ -546,7 +538,7 @@ function openTrainDialog(train: any) {
 async function fetchTrainLocation() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:Train?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4' //
+            'https://api-challenge.odpt.org/api/v4/odpt:Train?odpt:operator=odpt.Operator:JR-East&odpt:railway=odpt.Railway:JR-East.ShonanShinjuku,odpt.Railway:JR-East.Musashino&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0' //
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -590,7 +582,7 @@ async function fetchTrainLocation() {
 async function fetchStationInfo() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:Station?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4'
+            'https://api-challenge.odpt.org/api/v4/odpt:Station?odpt:operator=odpt.Operator:JR-East&odpt:railway=odpt.Railway:JR-East.ShonanShinjuku,odpt.Railway:JR-East.Musashino&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0' //
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();

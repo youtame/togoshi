@@ -1,8 +1,8 @@
 <template>
     <div>
         <Top />
-        <Traininfo :line-id="lineId" />
-        <Trainlocation :line-id="lineId" />
+        <TraininfoLT :line-id="lineId" />
+        <TrainlocationLT :line-id="lineId" />
         <Aboutsite />
     </div>
 </template>
@@ -10,8 +10,8 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
 import { watchEffect } from 'vue';
-import Traininfo from '@/components/TrainInformation.vue';
-import Trainlocation from '@/components/TrainLocation.vue';
+import TraininfoLT from '@/components/TrainInformationLT.vue';
+import TrainlocationLT from '@/components/TrainLocationLT.vue';
 import Aboutsite from '@/components/AboutSite.vue';
 import Top from '@/components/Top.vue';
 
@@ -22,12 +22,8 @@ const props = defineProps<{
 const route = useRoute();
 
 const LINE_NAME: Record<string, string> = {
-    asakusa: '都営浅草線',
-    mita: '都営三田線',
-    shinjuku: '都営新宿線',
-    oedo: '都営大江戸線',
-    blueline: '横浜市営ブルーライン',
-    greenline: '横浜市営グリーンライン',
+    musashino: 'JR武蔵野線',
+    shonanshinjuku: 'JR湘南新宿ライン',
 };
 
 watchEffect(() => {
