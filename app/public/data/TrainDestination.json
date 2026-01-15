@@ -315,6 +315,13 @@
         "color": "#d5007f"
     },
     {
+        "TrainDestination": "odpt.Station:Keio.Keio.Sakurajosui",
+        "name": "桜上水",
+        "Line": "京王線",
+        "code": "KO-08",
+        "color": "#d5007f"
+    },
+    {
         "TrainDestination": "odpt.Station:Keio.Sagamihara.Wakabadai",
         "name": "若葉台",
         "Line": "京王相模原線",
@@ -459,6 +466,13 @@
         "name": "南越谷",
         "Line": "JR武蔵野線",
         "code": "JM22",
+        "color": "#eb5a28"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Musashino.Yoshikawaminami",
+        "name": "吉川美南",
+        "Line": "JR武蔵野線",
+        "code": "JM19",
         "color": "#eb5a28"
     },
     {
