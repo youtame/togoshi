@@ -27,6 +27,35 @@
             </div>
         </div>
 
+        <div class="line-section">
+            <h2 class="mb-3">路線一覧</h2>
+
+            <div v-for="operator in operators" :key="operator.id" class="mb-4">
+                <h3 class="mb-2 mt-5">{{ operator.name }}</h3>
+
+                <div class="line-container d-flex">
+                    <v-btn
+                        v-for="line in operator.lines"
+                        :key="line.id"
+                        variant="flat"
+                        rounded="lg"
+                        class="line-button d-flex align-center font-weight-bold border-md"
+                        color="surface"
+                        elevation="0"
+                        :to="line.to"
+                    >
+                        <v-img
+                            :src="line.icon"
+                            width="50"
+                            height="50"
+                            class="line-icon"
+                            alt="Line icon"
+                        />
+                        <span class="line-text">{{ line.name }}</span>
+                    </v-btn>
+                </div>
+            </div>
+        </div>
         <div class="notice-section">
             <h2 class="mb-3">サイトからお知らせ</h2>
 
@@ -108,35 +137,6 @@
             >
         </v-row>
 
-        <div class="line-section">
-            <h2 class="mb-3">路線一覧</h2>
-
-            <div v-for="operator in operators" :key="operator.id" class="mb-4">
-                <h3 class="mb-2 mt-5">{{ operator.name }}</h3>
-
-                <div class="line-container d-flex">
-                    <v-btn
-                        v-for="line in operator.lines"
-                        :key="line.id"
-                        variant="flat"
-                        rounded="lg"
-                        class="line-button d-flex align-center font-weight-bold border-md"
-                        color="surface"
-                        elevation="0"
-                        :to="line.to"
-                    >
-                        <v-img
-                            :src="line.icon"
-                            width="50"
-                            height="50"
-                            class="line-icon"
-                            alt="Line icon"
-                        />
-                        <span class="line-text">{{ line.name }}</span>
-                    </v-btn>
-                </div>
-            </div>
-        </div>
         <div class="warning-section">
             <v-alert
                 type="warning"
@@ -217,16 +217,64 @@ const operators = [
         name: 'JR東日本(期間限定公開)',
         lines: [
             {
+                id: 'utsunomiya',
+                name: '宇都宮線',
+                icon: '/retration2/symbole/Utsunomiya-symbole.png',
+                to: '/line/timelimited/utsunomiya',
+            },
+            {
+                id: 'keihintohokunegishi',
+                name: '京浜東北.根岸線',
+                icon: '/retration2/symbole/Keihintohokunegishi-symbole.png',
+                to: '/line/timelimited/keihintohokunegishi',
+            },
+            {
+                id: 'keiyo',
+                name: '京葉線',
+                icon: '/retration2/symbole/Keiyo-symbole.png',
+                to: '/line/timelimited/keiyo',
+            },
+            {
+                id: 'saikyokawagoe',
+                name: '埼京.川越線',
+                icon: '/retration2/symbole/Saikyokawagoe-symbole.png',
+                to: '/line/timelimited/saikyokawagoe',
+            },
+            {
+                id: 'soburapid',
+                name: '総武快速線',
+                icon: '/retration2/symbole/Soburapid-symbole.png',
+                to: '/line/timelimited/soburapid',
+            },
+            {
                 id: 'shonanshinjuku',
                 name: '湘南新宿ライン',
                 icon: '/retration2/symbole/Shonanshinjuku-symbole.png',
                 to: '/line/timelimited/shonanshinjuku',
             },
             {
+                id: 'takasaki',
+                name: '高崎線',
+                icon: '/retration2/symbole/Takasaki-symbole.png',
+                to: '/line/timelimited/takasaki',
+            },
+            {
                 id: 'musashino',
                 name: '武蔵野線',
                 icon: '/retration2/symbole/Musashino-symbole.png',
                 to: '/line/timelimited/musashino',
+            },
+            {
+                id: 'yokosuka',
+                name: '横須賀線',
+                icon: '/retration2/symbole/Yokosuka-symbole.png',
+                to: '/line/timelimited/yokosuka',
+            },
+            {
+                id: 'yokohama',
+                name: '横浜線',
+                icon: '/retration2/symbole/Yokohama-symbole.png',
+                to: '/line/timelimited/yokohama',
             },
         ],
     },
@@ -337,7 +385,7 @@ const formatDate = (dateStr: string) => {
 
 .line-section {
     max-width: 1000px;
-    margin: 10px auto 60px;
+    margin: 45px auto 60px;
     padding: 0 16px;
 }
 
@@ -362,7 +410,9 @@ const formatDate = (dateStr: string) => {
     align-items: center;
     text-transform: none;
     font-weight: 600;
-    transition: background-color 0.15s ease, box-shadow 0.15s ease;
+    transition:
+        background-color 0.15s ease,
+        box-shadow 0.15s ease;
 }
 
 .line-button:hover {
@@ -411,6 +461,7 @@ const formatDate = (dateStr: string) => {
         padding: 4px 18px;
         border-radius: 5px;
         font-size: 16px;
+        color: #fff;
         background-color: #16c683;
         flex-shrink: 0;
     }
@@ -443,7 +494,9 @@ const formatDate = (dateStr: string) => {
 
 .slide-enter-active,
 .slide-leave-active {
-    transition: transform 1s ease, opacity 1s ease;
+    transition:
+        transform 1s ease,
+        opacity 1s ease;
 }
 
 .slide-enter-from {

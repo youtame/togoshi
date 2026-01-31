@@ -1,5 +1,5 @@
 <template>
-    <v-card class="traininfo-main-view rounded-lg">
+    <v-card class="traininfo-main-view rounded-lg border-md" elevation="0">
         <v-card-title class="ma-1 text-h6 font-weight-semibold">
             <v-icon
                 icon="mdi-information-box"
@@ -40,12 +40,24 @@ const props = defineProps<{
 const LINE_MAP: Record<string, string> = {
     musashino: 'odpt.TrainInformation:JR-East.Musashino',
     shonanshinjuku: 'odpt.TrainInformation:JR-East.ShonanShinjuku',
+    yokosuka: 'odpt.TrainInformation:JR-East.Yokosuka',
+    keihintohokunegishi: 'odpt.TrainInformation:JR-East.KeihinTohokuNegishi',
+    soburapid: 'odpt.TrainInformation:JR-East.SobuRapid',
+    yokohama: 'odpt.TrainInformation:JR-East.Yokohama',
+    utsunomiya: 'odpt.TrainInformation:JR-East.Utsunomiya',
+    takasaki: 'odpt.TrainInformation:JR-East.Takasaki',
+    jobanrapid: 'odpt.TrainInformation:JR-East.JobanRapid',
+    jobanlocal: 'odpt.TrainInformation:JR-East.JobanLocal',
+    keiyo: 'odpt.TrainInformation:JR-East.Keiyo',
+    chuorapid: 'odpt.TrainInformation:JR-East.ChuoRapid',
+    saikyokawagoe: 'odpt.TrainInformation:JR-East.SaikyoKawagoe',
+    chuosobulocal: 'odpt.TrainInformation:JR-East.ChuoSobuLocal',
 };
 
 async function fetchTrainInfo() {
     try {
         const response = await fetch(
-            'https://api-challenge.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:jre-is&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0'
+            'https://api-challenge.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:jre-is&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0',
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -59,7 +71,7 @@ async function fetchTrainInfo() {
         }
 
         const info = jsonData.value.find(
-            (item) => item['owl:sameAs'] === lineKey
+            (item) => item['owl:sameAs'] === lineKey,
         );
 
         trainInfo.value =
@@ -97,7 +109,7 @@ watch(
     () => props.lineId,
     () => {
         fetchTrainInfo();
-    }
+    },
 );
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-    <v-card class="trainlocation-main-view rounded-lg">
+    <v-card class="trainlocation-main-view rounded-lg border-md" elevation="0">
         <v-card-title class="ma-1 text-h6 font-weight-semibold">
             <v-icon icon="mdi-map-marker" size="small"></v-icon>
             <span class="pl-3">列車現在位置</span>
@@ -31,7 +31,7 @@
                         <div class="south-bound train-container">
                             <div
                                 v-for="train in trainsAtStationWithType(
-                                    station.same
+                                    station.same,
                                 ).filter(
                                     (t) =>
                                         t.direction ===
@@ -43,7 +43,7 @@
                                         t.direction ===
                                             'odpt.RailDirection:InnerLoop' ||
                                         t.direction ===
-                                            'odpt.RailDirection:Outbound'
+                                            'odpt.RailDirection:Outbound',
                                 )"
                                 :key="train.trainnumber"
                                 class="train-wrapper-south"
@@ -87,7 +87,7 @@
                         <div class="north-bound train-container">
                             <div
                                 v-for="train in trainsAtStationWithType(
-                                    station.same
+                                    station.same,
                                 ).filter(
                                     (t) =>
                                         t.direction ===
@@ -99,7 +99,7 @@
                                         t.direction ===
                                             'odpt.RailDirection:OuterLoop' ||
                                         t.direction ===
-                                            'odpt.RailDirection:Inbound'
+                                            'odpt.RailDirection:Inbound',
                                 )"
                                 :key="train.trainnumber"
                                 class="train-wrapper-north"
@@ -258,6 +258,20 @@
                                             class="font-weight-semibold text-h6 dialog-origin"
                                         >
                                             {{ selectedTrain.originName }}
+                                        </v-list-item-subtitle>
+                                    </v-list-item>
+
+                                    <v-list-item>
+                                        <v-list-item-title
+                                            >途中経由路線</v-list-item-title
+                                        >
+                                        <v-list-item-subtitle
+                                            :style="{
+                                                backgroundColor:
+                                                    selectedTrain.destinationColor,
+                                            }"
+                                            class="font-weight-semibold text-h6 dialog-origin"
+                                            >{{ selectedTrain.destinationLine }}
                                         </v-list-item-subtitle>
                                     </v-list-item>
 
@@ -431,6 +445,7 @@ interface TrainType {
 
 interface TrainDestination {
     TrainDestination: string;
+    Line: string;
     name: string;
     color: string;
 }
@@ -463,11 +478,11 @@ const TrainTypeMap = ref<
     Record<string, { name: string; short: string; color: string }>
 >({});
 const TrainDestinationMap = ref<
-    Record<string, { name: string; color: string }>
+    Record<string, { name: string; Line: string; color: string }>
 >({});
 const TrainTimetableList = ref<TrainTimetableData[]>([]);
 const TrainCompanyMap = ref<Record<string, { company: string; name: string }>>(
-    {}
+    {},
 );
 const props = defineProps<{
     lineId: string;
@@ -546,7 +561,7 @@ function openTrainDialog(train: any) {
 async function fetchTrainLocation() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:Train?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4' //
+            'https://api.odpt.org/api/v4/odpt:Train?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4', //
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -559,7 +574,7 @@ async function fetchTrainLocation() {
         }
 
         const location = jsonData.value.filter(
-            (item) => item['odpt:railway'] === lineKey
+            (item) => item['odpt:railway'] === lineKey,
         );
 
         LocationInfo.value = location.map((item) => ({
@@ -590,7 +605,7 @@ async function fetchTrainLocation() {
 async function fetchStationInfo() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:Station?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4'
+            'https://api.odpt.org/api/v4/odpt:Station?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4',
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -603,7 +618,7 @@ async function fetchStationInfo() {
         }
 
         const station = jsonData.value.filter(
-            (item) => item['odpt:railway'] === lineKey
+            (item) => item['odpt:railway'] === lineKey,
         );
 
         StationInfo.value = station.map((item) => ({
@@ -631,14 +646,20 @@ async function fetchTrainType() {
         if (!response.ok) throw new Error('Network Error');
         const data: TrainType[] = await response.json();
 
-        TrainTypeMap.value = data.reduce((acc, item) => {
-            acc[item.TrainType] = {
-                name: item.name,
-                short: item.short,
-                color: item.color,
-            };
-            return acc;
-        }, {} as Record<string, { name: string; short: string; color: string }>);
+        TrainTypeMap.value = data.reduce(
+            (acc, item) => {
+                acc[item.TrainType] = {
+                    name: item.name,
+                    short: item.short,
+                    color: item.color,
+                };
+                return acc;
+            },
+            {} as Record<
+                string,
+                { name: string; short: string; color: string }
+            >,
+        );
 
         console.log(TrainTypeMap.value);
     } catch (error) {
@@ -653,13 +674,17 @@ async function fetchTraindestination() {
         if (!response.ok) throw new Error('Network Error');
         const data: TrainDestination[] = await response.json();
 
-        TrainDestinationMap.value = data.reduce((acc, item) => {
-            acc[item.TrainDestination] = {
-                name: item.name,
-                color: item.color,
-            };
-            return acc;
-        }, {} as Record<string, { name: string; color: string }>);
+        TrainDestinationMap.value = data.reduce(
+            (acc, item) => {
+                acc[item.TrainDestination] = {
+                    name: item.name,
+                    Line: item.Line,
+                    color: item.color,
+                };
+                return acc;
+            },
+            {} as Record<string, { name: string; Line: string; color: string }>,
+        );
 
         console.log('Main : ', TrainDestinationMap.value);
     } catch (error) {
@@ -672,7 +697,7 @@ async function fetchTrainTimetable() {
     const lineId = props.lineId; // asakusa / mita / shinjuku / oedo
     try {
         const response = await fetch(
-            `/retration2/data/timetable/${lineId}-Timetable.json`
+            `/retration2/data/timetable/${lineId}-Timetable.json`,
         );
         if (!response.ok) throw new Error('Network Error');
 
@@ -690,13 +715,16 @@ async function fetchTrainCompany() {
         const response = await fetch('/retration2/data/TrainCompany.json');
         const data: TrainCompany[] = await response.json();
 
-        TrainCompanyMap.value = data.reduce((acc, item) => {
-            acc[item.company] = {
-                company: item.company,
-                name: item.name,
-            };
-            return acc;
-        }, {} as Record<string, { company: string; name: string }>);
+        TrainCompanyMap.value = data.reduce(
+            (acc, item) => {
+                acc[item.company] = {
+                    company: item.company,
+                    name: item.name,
+                };
+                return acc;
+            },
+            {} as Record<string, { company: string; name: string }>,
+        );
 
         console.log(data);
     } catch (error) {
@@ -729,6 +757,7 @@ const LocationInfoWithTypeName = computed(() => {
             originName: origin?.name ?? train.originstation,
             originColor: origin?.color ?? '#aaa',
             destinationName: destination?.name ?? train.destinationstation,
+            destinationLine: destination?.Line,
             destinationColor: destination?.color ?? '#000',
         };
     });
@@ -737,7 +766,7 @@ const LocationInfoWithTypeName = computed(() => {
 // Function to place train icons at stations
 function trainsAtStationWithType(stationSame: string) {
     return LocationInfoWithTypeName.value.filter(
-        (train) => train.fromstation === stationSame
+        (train) => train.fromstation === stationSame,
     );
 }
 
@@ -753,7 +782,7 @@ function addDelayToTime(time: string, delaySec: number): string {
 
     return `${String(newHour).padStart(2, '0')}:${String(newMinute).padStart(
         2,
-        '0'
+        '0',
     )}`;
 }
 
@@ -765,7 +794,7 @@ const selectedTrainTimetable = computed(() => {
     return (
         TrainTimetableList.value.find(
             (t) =>
-                t.train === selectedTrain.value.same && t.calendar === calendar
+                t.train === selectedTrain.value.same && t.calendar === calendar,
         ) ?? null
     );
 });
@@ -777,7 +806,7 @@ const selectedTrainTimetableDisplay = computed(() => {
     const fromStation = selectedTrain.value?.fromstation ?? null;
 
     const stationOrder = selectedTrainTimetable.value.timetable.map(
-        (t) => t.station
+        (t) => t.station,
     );
 
     const fromIndex = fromStation ? stationOrder.indexOf(fromStation) : -1;
@@ -864,7 +893,7 @@ watch(
         fetchTrainLocation();
         fetchTrainTimetable();
     },
-    { immediate: true }
+    { immediate: true },
 );
 </script>
 
@@ -963,7 +992,9 @@ watch(
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: transform 0.4s ease, opacity 0.2s;
+    transition:
+        transform 0.4s ease,
+        opacity 0.2s;
 }
 
 .v-card-text {

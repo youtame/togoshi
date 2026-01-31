@@ -10,5 +10,14 @@ export default defineConfig({
             '@': path.resolve(__dirname, 'src'),
         },
     },
+    build: {
+        rollupOptions: {
+            output: {
+                manualChunks: {
+                    'vuetify-vendor': ['vuetify', 'vue', 'vue-router'],
+                },
+            },
+        },
+    },
     base: '/retration2/',
 });

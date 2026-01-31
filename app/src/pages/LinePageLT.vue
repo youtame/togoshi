@@ -9,11 +9,16 @@
 
 <script setup lang="ts">
 import { useRoute } from 'vue-router';
-import { watchEffect } from 'vue';
+import { watchEffect, defineAsyncComponent } from 'vue';
+
 import TraininfoLT from '@/components/TrainInformationLT.vue';
-import TrainlocationLT from '@/components/TrainLocationLT.vue';
 import Aboutsite from '@/components/AboutSite.vue';
 import Top from '@/components/Top.vue';
+
+const TrainlocationLT = defineAsyncComponent({
+    loader: () => import('@/components/TrainLocationLT.vue'),
+    loadingComponent: () => import('@/components/Loading.vue'),
+});
 
 const props = defineProps<{
     lineId: string;
@@ -22,14 +27,25 @@ const props = defineProps<{
 const route = useRoute();
 
 const LINE_NAME: Record<string, string> = {
-    musashino: 'JR武蔵野線走行位置',
-    shonanshinjuku: 'JR湘南新宿ライン走行位置',
+    musashino: 'JR武蔵野線',
+    shonanshinjuku: 'JR湘南新宿ライン',
+    yokosuka: 'JR横須賀線',
+    yokohama: 'JR横浜線',
+    soburapid: 'JR総武快速線',
+    keihintohokunegishi: 'JR京浜東北線・根岸線',
+    utsunomiya: 'JR宇都宮線',
+    jobanrapid: 'JR常磐快速線',
+    jobanlocal: 'JR常磐線各駅停車',
+    keiyo: 'JR京葉線',
+    saikyokawagoe: 'JR埼京.川越線',
+    takasaki: 'JR高崎線',
 };
 
 watchEffect(() => {
     const lineId = route.params.lineId as string;
     const lineName = LINE_NAME[lineId];
-
-    document.title = lineName ? `${lineName}｜Retration` : 'Retration';
+    document.title = lineName
+        ? `${lineName}列車走行位置｜Retration`
+        : 'Retration';
 });
 </script>

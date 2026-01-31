@@ -539,94 +539,109 @@
         "color": "#f15a22"
     },
     {
-        "TrainDestination": "odpt.Station:JR-East.Yokohama.Hachioji",
-        "name": "八王子行き JH-32:JR横浜線",
-        "color": "#00ff00"
-    },
-    {
-        "TrainDestination": "odpt.Station:JR-East.Yokohama.Hashimoto",
-        "name": "橋本行き JH-28:JR横浜線",
-        "color": "#00ff00"
-    },
-    {
-        "TrainDestination": "odpt.Station:JR-East.Yokohama.Machida",
-        "name": "町田行き JH-23:JR横浜線",
-        "color": "#00ff00"
-    },
-    {
-        "TrainDestination": "odpt.Station:JR-East.Yokohama.HigashiKanagawa",
-        "name": "東神奈川行き JH-13:JR横浜線",
-        "color": "#00ff00"
-    },
-    {
-        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Sakuragicho",
-        "name": "桜木町行き JK-11:JR京浜東北.根岸線",
-        "color": "#00ff00"
-    },
-    {
-        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Isogo",
-        "name": "磯子行き JK-06:JR京浜東北.根岸線",
-        "color": "#00ff00"
-    },
-    {
         "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Tokyo",
-        "name": "東京行き JC-01:JR中央線快速",
-        "color": "#00ff00"
+        "name": "東京",
+        "Line": "JR中央線（快速）",
+        "code": "JC01",
+        "color": "#f15a22"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SobuRapid.Tokyo",
-        "name": "東京行き JO-19:JR総武快速線",
-        "color": "#00ff00"
+        "name": "東京",
+        "Line": "JR総武快速線",
+        "code": "JO19",
+        "color": "#0067c0"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Shinjuku",
-        "name": "新宿行き JC-05:JR中央線快速",
-        "color": "#00ff00"
+        "name": "新宿",
+        "Line": "JR中央線（快速）",
+        "code": "JC05",
+        "color": "#f15a22"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Tachikawa",
-        "name": "立川行き JC-19:JR中央線快速",
-        "color": "#00ff00"
+        "name": "立川",
+        "Line": "JR中央線（快速）",
+        "code": "JC19",
+        "color": "#f15a22"
     },
     {
-        "TrainDestination": "odpt.Station:JR-East.Chuo.Takao",
-        "name": "高尾行き JC-24:JR中央線",
-        "color": "#00ff00"
+        "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Takao",
+        "name": "高尾",
+        "Line": "JR中央線（快速）",
+        "code": "JC24",
+        "color": "#f15a22"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoRapid.Toyoda",
+        "name": "豊田",
+        "Line": "JR中央線（快速）",
+        "code": "JC21",
+        "color": "#f15a22"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoRapid.MusashiKoganei",
+        "name": "武蔵小金井",
+        "Line": "JR中央線（快速）",
+        "code": "JC15",
+        "color": "#f15a22"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Ome.Ome",
+        "name": "青梅",
+        "Line": "JR青梅線",
+        "code": "JC62",
+        "color": "#f15a22"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Chuo.Nirasaki",
-        "name": "韮崎行き CO-46:JR中央本線",
-        "color": "#00ff00"
+        "name": "韮崎",
+        "Line": "JR中央本線",
+        "code": "CO46",
+        "color": "#0074be"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Chuo.Kobuchizawa",
-        "name": "小淵沢行き CO-51:JR中央本線",
-        "color": "#00ff00"
+        "name": "小淵沢",
+        "Line": "JR中央本線",
+        "code": "CO51",
+        "color": "#0074be"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Chuo.Enzan",
-        "name": "塩山行き CO-37:JR中央本線",
-        "color": "#00ff00"
+        "name": "塩山",
+        "Line": "JR中央本線",
+        "code": "CO37",
+        "color": "#0074be"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Chuo.Kofu",
-        "name": "甲府行き CO-43:JR中央本線",
-        "color": "#00ff00"
+        "name": "甲府",
+        "Line": "JR中央本線",
+        "code": "CO43",
+        "color": "#0074be"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Chuo.Ryuo",
-        "name": "竜王行き CO-44:JR中央本線",
-        "color": "#00ff00"
+        "name": "竜王",
+        "Line": "JR中央本線",
+        "code": "CO44",
+        "color": "#0074be"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Chuo.Otsuki",
-        "name": "大月行き JC-32:JR中央本線",
-        "color": "#00ff00"
+        "name": "大月",
+        "Line": "JR中央本線",
+        "code": "JC32",
+        "color": "#0074be"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Shinonoi.Matsumoto",
-        "name": "松本行き :JR中央本線",
-        "color": "#00ff00"
+        "name": "松本",
+        "Line": "JR中央本線",
+        "code": null,
+        "color": "#0074be"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Shinonoi.Nagano",
@@ -640,8 +655,10 @@
     },
     {
         "TrainDestination": "odpt.Station:Fujikyu.Fujikyu.Kawaguchiko",
-        "name": "河口湖行き FJ-18:富士急行線",
-        "color": "#00ff00"
+        "name": "河口湖",
+        "Line": "富士急行線",
+        "code": "FJ18",
+        "color": "#0000ff"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.NaritaAirportBranch.NaritaAirportTerminal1",
@@ -659,53 +676,113 @@
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Sobu.Sakura",
-        "name": "佐倉行き JO-33:JR総武本線",
-        "color": "#00ff00"
+        "name": "佐倉",
+        "Line": "JR総武本線",
+        "code": "JO33",
+        "color": "#ffc20d"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Sobu.Naruto",
+        "name": "成東",
+        "Line": "JR総武本線",
+        "code": null,
+        "color": "#ffc20d"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Sotobo.KazusaIchinomiya",
-        "name": "上総一ノ宮行き :JR外房線",
-        "color": "#00ff00"
+        "name": "上総一ノ宮",
+        "Line": "JR外房線",
+        "code": null,
+        "color": "#ff6600"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Sotobo.AwaKamogawa",
+        "name": "安房鴨川",
+        "Line": "JR外房線",
+        "code": null,
+        "color": "#ff6600"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Uchibo.Kimitsu",
-        "name": "君津行き :JR内房線",
-        "color": "#00ff00"
+        "name": "君津",
+        "Line": "JR内房線",
+        "code": null,
+        "color": "#00b2e5"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Sobu.Choshi",
-        "name": "銚子行き :JR総武本線",
-        "color": "#00ff00"
+        "name": "銚子",
+        "Line": "JR総武本線",
+        "code": null,
+        "color": "#ffc20d"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.ChuoSobuLocal.Chiba",
-        "name": "千葉行き JB-39:JR総武線各駅停車",
-        "color": "#00ff00"
+        "name": "千葉",
+        "Line": "JR中央.総武各駅停車線",
+        "code": "JB39",
+        "color": "#ffd400"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoSobuLocal.Tsudanuma",
+        "name": "津田沼",
+        "Line": "JR中央.総武各駅停車線",
+        "code": "JB33",
+        "color": "#ffd400"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoSobuLocal.Mitaka",
+        "name": "三鷹",
+        "Line": "JR中央.総武各駅停車線",
+        "code": "JB01",
+        "color": "#ffd400"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ChuoSobuLocal.Nakano",
+        "name": "中野",
+        "Line": "JR中央.総武各駅停車線",
+        "code": "JB07",
+        "color": "#ffd400"
+    },
+    {
+        "TrainDestination": "odpt.Station:TokyoMetro.Tozai.NishiFunabashi",
+        "name": "西船橋",
+        "Line": "東京メトロ東西線",
+        "code": "T23",
+        "color": "#009bbf"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SobuRapid.Chiba",
-        "name": "千葉行き JO-28:JR総武快速線",
-        "color": "#00ff00"
+        "name": "千葉",
+        "Line": "JR総武快速線",
+        "code": "JO28",
+        "color": "#0067c0"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SobuRapid.Tsudanuma",
-        "name": "津田沼行き JO-26:JR総武快速線",
-        "color": "#00ff00"
+        "name": "津田沼",
+        "Line": "JR総武快速線",
+        "code": "JO26",
+        "color": "#0067c0"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Yokosuka.Tokyo",
-        "name": "東京行き JO-19:横須賀線",
-        "color": "#00ff00"
+        "name": "東京",
+        "Line": "JR横須賀線",
+        "code": "JO19",
+        "color": "#0067c0"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Yokosuka.Shinagawa",
-        "name": "品川行き JO-17:横須賀線",
-        "color": "#00ff00"
+        "name": "品川",
+        "Line": "JR横須賀線",
+        "code": "JO17",
+        "color": "#0067c0"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Tokaido.Kozu",
         "name": "国府津",
-        "Line": "JR高崎線",
+        "Line": "JR東海道線",
         "code": "JT14",
         "color": "#f68b1e"
     },
@@ -753,10 +830,17 @@
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Yokosuka.Kurihama",
-        "name": "久里浜行き JO-01:JR横須賀線",
+        "name": "久里浜",
         "Line": "JR横須賀線",
         "code": "JO01",
         "color": "#0067c0"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Ueno",
+        "name": "上野",
+        "Line": "JR高崎線",
+        "code": "JU02",
+        "color": "#f68b1e"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Koga",
@@ -780,6 +864,48 @@
         "color": "#f68b1e"
     },
     {
+        "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Kuroiso",
+        "name": "黒磯",
+        "Line": "JR宇都宮線",
+        "code": null,
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Karasuyama.Karasuyama",
+        "name": "烏山",
+        "Line": "JR烏山線",
+        "code": null,
+        "color": "#339966"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Tokaido.Atami",
+        "name": "熱海",
+        "Line": "JR東海道線",
+        "code": "JT21",
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-Central.Tokaido.Numazu",
+        "name": "沼津",
+        "Line": "JR東海道線",
+        "code": "CA03",
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Ito.Ito",
+        "name": "伊東",
+        "Line": "JR伊東線",
+        "code": "JT26",
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.ShonanShinjuku.Osaki",
+        "name": "大崎",
+        "Line": "JR湘南新宿ライン",
+        "code": "JS17",
+        "color": "#e21f26"
+    },
+    {
         "TrainDestination": "odpt.Station:JR-East.ShonanShinjuku.Shinjuku",
         "name": "新宿",
         "Line": "JR湘南新宿ライン",
@@ -788,7 +914,7 @@
     },
     {
         "TrainDestination": "odpt.Station:JR-East.ShonanShinjuku.Ikebukuro",
-        "name": "池袋行き JS-21:JR湘南新宿ライン",
+        "name": "池袋",
         "Line": "JR湘南新宿ライン",
         "code": "JS21",
         "color": "#e21f26"
@@ -799,6 +925,20 @@
         "Line": "JR高崎線",
         "code": null,
         "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Ueno",
+        "name": "上野",
+        "Line": "JR高崎線",
+        "code": "JU02",
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Agatsuma.Naganoharakusatsuguchi",
+        "name": "長野原草津口",
+        "Line": "JR吾妻線",
+        "code": null,
+        "color": "#0f5474"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Tokaido.Hiratsuka",
@@ -815,8 +955,22 @@
         "color": "#f68b1e"
     },
     {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Konosu",
+        "name": "鴻巣",
+        "Line": "JR高崎線",
+        "code": null,
+        "color": "#f68b1e"
+    },
+    {
         "TrainDestination": "odpt.Station:JR-East.Takasaki.Kumagaya",
         "name": "熊谷",
+        "Line": "JR高崎線",
+        "code": null,
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Honjo",
+        "name": "本庄",
         "Line": "JR高崎線",
         "code": null,
         "color": "#f68b1e"
@@ -851,47 +1005,183 @@
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Kawagoe",
-        "name": "川越行き :JR川越線",
-        "color": "#00ff00"
+        "name": "川越",
+        "Line": "JR川越線",
+        "code": null,
+        "color": "#00ac9a"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Omiya",
-        "name": "大宮行き JA-26:JR埼京線",
-        "color": "#00ff00"
+        "name": "大宮",
+        "Line": "JR埼京線",
+        "code": "JA26",
+        "color": "#00ac9a"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.MusashiUrawa",
-        "name": "武蔵浦和行き JA-21:JR埼京線",
-        "color": "#00ff00"
-    },
-    {
-        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Akabane",
-        "name": "新宿行き JA-15:JR埼京線",
-        "color": "#00ff00"
+        "name": "武蔵浦和",
+        "Line": "JR埼京線",
+        "code": "JA21",
+        "color": "#00ac9a"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Ikebukuro",
-        "name": "池袋行き JA-12:JR埼京線",
-        "color": "#00ff00"
+        "name": "池袋",
+        "Line": "JR埼京線",
+        "code": "JA12",
+        "color": "#00ac9a"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Shinjuku",
-        "name": "新宿行き JA-11:JR埼京線",
-        "color": "#00ff00"
+        "name": "新宿",
+        "Line": "JR埼京線",
+        "code": "JA11",
+        "color": "#00ac9a"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Akabane",
+        "name": "赤羽",
+        "Line": "JR埼京線",
+        "code": "JA15",
+        "color": "#00ac9a"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.SaikyoKawagoe.Osaki",
+        "name": "大崎",
+        "Line": "JR埼京線",
+        "code": "JA08",
+        "color": "#00ac9a"
     },
     {
         "TrainDestination": "odpt.Station:TWR.Rinkai.ShinKiba",
-        "name": "新木場行き R-01:りんかい線",
-        "color": "#00ff00"
+        "name": "新木場",
+        "Line": "りんかい線",
+        "code": "R01",
+        "color": "#00389e"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Utsunomiya.Hasuda",
-        "name": "蓮田行き JR宇都宮線",
-        "color": "#00ff00"
+        "name": "蓮田",
+        "Line": "JR宇都宮線",
+        "code": null,
+        "color": "#f68b1e"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Ito.Atami",
-        "name": "熱海行き JT-21:JR伊東線",
-        "color": "#00ff00"
+        "name": "熱海",
+        "Line": "JR伊東線",
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Ofuna",
+        "name": "大船",
+        "Line": "JR根岸線",
+        "code": "JK01",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Isogo",
+        "name": "磯子",
+        "Line": "JR根岸線",
+        "code": "JK06",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Tsurumi",
+        "name": "鶴見",
+        "Line": "JR京浜東北線",
+        "code": "JK15",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Kamata",
+        "name": "蒲田",
+        "Line": "JR京浜東北線",
+        "code": "JK17",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.HigashiJujo",
+        "name": "東十条",
+        "Line": "JR京浜東北線",
+        "code": "JK37",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Akabane",
+        "name": "赤羽",
+        "Line": "JR京浜東北線",
+        "code": "JK38",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.MinamiUrawa",
+        "name": "南浦和",
+        "Line": "JR京浜東北線",
+        "code": "JK42",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Omiya",
+        "name": "大宮",
+        "Line": "JR京浜東北線",
+        "code": "JK47",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.KeihinTohokuNegishi.Sakuragicho",
+        "name": "桜木町",
+        "Line": "JR京浜東北.根岸線",
+        "code": "JK11",
+        "color": "#00b2e5"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.HigashiKanagawa",
+        "name": "東神奈川",
+        "Line": "JR横浜線",
+        "code": "JH13",
+        "color": "#7fc342"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.Machida",
+        "name": "町田",
+        "Line": "JR横浜線",
+        "code": "JH23",
+        "color": "#7fc342"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.Hashimoto",
+        "name": "橋本",
+        "Line": "JR横浜線",
+        "code": "JH28",
+        "color": "#7fc342"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Yokohama.Hachioji",
+        "name": "八王子",
+        "Line": "JR横浜線",
+        "code": "JH32",
+        "color": "#7fc342"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Nambu.Kawasaki",
+        "name": "川崎",
+        "Line": "JR南武線",
+        "code": "JN01",
+        "color": "#ffd400"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Nambu.Inaginaganuma",
+        "name": "稲城長沼",
+        "Line": "JR南武線",
+        "code": "JN18",
+        "color": "#ffd400"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Nambu.Tachikawa",
+        "name": "立川",
+        "Line": "JR南武線",
+        "code": "JN26",
+        "color": "#ffd400"
     }
 ]

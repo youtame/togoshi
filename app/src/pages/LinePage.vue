@@ -34,6 +34,8 @@ watchEffect(() => {
     const lineId = route.params.lineId as string;
     const lineName = LINE_NAME[lineId];
 
-    document.title = lineName ? `${lineName}｜Retration` : 'Retration';
+    document.title = lineName
+        ? `${lineName}列車走行位置｜Retration`
+        : 'Retration';
 });
 </script>

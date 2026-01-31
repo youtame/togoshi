@@ -1,5 +1,5 @@
 <template>
-    <v-card class="aboutsite-main-view rounded-lg">
+    <v-card class="aboutsite-main-view rounded-lg border-md" elevation="0">
         <v-card-title class="ma-1 text-h6 font-weight-semibold">
             <v-icon
                 icon="mdi-information-box"

@@ -10,9 +10,9 @@
                 <v-btn
                     variant="flat"
                     rounded="lg"
-                    class="main-button d-flex align-center font-weight-bold"
+                    class="main-button d-flex align-center font-weight-bold border-md"
                     color="surface"
-                    elevation="1"
+                    elevation="0"
                     rel="noopener"
                     to="/"
                 >
@@ -28,9 +28,9 @@
                 <v-btn
                     variant="flat"
                     rounded="lg"
-                    class="main-button d-flex align-center font-weight-bold"
+                    class="main-button d-flex align-center font-weight-bold border-md"
                     color="surface"
-                    elevation="1"
+                    elevation="0"
                     rel="noopener"
                     to="/comments"
                 >

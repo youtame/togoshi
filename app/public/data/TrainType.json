@@ -97,7 +97,14 @@
     {
         "TrainType": "odpt.TrainType:JR-East.ChuoSpecialRapid",
         "name": "中央特快",
-        "short": "中特"
+        "short": "中特",
+        "color": "#0077ff"
+    },
+    {
+        "TrainType": "odpt.TrainType:JR-East.OmeSpecialRapid",
+        "name": "青梅特快",
+        "short": "青特",
+        "color": "#00a900"
     },
     {
         "TrainType": "odpt.TrainType:Keikyu.Local",

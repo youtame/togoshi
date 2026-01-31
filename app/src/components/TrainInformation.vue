@@ -1,5 +1,5 @@
 <template>
-    <v-card class="traininfo-main-view rounded-lg">
+    <v-card class="traininfo-main-view rounded-lg border-md" elevation="0">
         <v-card-title class="ma-1 text-h6 font-weight-semibold">
             <v-icon
                 icon="mdi-information-box"
@@ -49,7 +49,7 @@ const LINE_MAP: Record<string, string> = {
 async function fetchTrainInfo() {
     try {
         const response = await fetch(
-            'https://api.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4'
+            'https://api.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:Toei,odpt.Operator:YokohamaMunicipal&acl:consumerKey=b70f7d9c215874f66461094458ea3f080fec87af36b3c31981aa35d3cb59afa4',
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();
@@ -63,7 +63,7 @@ async function fetchTrainInfo() {
         }
 
         const info = jsonData.value.find(
-            (item) => item['owl:sameAs'] === lineKey
+            (item) => item['owl:sameAs'] === lineKey,
         );
 
         trainInfo.value =
@@ -101,7 +101,7 @@ watch(
     () => props.lineId,
     () => {
         fetchTrainInfo();
-    }
+    },
 );
 </script>
 

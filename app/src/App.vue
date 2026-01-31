@@ -114,142 +114,16 @@
                         </v-dialog>
                     </v-list-item-title>
                 </v-list-item>
-                <v-list-item>
+                <v-list-item v-for="item in lineItems" :key="item.to">
                     <v-list-item-title>
                         <v-btn
                             elevation="0"
                             size="large"
                             width="auto"
-                            to="/line/asakusa"
+                            :to="item.to"
                         >
                             <v-img
-                                src="/retration2/symbole/Asakusa-symbole.png"
-                                max-height="30"
-                                max-width="30"
-                                contain
-                                class="icon-press"
-                            />
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-title>
-                        <v-btn
-                            elevation="0"
-                            size="large"
-                            width="auto"
-                            to="/line/oedo"
-                        >
-                            <v-img
-                                src="/retration2/symbole/Oedo-symbole.png"
-                                max-height="30"
-                                max-width="30"
-                                contain
-                                class="icon-press"
-                            />
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-title>
-                        <v-btn
-                            elevation="0"
-                            size="large"
-                            width="auto"
-                            to="/line/shinjuku"
-                        >
-                            <v-img
-                                src="/retration2/symbole/Shinjuku-symbole.png"
-                                max-height="30"
-                                max-width="30"
-                                contain
-                                class="icon-press"
-                            />
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-title>
-                        <v-btn
-                            elevation="0"
-                            size="large"
-                            width="auto"
-                            to="/line/mita"
-                        >
-                            <v-img
-                                src="/retration2/symbole/Mita-symbole.png"
-                                max-height="30"
-                                max-width="30"
-                                contain
-                                class="icon-press"
-                            />
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-title>
-                        <v-btn
-                            elevation="0"
-                            size="large"
-                            width="auto"
-                            to="/line/blueline"
-                        >
-                            <v-img
-                                src="/retration2/symbole/BlueLine-symbole.png"
-                                max-height="30"
-                                max-width="30"
-                                contain
-                                class="icon-press"
-                            />
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-title>
-                        <v-btn
-                            elevation="0"
-                            size="large"
-                            width="auto"
-                            to="/line/greenline"
-                        >
-                            <v-img
-                                src="/retration2/symbole/GreenLine-symbole.png"
-                                max-height="30"
-                                max-width="30"
-                                contain
-                                class="icon-press"
-                            />
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-title>
-                        <v-btn
-                            elevation="0"
-                            size="large"
-                            width="auto"
-                            to="/line/timelimited/shonanshinjuku"
-                        >
-                            <v-img
-                                src="/retration2/symbole/Shonanshinjuku-symbole.png"
-                                max-height="30"
-                                max-width="30"
-                                contain
-                                class="icon-press"
-                            />
-                        </v-btn>
-                    </v-list-item-title>
-                </v-list-item>
-                <v-list-item>
-                    <v-list-item-title>
-                        <v-btn
-                            elevation="0"
-                            size="large"
-                            width="auto"
-                            to="/line/timelimited/musashino"
-                        >
-                            <v-img
-                                src="/retration2/symbole/Musashino-symbole.png"
+                                :src="item.img"
                                 max-height="30"
                                 max-width="30"
                                 contain
@@ -296,6 +170,78 @@ const lineId = computed<LineKey>(() => {
     return (v as LineKey) ?? 'home';
 });
 
+type LineItem = {
+    to: string;
+    img: string;
+};
+
+const lineItems: LineItem[] = [
+    {
+        to: '/line/asakusa',
+        img: '/retration2/symbole/Asakusa-symbole.png',
+    },
+    {
+        to: '/line/oedo',
+        img: '/retration2/symbole/Oedo-symbole.png',
+    },
+    {
+        to: '/line/shinjuku',
+        img: '/retration2/symbole/Shinjuku-symbole.png',
+    },
+    {
+        to: '/line/mita',
+        img: '/retration2/symbole/Mita-symbole.png',
+    },
+    {
+        to: '/line/blueline',
+        img: '/retration2/symbole/BlueLine-symbole.png',
+    },
+    {
+        to: '/line/greenline',
+        img: '/retration2/symbole/GreenLine-symbole.png',
+    },
+    {
+        to: '/line/timelimited/utsunomiya',
+        img: '/retration2/symbole/Utsunomiya-symbole.png',
+    },
+    {
+        to: '/line/timelimited/keihintohokunegishi',
+        img: '/retration2/symbole/Keihintohokunegishi-symbole.png',
+    },
+    {
+        to: '/line/timelimited/keiyo',
+        img: '/retration2/symbole/Keiyo-symbole.png',
+    },
+    {
+        to: '/line/timelimited/saikyokawagoe',
+        img: '/retration2/symbole/Saikyokawagoe-symbole.png',
+    },
+    {
+        to: '/line/timelimited/soburapid',
+        img: '/retration2/symbole/Soburapid-symbole.png',
+    },
+    {
+        to: '/line/timelimited/shonanshinjuku',
+        img: '/retration2/symbole/Shonanshinjuku-symbole.png',
+    },
+    {
+        to: '/line/timelimited/takasaki',
+        img: '/retration2/symbole/Takasaki-symbole.png',
+    },
+    {
+        to: '/line/timelimited/musashino',
+        img: '/retration2/symbole/Musashino-symbole.png',
+    },
+    {
+        to: '/line/timelimited/yokosuka',
+        img: '/retration2/symbole/Yokosuka-symbole.png',
+    },
+    {
+        to: '/line/timelimited/yokohama',
+        img: '/retration2/symbole/Yokohama-symbole.png',
+    },
+];
+
 const LINE_MAP = {
     home: { name: 'Retration', icon: '/retration2/symbole/retration-icon.png' },
     asakusa: {
@@ -329,6 +275,42 @@ const LINE_MAP = {
     shonanshinjuku: {
         name: '湘南新宿ライン走行位置',
         icon: '/retration2/symbole/Shonanshinjuku-symbole.png',
+    },
+    keihintohokunegishi: {
+        name: '京浜東北.根岸線走行位置',
+        icon: '/retration2/symbole/Keihintohokunegishi-symbole.png',
+    },
+    yokosuka: {
+        name: 'JR横須賀線列車走行位置',
+        icon: '/retration2/symbole/Yokosuka-symbole.png',
+    },
+    soburapid: {
+        name: 'JR総武快速線列車走行位置',
+        icon: '/retration2/symbole/Soburapid-symbole.png',
+    },
+    yokohama: {
+        name: 'JR横浜線列車走行位置',
+        icon: '/retration2/symbole/Yokohama-symbole.png',
+    },
+    utsunomiya: {
+        name: 'JR宇都宮線列車走行位置',
+        icon: '/retration2/symbole/Utsunomiya-symbole.png',
+    },
+    takasaki: {
+        name: 'JR高崎線列車走行位置',
+        icon: '/retration2/symbole/Takasaki-symbole.png',
+    },
+    keiyo: {
+        name: 'JR京葉線列車走行位置',
+        icon: '/retration2/symbole/Keiyo-symbole.png',
+    },
+    saikyokawagoe: {
+        name: '埼京.川越線列車走行位置',
+        icon: '/retration2/symbole/Saikyokawagoe-symbole.png',
+    },
+    chuosobulocal: {
+        name: '中央総武線各駅停車走行位置',
+        icon: '/retration2/symbole/Chuosobulocal-symbole.png',
     },
 } as const;
 
@@ -365,9 +347,53 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
             primary: '#eb5a28',
             secondary: '#ff8a50',
         },
+        soburapid: {
+            primary: '#0067c0',
+            secondary: '#66b0e8',
+        },
         shonanshinjuku: {
             primary: '#e31f26',
             secondary: '#f32f36',
+        },
+        yokosuka: {
+            primary: '#0067c0',
+            secondary: '#66b0e8',
+        },
+        keihintohokunegishi: {
+            primary: '#00b2e5',
+            secondary: '#66d1f0',
+        },
+        yokohama: {
+            primary: '#9acd32',
+            secondary: '#d7e36a',
+        },
+        utsunomiya: {
+            primary: '#f68b1e',
+            secondary: '#ffb366',
+        },
+        takasaki: {
+            primary: '#f68b1e',
+            secondary: '#ffb366',
+        },
+        keiyo: {
+            primary: '#c9252f',
+            secondary: '#f0666a',
+        },
+        chuorapid: {
+            primary: '#f15a22',
+            secondary: '#ff8a50',
+        },
+        saikyokawagoe: {
+            primary: '##00ac9a',
+            secondary: '#66d18e',
+        },
+        nambu: {
+            primary: '#ffd400',
+            secondary: '#ffec66',
+        },
+        chuosobulocal: {
+            primary: '#ffd400',
+            secondary: '#ffec66',
         },
     };
 
@@ -390,7 +416,7 @@ watch(
             theme.themes.value.dark.colors.secondary = colors.secondary;
         }
     },
-    { immediate: true }
+    { immediate: true },
 );
 
 function toggleTheme() {
@@ -401,7 +427,7 @@ function toggleTheme() {
 
 onMounted(() => {
     const prefersDark = window.matchMedia(
-        '(prefers-color-scheme: dark)'
+        '(prefers-color-scheme: dark)',
     ).matches;
     theme.change(prefersDark ? 'dark' : 'light');
 });
