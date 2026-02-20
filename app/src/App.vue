@@ -1,7 +1,30 @@
 <template>
     <v-app>
+        <v-dialog v-model="showFirstNotice" width="auto">
+            <v-card title="最初にご確認ください" max-width="650px">
+                <v-card-text>
+                    このページで表示される公共交通データは、公共交通オープンデータセンターおよび各事業者から提供された情報を元にしています。
+                    内容は必ずしも正確・完全ではありませんので、公共交通事業者への直接の問い合わせは行わないでください。
+                </v-card-text>
+                <v-card-actions>
+                    <v-spacer />
+                    <v-btn
+                        color="primary"
+                        text
+                        class="close-btn text-subtitle-1"
+                        @click="closeNotice"
+                    >
+                        確認しました
+                    </v-btn>
+                </v-card-actions>
+            </v-card>
+        </v-dialog>
         <!-- AppBar -->
-        <v-app-bar app>
+        <v-app-bar
+            app
+            elevation="0"
+            :class="isScrolled ? 'app-bar-scrolled' : 'app-bar-top'"
+        >
             <v-app-bar-title>
                 <div class="d-flex align-center">
                     <v-img
@@ -26,41 +49,76 @@
             location="right"
             app
             temporary
-            width="111"
+            :width="isExpanded ? 265 : 111"
+            @mouseenter="!smAndDown && (isHovering = true)"
+            @mouseleave="!smAndDown && (isHovering = false)"
         >
             <v-list>
                 <v-list-item>
                     <v-list-item-title>
-                        <v-btn elevation="0" size="large" width="auto" to="/">
+                        <v-btn
+                            :class="
+                                isExpanded
+                                    ? 'd-flex align-center justify-start text-left'
+                                    : 'd-flex align-center justify-center'
+                            "
+                            elevation="0"
+                            size="large"
+                            width="100%"
+                            to="/"
+                        >
                             <v-icon
                                 icon="mdi-home-outline"
                                 size="large"
+                                class="d-flex align-center justify-start"
                             ></v-icon>
+                            <span
+                                v-if="isExpanded"
+                                class="ml-3 text-subtitle-1 drawer-label"
+                            >
+                                <strong>ホームへ</strong>
+                            </span>
                         </v-btn>
                     </v-list-item-title>
                 </v-list-item>
                 <v-list-item>
                     <v-list-item-title>
                         <v-btn
+                            :class="
+                                isExpanded
+                                    ? 'd-flex align-center justify-start text-left'
+                                    : 'd-flex align-center justify-center'
+                            "
                             elevation="0"
                             size="large"
-                            width="auto"
+                            width="100%"
                             to="/comments"
                         >
                             <v-icon
                                 icon="mdi-comment-alert-outline"
                                 size="large"
                             ></v-icon>
+                            <span
+                                v-if="isExpanded"
+                                class="ml-3 text-subtitle-1 drawer-label"
+                            >
+                                <strong>お問い合わせ</strong>
+                            </span>
                         </v-btn>
                     </v-list-item-title>
                 </v-list-item>
                 <v-list-item>
                     <v-list-item-title>
                         <v-btn
+                            :class="
+                                isExpanded
+                                    ? 'd-flex align-center justify-start text-left'
+                                    : 'd-flex align-center justify-center'
+                            "
                             @click="toggleTheme"
                             elevation="0"
                             size="large"
-                            width="auto"
+                            width="100%"
                         >
                             <v-icon size="large">
                                 {{
@@ -69,6 +127,12 @@
                                         : 'mdi-weather-night'
                                 }}
                             </v-icon>
+                            <span
+                                v-if="isExpanded"
+                                class="ml-3 text-subtitle-1 drawer-label"
+                            >
+                                <strong>表示切り替え</strong>
+                            </span>
                         </v-btn>
                     </v-list-item-title>
                 </v-list-item>
@@ -79,15 +143,27 @@
                                 v-slot:activator="{ props: activatorProps }"
                             >
                                 <v-btn
+                                    :class="
+                                        isExpanded
+                                            ? 'd-flex align-center justify-start text-left'
+                                            : 'd-flex align-center justify-center'
+                                    "
                                     v-bind="activatorProps"
                                     elevation="0"
                                     size="large"
+                                    width="100%"
                                     class="info-btn"
                                 >
                                     <v-icon
                                         icon="mdi-information-outline"
                                         size="large"
                                     ></v-icon>
+                                    <span
+                                        v-if="isExpanded"
+                                        class="ml-3 text-subtitle-1 drawer-label"
+                                    >
+                                        <strong>サイトに関して</strong>
+                                    </span>
                                 </v-btn>
                             </template>
 
@@ -117,6 +193,11 @@
                 <v-list-item v-for="item in lineItems" :key="item.to">
                     <v-list-item-title>
                         <v-btn
+                            :class="
+                                isExpanded
+                                    ? 'd-flex align-center justify-start text-left'
+                                    : 'd-flex align-center justify-center'
+                            "
                             elevation="0"
                             size="large"
                             width="auto"
@@ -129,6 +210,12 @@
                                 contain
                                 class="icon-press"
                             />
+                            <span
+                                v-if="isExpanded"
+                                class="ml-3 text-subtitle-1 drawer-label"
+                            >
+                                <strong>{{ item.label }}</strong>
+                            </span>
                         </v-btn>
                     </v-list-item-title>
                 </v-list-item>
@@ -156,13 +243,26 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
-import { useTheme } from 'vuetify';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+import { useTheme, useDisplay } from 'vuetify';
 import { useRoute } from 'vue-router';
 
 const drawer = ref(false);
+const showFirstNotice = ref(false);
 const theme = useTheme();
 const route = useRoute();
+const isHovering = ref(false);
+const isScrolled = ref(false);
+const { smAndDown } = useDisplay();
+
+const isExpanded = computed(() => {
+    return smAndDown.value ? true : isHovering.value;
+});
+
+const handleScroll = () => {
+    // isScrolled.value = window.scrollY == 0;
+    isScrolled.value = 0 == 0;
+};
 
 const lineId = computed<LineKey>(() => {
     const v = route.params.lineId;
@@ -173,91 +273,198 @@ const lineId = computed<LineKey>(() => {
 type LineItem = {
     to: string;
     img: string;
+    label?: string;
 };
 
 const lineItems: LineItem[] = [
     {
         to: '/line/asakusa',
         img: '/retration2/symbole/Asakusa-symbole.png',
+        label: '浅草線',
     },
     {
         to: '/line/oedo',
         img: '/retration2/symbole/Oedo-symbole.png',
+        label: '大江戸線',
     },
     {
         to: '/line/shinjuku',
         img: '/retration2/symbole/Shinjuku-symbole.png',
+        label: '新宿線',
     },
     {
         to: '/line/mita',
         img: '/retration2/symbole/Mita-symbole.png',
+        label: '三田線',
     },
     {
         to: '/line/blueline',
         img: '/retration2/symbole/BlueLine-symbole.png',
+        label: 'ブルーライン',
     },
     {
         to: '/line/greenline',
         img: '/retration2/symbole/GreenLine-symbole.png',
+        label: 'グリーンライン',
+    },
+    {
+        to: '/line/timelimited/itsukaichi',
+        img: '/retration2/symbole/Itsukaichi-symbole.png',
+        label: '五日市線',
     },
     {
         to: '/line/timelimited/utsunomiya',
         img: '/retration2/symbole/Utsunomiya-symbole.png',
+        label: '宇都宮線',
+    },
+    {
+        to: '/line/timelimited/kawagoe',
+        img: '/retration2/symbole/Kawagoe-symbole.png',
+        label: '川越線',
     },
     {
         to: '/line/timelimited/keihintohokunegishi',
         img: '/retration2/symbole/Keihintohokunegishi-symbole.png',
+        label: '京浜東北・根岸線',
     },
     {
         to: '/line/timelimited/keiyo',
         img: '/retration2/symbole/Keiyo-symbole.png',
+        label: '京葉線',
     },
     {
         to: '/line/timelimited/saikyokawagoe',
         img: '/retration2/symbole/Saikyokawagoe-symbole.png',
+        label: '埼京・川越線',
+    },
+    {
+        to: '/line/timelimited/jobanrapid',
+        img: '/retration2/symbole/Jobanrapid-symbole.png',
+        label: '常磐線快速',
+    },
+    {
+        to: '/line/timelimited/jobanlocal',
+        img: '/retration2/symbole/Jobanlocal-symbole.png',
+        label: '常磐線各駅停車',
+    },
+    {
+        to: '/line/timelimited/sotetsudirect',
+        img: '/retration2/symbole/Sotetsudirect-symbole.png',
+        label: 'JR・相鉄線直通',
     },
     {
         to: '/line/timelimited/soburapid',
         img: '/retration2/symbole/Soburapid-symbole.png',
+        label: '総武快速線',
     },
     {
         to: '/line/timelimited/shonanshinjuku',
         img: '/retration2/symbole/Shonanshinjuku-symbole.png',
+        label: '湘南新宿ライン',
     },
     {
         to: '/line/timelimited/takasaki',
         img: '/retration2/symbole/Takasaki-symbole.png',
+        label: '高崎線',
+    },
+    {
+        to: '/line/timelimited/tokaido',
+        img: '/retration2/symbole/Tokaido-symbole.png',
+        label: '東海道線',
+    },
+    {
+        to: '/line/timelimited/chuorapid',
+        img: '/retration2/symbole/Chuorapid-symbole.png',
+        label: '中央線快速',
+    },
+    {
+        to: '/line/timelimited/chuosobulocal',
+        img: '/retration2/symbole/Chuosobulocal-symbole.png',
+        label: '中央・総武線各停',
+    },
+    {
+        to: '/line/timelimited/nambu',
+        img: '/retration2/symbole/Nambu-symbole.png',
+        label: '南武線',
     },
     {
         to: '/line/timelimited/musashino',
         img: '/retration2/symbole/Musashino-symbole.png',
+        label: 'JR武蔵野線',
+    },
+    {
+        to: '/line/timelimited/yamanote',
+        img: '/retration2/symbole/Yamanote-symbole.png',
+        label: '山手線',
     },
     {
         to: '/line/timelimited/yokosuka',
         img: '/retration2/symbole/Yokosuka-symbole.png',
+        label: '横須賀線',
     },
     {
         to: '/line/timelimited/yokohama',
         img: '/retration2/symbole/Yokohama-symbole.png',
+        label: '横浜線',
+    },
+    {
+        to: '/line/timelimited/tobuurbanpark',
+        img: '/retration2/symbole/Tobuurbanpark-symbole.png',
+        label: 'アーバンパークライン',
+    },
+    {
+        to: '/line/timelimited/isesaki',
+        img: '/retration2/symbole/Isesaki-symbole.png',
+        label: '伊勢崎線',
+    },
+    {
+        to: '/line/timelimited/ogose',
+        img: '/retration2/symbole/Ogose-symbole.png',
+        label: '越生線',
+    },
+    {
+        to: '/line/timelimited/kameido',
+        img: '/retration2/symbole/Kameido-symbole.png',
+        label: '亀戸線',
+    },
+    {
+        to: '/line/timelimited/tobuskytree',
+        img: '/retration2/symbole/Tobuskytree-symbole.png',
+        label: 'スカイツリーライン',
+    },
+    {
+        to: '/line/timelimited/daishi',
+        img: '/retration2/symbole/Daishi-symbole.png',
+        label: '大師線',
+    },
+    {
+        to: '/line/timelimited/tojo',
+        img: '/retration2/symbole/Tojo-symbole.png',
+        label: '東上線',
+    },
+    {
+        to: '/line/timelimited/nikko',
+        img: '/retration2/symbole/Nikko-symbole.png',
+        label: '日光線',
     },
 ];
 
 const LINE_MAP = {
     home: { name: 'Retration', icon: '/retration2/symbole/retration-icon.png' },
     asakusa: {
-        name: '浅草線列車走行位置',
+        name: '浅草線走行位置',
         icon: '/retration2/symbole/Asakusa-symbole.png',
     },
     mita: {
-        name: '三田線列車走行位置',
+        name: '三田線走行位置',
         icon: '/retration2/symbole/Mita-symbole.png',
     },
     shinjuku: {
-        name: '新宿線列車走行位置',
+        name: '新宿線走行位置',
         icon: '/retration2/symbole/Shinjuku-symbole.png',
     },
     oedo: {
-        name: '大江戸線列車走行位置',
+        name: '大江戸線走行位置',
         icon: '/retration2/symbole/Oedo-symbole.png',
     },
     blueline: {
@@ -269,7 +476,7 @@ const LINE_MAP = {
         icon: '/retration2/symbole/GreenLine-symbole.png',
     },
     musashino: {
-        name: 'JR武蔵野線列車走行位置',
+        name: '武蔵野線走行位置',
         icon: '/retration2/symbole/Musashino-symbole.png',
     },
     shonanshinjuku: {
@@ -277,40 +484,112 @@ const LINE_MAP = {
         icon: '/retration2/symbole/Shonanshinjuku-symbole.png',
     },
     keihintohokunegishi: {
-        name: '京浜東北.根岸線走行位置',
+        name: '京浜東北・根岸線走行位置',
         icon: '/retration2/symbole/Keihintohokunegishi-symbole.png',
     },
     yokosuka: {
-        name: 'JR横須賀線列車走行位置',
+        name: '横須賀線走行位置',
         icon: '/retration2/symbole/Yokosuka-symbole.png',
     },
     soburapid: {
-        name: 'JR総武快速線列車走行位置',
+        name: '総武快速線走行位置',
         icon: '/retration2/symbole/Soburapid-symbole.png',
     },
     yokohama: {
-        name: 'JR横浜線列車走行位置',
+        name: '横浜線走行位置',
         icon: '/retration2/symbole/Yokohama-symbole.png',
     },
     utsunomiya: {
-        name: 'JR宇都宮線列車走行位置',
+        name: '宇都宮線走行位置',
         icon: '/retration2/symbole/Utsunomiya-symbole.png',
     },
     takasaki: {
-        name: 'JR高崎線列車走行位置',
+        name: '高崎線走行位置',
         icon: '/retration2/symbole/Takasaki-symbole.png',
     },
     keiyo: {
-        name: 'JR京葉線列車走行位置',
+        name: '京葉線走行位置',
         icon: '/retration2/symbole/Keiyo-symbole.png',
     },
     saikyokawagoe: {
-        name: '埼京.川越線列車走行位置',
+        name: '埼京・川越線走行位置',
         icon: '/retration2/symbole/Saikyokawagoe-symbole.png',
     },
+    sotetsudirect: {
+        name: 'JR・相鉄線直通走行位置',
+        icon: '/retration2/symbole/Sotetsudirect-symbole.png',
+    },
     chuosobulocal: {
-        name: '中央総武線各駅停車走行位置',
+        name: '中央総武線各停走行位置',
         icon: '/retration2/symbole/Chuosobulocal-symbole.png',
+    },
+    chuorapid: {
+        name: '中央線快速走行位置',
+        icon: '/retration2/symbole/Chuorapid-symbole.png',
+    },
+    itsukaichi: {
+        name: '五日市線走行位置',
+        icon: '/retration2/symbole/Itsukaichi-symbole.png',
+    },
+    tokaido: {
+        name: '東海道走行位置',
+        icon: '/retration2/symbole/Tokaido-symbole.png',
+    },
+    nambu: {
+        name: '南武線走行位置',
+        icon: '/retration2/symbole/Nambu-symbole.png',
+    },
+    jobanlocal: {
+        name: '常磐線各駅停車走行位置',
+        icon: '/retration2/symbole/Jobanlocal-symbole.png',
+    },
+    jobanrapid: {
+        name: '常磐線快速走行位置',
+        icon: '/retration2/symbole/Jobanrapid-symbole.png',
+    },
+    kawagoe: {
+        name: '川越線走行位置',
+        icon: '/retration2/symbole/Kawagoe-symbole.png',
+    },
+    yamanote: {
+        name: '山手線走行位置',
+        icon: '/retration2/symbole/Yamanote-symbole.png',
+    },
+    ome: {
+        name: '青梅線走行位置',
+        icon: '/retration2/symbole/Ome-symbole.png',
+    },
+    tojo: {
+        name: '東上線走行位置',
+        icon: '/retration2/symbole/Tojo-symbole.png',
+    },
+    tobuskytree: {
+        name: 'スカイツリーライン位置',
+        icon: '/retration2/symbole/Tobuskytree-symbole.png',
+    },
+    ogose: {
+        name: '越生線走行位置',
+        icon: '/retration2/symbole/Ogose-symbole.png',
+    },
+    tobuurbanpark: {
+        name: 'アーバンパークライン位置',
+        icon: '/retration2/symbole/Tobuurbanpark-symbole.png',
+    },
+    isesaki: {
+        name: '伊勢崎線走行位置',
+        icon: '/retration2/symbole/Isesaki-symbole.png',
+    },
+    nikko: {
+        name: '日光線走行位置',
+        icon: '/retration2/symbole/Nikko-symbole.png',
+    },
+    daishi: {
+        name: '東武大師線走行位置',
+        icon: '/retration2/symbole/Daishi-symbole.png',
+    },
+    kameido: {
+        name: '亀戸線走行位置',
+        icon: '/retration2/symbole/Kameido-symbole.png',
     },
 } as const;
 
@@ -375,6 +654,10 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
             primary: '#f68b1e',
             secondary: '#ffb366',
         },
+        tokaido: {
+            primary: '#f68b1e',
+            secondary: '#ffb366',
+        },
         keiyo: {
             primary: '#c9252f',
             secondary: '#f0666a',
@@ -383,8 +666,16 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
             primary: '#f15a22',
             secondary: '#ff8a50',
         },
+        itsukaichi: {
+            primary: '#f15a22',
+            secondary: '#ff8a50',
+        },
         saikyokawagoe: {
-            primary: '##00ac9a',
+            primary: '#00ac9a',
+            secondary: '#66d18e',
+        },
+        sotetsudirect: {
+            primary: '#00ac9a',
             secondary: '#66d18e',
         },
         nambu: {
@@ -394,6 +685,58 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
         chuosobulocal: {
             primary: '#ffd400',
             secondary: '#ffec66',
+        },
+        jobanlocal: {
+            primary: '#808080',
+            secondary: '#b3b3b3',
+        },
+        jobanrapid: {
+            primary: '#00b261',
+            secondary: '#66d18e',
+        },
+        kawagoe: {
+            primary: '#a8a39d',
+            secondary: '#d7d2c8',
+        },
+        yamanote: {
+            primary: '#9acd32',
+            secondary: '#d7e36a',
+        },
+        ome: {
+            primary: '#f15a22',
+            secondary: '#ff8a50',
+        },
+        tojo: {
+            primary: '#0050a8',
+            secondary: '#66b0e8',
+        },
+        ogose: {
+            primary: '#0050a8',
+            secondary: '#66b0e8',
+        },
+        tobuskytree: {
+            primary: '#1a7fd0',
+            secondary: '#66b0e8',
+        },
+        tobuurbanpark: {
+            primary: '#00bfff',
+            secondary: '#66d1f0',
+        },
+        daishi: {
+            primary: '#1a7fd0',
+            secondary: '#66b0e8',
+        },
+        kameido: {
+            primary: '#1a7fd0',
+            secondary: '#66b0e8',
+        },
+        isesaki: {
+            primary: '#ed1a3e',
+            secondary: '#fd2a5a',
+        },
+        nikko: {
+            primary: '#ffa500',
+            secondary: '#ffb511',
         },
     };
 
@@ -405,7 +748,7 @@ watch(
     () => lineId.value,
     (newLine) => {
         const colors = LINE_THEME_COLOR[newLine] ?? {
-            primary: '#1976D2',
+            primary: '#00fa9a',
             secondary: '#424242',
         };
 
@@ -425,11 +768,25 @@ function toggleTheme() {
         : theme.change('dark');
 }
 
+const closeNotice = () => {
+    showFirstNotice.value = false;
+    localStorage.setItem('retration_first_notice', '0');
+};
+
 onMounted(() => {
     const prefersDark = window.matchMedia(
         '(prefers-color-scheme: dark)',
     ).matches;
     theme.change(prefersDark ? 'dark' : 'light');
+    const seen = localStorage.getItem('retration_first_notice');
+    if (!seen) {
+        showFirstNotice.value = true;
+    }
+    window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll);
 });
 </script>
 
@@ -438,6 +795,16 @@ onMounted(() => {
     width: 90%;
     max-width: 900px;
     margin: auto;
+}
+
+.app-bar-top {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+}
+
+.app-bar-scrolled {
+    backdrop-filter: blur(8px);
+    transition: background-color 0.3s ease;
 }
 
 .icon-press {

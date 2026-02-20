@@ -9,6 +9,21 @@
             データは45sで自動更新されます
         </v-card-subtitle>
         <v-card-text class="pa-3">
+            <v-alert
+                v-if="lineNotice"
+                type="info"
+                variant="tonal"
+                class="text-body-1 warning-card mt-3 mb-6 rounded-lg"
+            >
+                {{ lineNotice }}
+            </v-alert>
+            <v-alert
+                type="warning"
+                variant="tonal"
+                class="text-body-1 warning-card mt-3 mb-6 rounded-lg"
+            >
+                こちらのページは期間限定公開です
+            </v-alert>
             <v-list class="train-line" dense>
                 <v-list-item
                     v-for="(station, index) in StationInfo"
@@ -139,6 +154,7 @@
                                         backgroundColor: train.traintypeColor,
                                         color: '#fff',
                                         padding: '1px 6px',
+                                        marginBottom: '4px',
                                         borderRadius: '4px',
                                     }"
                                 >
@@ -168,6 +184,9 @@
                             }"
                         >
                             {{ selectedTrain.traintypeName }}
+                            <span v-if="selectedTrain.traincarcomposition">
+                                {{ selectedTrain.traincarcomposition }}両
+                            </span>
                         </h2>
                         <v-btn variant="plain" icon @click="dialog = false">
                             <v-icon icon="mdi-close" />
@@ -180,8 +199,18 @@
                             backgroundColor: selectedTrain.destinationColor,
                         }"
                     >
-                        {{ selectedTrain.destinationName
-                        }}<span class="dialog-iki">行</span>
+                        <template
+                            v-if="
+                                props.lineId === 'yamanote' &&
+                                selectedTrain.destinationName === '大崎'
+                            "
+                        >
+                            山手線 {{ displayDirection }}
+                        </template>
+                        <template v-else>
+                            {{ selectedTrain.destinationName
+                            }}<span class="dialog-iki">行</span>
+                        </template>
                     </h1>
                 </v-card-title>
 
@@ -253,7 +282,9 @@
                                         </v-list-item-subtitle>
                                     </v-list-item>
 
-                                    <v-list-item>
+                                    <v-list-item
+                                        v-if="selectedTrain.originName"
+                                    >
                                         <v-list-item-title
                                             >始発駅（経由）</v-list-item-title
                                         >
@@ -304,7 +335,9 @@
                                         </v-list-item-subtitle>
                                     </v-list-item>
 
-                                    <v-list-item>
+                                    <v-list-item
+                                        v-if="selectedTrain.trainOwner"
+                                    >
                                         <v-list-item-title
                                             >車両保有</v-list-item-title
                                         >
@@ -428,7 +461,8 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import { getCalendar } from '@/utils/Calendar';
 import { useTouch } from 'vuetify/lib/components/VNavigationDrawer/touch.mjs';
-import { isJSDocMemberName, isNamedTupleMember } from 'typescript';
+import { isJSDocMemberName, isNamedTupleMember, isToken } from 'typescript';
+import { it } from 'vuetify/locale';
 
 interface Station {
     same: string;
@@ -438,6 +472,7 @@ interface Station {
 
 interface Train {
     same: string;
+    carComposition: string;
     direction: string;
     owner: string;
     originstation: string;
@@ -468,6 +503,7 @@ interface TrainTimetableData {
     train_nu: string;
     calendar: string;
     train_type: string;
+    carComposition: string;
     direction: string;
     timetable: {
         station: string;
@@ -530,7 +566,8 @@ const LINE_MAP: Record<string, string> = {
     soburapid: 'odpt.Railway:JR-East.SobuRapid',
     yokohama: 'odpt.Railway:JR-East.Yokohama',
     utsunomiya: 'odpt.Railway:JR-East.Utsunomiya',
-    takasaki: 'odpt.Railway:JR-East.Takasaki',
+    takasaki: 'odpt.Railway:JR-East.Takasaki,odpt.Railway:JR-East.Utsunomiya',
+    joban: 'odpt.Railway:JR-East.Joban',
     jobanrapid: 'odpt.Railway:JR-East.JobanRapid',
     jobanlocal: 'odpt.Railway:JR-East.JobanLocal',
     saikyokawagoe: 'odpt.Railway:JR-East.SaikyoKawagoe',
@@ -538,6 +575,23 @@ const LINE_MAP: Record<string, string> = {
     chuorapid: 'odpt.Railway:JR-East.ChuoRapid',
     nambu: 'odpt.Railway:JR-East.Nambu',
     chuosobulocal: 'odpt.Railway:JR-East.ChuoSobuLocal',
+    tokaido: 'odpt.Railway:JR-East.Tokaido',
+    chuo: 'odpt.Railway:JR-East.Chuo',
+    sotetsudirect: 'odpt.Railway:JR-East.SotetsuDirect',
+    itsukaichi: 'odpt.Railway:JR-East.Itsukaichi',
+    ome: 'odpt.Railway:JR-East.Ome',
+    yamanote: 'odpt.Railway:JR-East.Yamanote',
+    kawagoe: 'odpt.Railway:JR-East.Kawagoe',
+    tojo: 'odpt.Railway:Tobu.Tojo',
+    tobuskytree: 'odpt.Railway:Tobu.TobuSkytree',
+    daishi: 'odpt.Railway:Tobu.Daishi',
+    ogose: 'odpt.Railway:Tobu.Ogose',
+    kameido: 'odpt.Railway:Tobu.Kameido',
+    isesaki: 'odpt.Railway:Tobu.Isesaki',
+    nikko: 'odpt.Railway:Tobu.Nikko',
+    tobuurbanpark: 'odpt.Railway:Tobu.TobuUrbanPark',
+    kinugawa: 'odpt.Railway:Tobu.Kinugawa',
+    main: 'odpt.Railway:Keikyu.Main',
 };
 
 const ROUTE_ICONS: Record<string, string> = {
@@ -555,13 +609,52 @@ const ROUTE_ICONS: Record<string, string> = {
     keiyo: '/retration2/symbole/keiyo-train.png',
     chuorapid: '/retration2/symbole/Chuorapid-train.png',
     nambu: '/retration2/symbole/Nambu-train.png',
-    chuosobulocal: '/retration2/symbole/Sobulocal-train.png',
+    chuosobulocal: '/retration2/symbole/Chuosobulocal-train.png',
+    sotetsudirect: '/retration2/symbole/Sotetsudirect-train.png',
+    itsukaichi: '/retration2/symbole/Itsukaichi-train.png',
+    tokaido: '/retration2/symbole/Tokaido-train.png',
+    kawagoe: '/retration2/symbole/Kawagoe-train.png',
+    yamanote: '/retration2/symbole/Yamanote-train.png',
+    ome: '/retration2/symbole/Ome-train.png',
+    tojo: '/retration2/symbole/Tojo-train.png',
+    tobuskytree: '/retration2/symbole/Tobuskytree-train.png',
+    ogose: '/retration2/symbole/Ogose-train.png',
+    daishi: '/retration2/symbole/Daishi-train.png',
+    kameido: '/retration2/symbole/Kameido-train.png',
+    nikko: '/retration2/symbole/Nikko-train.png',
+    isesaki: '/retration2/symbole/Isesaki-train.png',
+    tobuurbanpark: '/retration2/symbole/Tobuurbanpark-train.png',
+};
+
+const NOTICE: Record<string, string> = {
+    utsunomiya:
+        '東京 ~ 大宮間で同じ区間を走る高崎線、湘南新宿ラインの列車は表示されません',
+    saikyokawagoe: '川越 ~ 高麗川間の川越線はこのページには表示されません',
+    takasaki:
+        '東京 ~ 大宮間で同じ区間を走る宇都宮線、湘南新宿ラインの列車は表示されません',
+    shonanshinjuku:
+        '同じ区間を走る高崎線、宇都宮線、東海道線、横須賀線経由列車、埼京線、相鉄線直通列車は表示されません',
+    kawagoe: '大宮 ~ 川越間の川越線はこのページには表示されません',
+    tokaido: '湘南新宿ラインへ直通する列車は表示されません',
+    yamanote:
+        '山手線は、大崎行きのすべての列車の行き先が外回りか内回りと表示されます',
+    ome: 'データの都合上奥多摩〜青梅間の列車は表示されません',
+    itsukaichi: '立川〜拝島間の列車は青梅線のページに表示されます',
+    kameido:
+        '亀戸線の 小村井 - 東あずま - 亀戸水神 の区間については、列車在線位置の区別ができません',
+    isesaki:
+        '伊勢崎線は東武動物公園 - 館林間のみの列車位置情報表示で、その他の区間は駅名のみ表示されます',
+    nikko: '東武日光線は東武動物公園 - 新栃木間のみの列車位置情報表示で、その他の区間は駅名のみ表示されます',
 };
 
 const lineIcon = computed(() => {
     return (
         ROUTE_ICONS[props.lineId] || '/retration2/symbole/retration-icon.png'
     );
+});
+
+const lineNotice = computed(() => {
+    return NOTICE[props.lineId];
 });
 
 const dialog = ref(false);
@@ -576,7 +669,7 @@ const delayText = computed<string>(() => {
     }
 
     const delayMin = Math.floor(delaySec / 60);
-    return `${delayMin} 分遅延`;
+    return `${delayMin} 分遅れ`;
 });
 
 const directionMap: Record<string, string> = {
@@ -620,7 +713,7 @@ async function fetchTrainLocation() {
 
         const response = await fetch(
             `https://api-challenge.odpt.org/api/v4/odpt:Train` +
-                `?odpt:operator=odpt.Operator:JR-East` +
+                `?odpt:operator=odpt.Operator:JR-East,odpt.Operator:Tobu,odpt.Operator:Keikyu` +
                 `&odpt:railway=${encodeURIComponent(lineKey)}` +
                 `&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0`,
         );
@@ -631,10 +724,10 @@ async function fetchTrainLocation() {
 
         LocationInfo.value = data.map((item) => ({
             same: item['owl:sameAs'] ?? '',
+            carComposition: item['odpt:carComposition'] ?? '',
             direction: item['odpt:railDirection'] ?? '',
-            owner: item['odpt:trainOwner'] ?? '自社局',
-            originstation:
-                item['odpt:originStation']?.[0] ?? '始発駅データなし',
+            owner: item['odpt:trainOwner'] ?? null,
+            originstation: item['odpt:originStation']?.[0] ?? null,
             destinationstation:
                 item['odpt:destinationStation']?.[0] ?? '行き先データなし',
             delay: item['odpt:delay'] ?? 0,
@@ -659,7 +752,8 @@ async function fetchStationOrder(
     const res = await fetch(
         `https://api-challenge.odpt.org/api/v4/odpt:Railway?owl:sameAs=${railwaySameAs}&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0`,
     );
-    console.log(railwaySameAs);
+    console.log('railway sameas', railwaySameAs);
+    console.log(res);
     if (!res.ok) throw new Error('Railway fetch error');
 
     const data = (await res.json()) as OdptRailway[];
@@ -680,7 +774,7 @@ async function fetchStationInfo() {
 
         const stationRes = await fetch(
             `https://api-challenge.odpt.org/api/v4/odpt:Station` +
-                `?odpt:operator=odpt.Operator:JR-East` +
+                `?odpt:operator=odpt.Operator:JR-East,odpt.Operator:Tobu,odpt.Operator:Keikyu` +
                 `&odpt:railway=${encodeURIComponent(lineKey)}` +
                 `&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0`,
         );
@@ -700,7 +794,8 @@ async function fetchStationInfo() {
             }));
         if (
             props.lineId === 'shonanshinjuku' ||
-            props.lineId === 'saikyokawagoe'
+            props.lineId === 'saikyokawagoe' ||
+            props.lineId === 'yamanote'
         ) {
             processedStations.sort(
                 (a, b) =>
@@ -833,6 +928,7 @@ const LocationInfoWithTypeName = computed(() => {
             ...train,
             traintypeName: type?.name ?? train.traintype,
             traintypeShort: type?.short ?? train.traintype,
+            traincarcomposition: train?.carComposition ?? null,
             traintypeColor: type?.color ?? '#000',
             trainOwner: company?.name ?? train.owner,
             originName: origin?.name ?? train.originstation,

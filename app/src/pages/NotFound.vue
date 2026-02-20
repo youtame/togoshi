@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="All">
         <div class="top-main-view">
             <v-row
                 class="gap-4"
@@ -48,12 +48,13 @@
         </div>
         <v-container class="notfound-section">
             <div class="text-center">
-                <h1 class="display-1 font-weight-bold mb-6">404</h1>
+                <h1 class="text-h2 font-weight-bold mb-6">404</h1>
                 <h2 class="headline font-weight-semibold mb-4">
                     ページが見つかりません
                 </h2>
                 <p class="body-large mb-6">
-                    お探しのページは見つかりませんでした。URLが間違っている可能性があります。
+                    申し訳ございません。お探しのページは見つかりませんでした<br />
+                    URLが間違っている可能性があります
                 </p>
             </div>
             <Top />
@@ -61,6 +62,14 @@
     </div>
 </template>
 <style scoped>
+.v-container {
+    padding: 0px 0px 0px 0px !important;
+}
+
+.All {
+    min-height: 500px;
+}
+
 .top-main-view {
     margin-top: 45px;
 }
@@ -81,7 +90,6 @@
     max-width: 1000px;
     margin: 60px auto;
     margin-bottom: 30px;
-    padding: 0 16px;
 }
 
 h1 {

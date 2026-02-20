@@ -92,7 +92,8 @@
     {
         "TrainType": "odpt.TrainType:JR-East.CommuterSpecialRapid",
         "name": "通勤特別快速",
-        "short": "通特快"
+        "short": "通特",
+        "color": "#8d3ed9"
     },
     {
         "TrainType": "odpt.TrainType:JR-East.ChuoSpecialRapid",
@@ -130,5 +131,70 @@
         "TrainType": "odpt.TrainType:Keikyu.AirportRapidLimitedExpress",
         "name": "エアポート快特",
         "short": "エ快"
+    },
+    {
+        "TrainType": "odpt.TrainType:Keikyu.MorningWing",
+        "name": "モーニングウィング",
+        "short": "モウ"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.Local",
+        "name": "普通",
+        "short": "普通",
+        "color": "#000000"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.Express",
+        "name": "急行",
+        "short": "急行",
+        "color": "#ff3300"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.KawagoeLimitedExpress",
+        "name": "川越特急",
+        "short": "川特",
+        "color": "#800080"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.LimitedExpress",
+        "name": "特急",
+        "short": "特急",
+        "color": "#ff0000"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.TJ-Liner",
+        "name": "TJライナー",
+        "short": "TJ",
+        "color": "#ff6600"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.TH-LINER",
+        "name": "THライナー",
+        "short": "TH",
+        "color": "#ff6600"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.SemiExpress",
+        "name": "準急",
+        "short": "準急",
+        "color": "#009966"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.RapidExpress",
+        "name": "快速急行",
+        "short": "快急",
+        "color": "#0000ff"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.SectionSemiExpress",
+        "name": "区間準急",
+        "short": "区準",
+        "color": "#0f0"
+    },
+    {
+        "TrainType": "odpt.TrainType:Tobu.SectionExpress",
+        "name": "区間急行",
+        "short": "区急",
+        "color": "#f9f"
     }
 ]

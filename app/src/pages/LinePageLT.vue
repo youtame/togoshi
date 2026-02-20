@@ -2,7 +2,9 @@
     <div>
         <Top />
         <TraininfoLT :line-id="lineId" />
-        <TrainlocationLT :line-id="lineId" />
+        <Suspense>
+            <TrainlocationLT :line-id="lineId" />
+        </Suspense>
         <Aboutsite />
     </div>
 </template>
@@ -16,7 +18,10 @@ import Aboutsite from '@/components/AboutSite.vue';
 import Top from '@/components/Top.vue';
 
 const TrainlocationLT = defineAsyncComponent({
-    loader: () => import('@/components/TrainLocationLT.vue'),
+    loader: async () => {
+        await new Promise((resolve) => setTimeout(resolve, 0));
+        return import('@/components/TrainLocationLT.vue');
+    },
     loadingComponent: () => import('@/components/Loading.vue'),
 });
 
@@ -37,8 +42,25 @@ const LINE_NAME: Record<string, string> = {
     jobanrapid: 'JR常磐快速線',
     jobanlocal: 'JR常磐線各駅停車',
     keiyo: 'JR京葉線',
-    saikyokawagoe: 'JR埼京.川越線',
+    saikyokawagoe: 'JR埼京・川越線',
     takasaki: 'JR高崎線',
+    chuorapid: 'JR中央線快速',
+    chuosobulocal: 'JR中央・総武線各駅停車',
+    tokaido: 'JR東海道線',
+    sotetsudirect: 'JR相鉄直通線',
+    itsukaichi: 'JR五日市線',
+    nambu: 'JR南武線',
+    ome: 'JR青梅線',
+    yamanote: 'JR山手線',
+    kawagoe: 'JR川越線',
+    tojo: '東武東上線',
+    tobuskytree: '東武スカイツリーライン',
+    ogose: '東武越生線',
+    daishi: '東武大師線',
+    kameido: '東武亀戸線',
+    tobuurbanpark: '東武アーバンパークライン',
+    isesaki: '東武伊勢崎線',
+    nikko: '東武日光線',
 };
 
 watchEffect(() => {

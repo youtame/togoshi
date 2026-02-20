@@ -9,6 +9,14 @@
             データは45sで自動更新されます
         </v-card-subtitle>
         <v-card-text class="pa-3">
+            <v-alert
+                v-if="lineNotice"
+                type="warning"
+                variant="tonal"
+                class="text-body-1 warning-card mt-3 mb-6 rounded-lg"
+            >
+                {{ lineNotice }}
+            </v-alert>
             <v-list class="train-line" dense>
                 <v-list-item
                     v-for="(station, index) in StationInfo"
@@ -506,10 +514,18 @@ const ROUTE_ICONS: Record<string, string> = {
     greenline: '/retration2/symbole/GreenLine-train.png',
 };
 
+const NOTICE: Record<string, string> = {
+    mita: '目黒 - 白金台間は他社線扱いのため表示されません',
+};
+
 const lineIcon = computed(() => {
     return (
         ROUTE_ICONS[props.lineId] || '/retration2/symbole/retration-icon.png'
     );
+});
+
+const lineNotice = computed(() => {
+    return NOTICE[props.lineId];
 });
 
 const dialog = ref(false);

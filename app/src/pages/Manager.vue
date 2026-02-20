@@ -8,21 +8,24 @@
             <v-list class="rounded-lg pa-3 mb-2 border-md">
                 <v-list-item>
                     <v-list-item-content>
-                        このサイトをご利用いただきありがとうございます。このサイトは102℃が運営しています。　読み方は、10-2-doでten-two-doで鉄道の語呂合わせになっています。RetrationはReal-time
-                        Train-Informationの略です。102℃の他のサービスについては<a
-                            href="https://lozdo.com"
+                        当サイトをご利用いただき、ありがとうございます。
+                        本サイトは 102℃ が運営しています。
+                        102℃（読み方：10-2-do／ten-two-do）は、「鉄道」を語呂合わせした名称です。
+                        Retration は Real-time Train Information の略で、
+                        列車の位置情報をより身近に、分かりやすくお伝えするサービスです。
+                        102℃の他のサービスについては
+                        <a href="https://lozdo.com">こちら</a>、
+                        本サイトに関するお問い合わせは
+                        <a class="normal-btn" href="/retration2/comments"
                             >こちら</a
-                        >から。このサイトに関するお問い合わせは<a
-                            class="normal-btn"
-                            href="/retration2/comments"
-                            >こちら</a
-                        >からお願いいたします。
+                        >
+                        よりお願いいたします。
                     </v-list-item-content>
                 </v-list-item>
             </v-list>
         </div>
         <v-row
-            class="px-4 gap-4 mb-12"
+            class="gap-4 mb-12"
             justify="start"
             direction="column"
             :md-direction="'row'"
@@ -50,11 +53,14 @@
 </template>
 
 <style scoped>
+.v-container {
+    padding: 0px 0px 0px 0px !important;
+}
+
 .manager-section {
     max-width: 1000px;
-    margin: 60px auto;
+    margin: 45px auto;
     margin-bottom: 30px;
-    padding: 0 16px;
 }
 
 .main-button {
@@ -64,7 +70,6 @@
     min-width: 220px;
     height: 50px;
     gap: 12px;
-    padding: 0 16px;
 
     font-size: 17px;
     font-weight: 600;

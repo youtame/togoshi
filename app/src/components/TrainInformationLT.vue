@@ -22,12 +22,13 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+import { it } from 'vuetify/locale';
 
 const jsonData = ref<any[]>([]);
-const trainInfo = ref('Loading...');
+const trainInfo = ref('読み込み中...');
 const fetchTime = ref('');
 
-const normalMessages = ['平常運転'];
+const normalMessages = ['平常運転', '平常どおり運転しています。'];
 
 const textClass = computed(() => {
     return normalMessages.includes(trainInfo.value) ? '' : 'text-error';
@@ -52,12 +53,27 @@ const LINE_MAP: Record<string, string> = {
     chuorapid: 'odpt.TrainInformation:JR-East.ChuoRapid',
     saikyokawagoe: 'odpt.TrainInformation:JR-East.SaikyoKawagoe',
     chuosobulocal: 'odpt.TrainInformation:JR-East.ChuoSobuLocal',
+    tokaido: 'odpt.TrainInformation:JR-East.Tokaido',
+    sotetsudirect: 'odpt.TrainInformation:JR-East.SotetsuDirect',
+    itsukaichi: 'odpt.TrainInformation:JR-East.Itsukaichi',
+    nambu: 'odpt.TrainInformation:JR-East.Nambu',
+    kawagoe: 'odpt.TrainInformation:JR-East.Kawagoe',
+    yamanote: 'odpt.TrainInformation:JR-East.Yamanote',
+    ome: 'odpt.TrainInformation:JR-East.Ome',
+    tojo: 'odpt.TrainInformation:Tobu.Tojo',
+    tobuskytree: 'odpt.TrainInformation:Tobu.TobuSkytree',
+    tobuurbanpark: 'odpt.TrainInformation:Tobu.TobuUrbanPark',
+    ogose: 'odpt.TrainInformation:Tobu.Ogose',
+    daishi: 'odpt.TrainInformation:Tobu.Daishi',
+    kameido: 'odpt.TrainInformation:Tobu.Kameido',
+    isesaki: 'odpt.TrainInformation:Tobu.Isesaki',
+    nikko: 'odpt.TrainInformation:Tobu.Nikko',
 };
 
 async function fetchTrainInfo() {
     try {
         const response = await fetch(
-            'https://api-challenge.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:jre-is&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0',
+            'https://api-challenge.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:jre-is,odpt.Operator:Tobu&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0',
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();

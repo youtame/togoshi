@@ -24,7 +24,7 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 
 const jsonData = ref<any[]>([]);
-const trainInfo = ref('Loading...');
+const trainInfo = ref('読み込み中...');
 const fetchTime = ref('');
 
 const normalMessages = ['現在、１５分以上の遅延はありません。', '平常運行'];

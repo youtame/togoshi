@@ -22,7 +22,7 @@
             </v-list>
         </div>
         <v-row
-            class="px-4 gap-4 mb-12"
+            class="gap-4 mb-12"
             justify="start"
             direction="column"
             :md-direction="'row'"
@@ -70,11 +70,13 @@
 </template>
 
 <style scoped>
+.v-container {
+    padding: 0px 0px 0px 0px !important;
+}
 .comments-section {
     max-width: 1000px;
-    margin: 60px auto;
+    margin: 45px auto;
     margin-bottom: 30px;
-    padding: 0 16px;
 }
 
 .main-button {

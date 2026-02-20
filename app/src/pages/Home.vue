@@ -31,7 +31,7 @@
             <h2 class="mb-3">路線一覧</h2>
 
             <div v-for="operator in operators" :key="operator.id" class="mb-4">
-                <h3 class="mb-2 mt-5">{{ operator.name }}</h3>
+                <h3 class="mb-2 mt-12">{{ operator.name }}</h3>
 
                 <div class="line-container d-flex">
                     <v-btn
@@ -51,7 +51,12 @@
                             class="line-icon"
                             alt="Line icon"
                         />
-                        <span class="line-text">{{ line.name }}</span>
+                        <div class="d-block">
+                            <div class="d-flex flex-column align-start">
+                                <span class="line-text">{{ line.name }}</span>
+                                <span class="line-tip">{{ line.tip }}</span>
+                            </div>
+                        </div>
                     </v-btn>
                 </div>
             </div>
@@ -94,7 +99,7 @@
         </div>
 
         <v-row
-            class="px-4 gap-4 mb-12"
+            class="gap-4 mb-4"
             justify="start"
             direction="column"
             :md-direction="'row'"
@@ -125,17 +130,34 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
-                    to="/manager"
+                    to="/comments"
                 >
                     <v-icon
-                        icon="mdi-account-outline"
+                        icon="mdi-comment-alert-outline"
                         class="mr-2"
                         size="large"
                     ></v-icon>
-                    サイト運営者
+                    お問い合わせ
                 </v-btn></v-col
             >
         </v-row>
+
+        <v-btn
+            variant="flat"
+            rounded="lg"
+            class="main-button d-flex align-center font-weight-bold mb-12 border-md"
+            color="surface"
+            elevation="0"
+            rel="noopener"
+            to="/manager"
+        >
+            <v-icon
+                icon="mdi-account-outline"
+                class="mr-2"
+                size="large"
+            ></v-icon>
+            サイト運営者
+        </v-btn>
 
         <div class="warning-section">
             <v-alert
@@ -217,14 +239,29 @@ const operators = [
         name: 'JR東日本(期間限定公開)',
         lines: [
             {
+                id: 'itsukaichi',
+                name: '五日市線',
+                tip: '拝島 ~ 武蔵五日市',
+                icon: '/retration2/symbole/Itsukaichi-symbole.png',
+                to: '/line/timelimited/itsukaichi',
+            },
+            {
                 id: 'utsunomiya',
                 name: '宇都宮線',
+                tip: '東京 ~ 黒磯',
                 icon: '/retration2/symbole/Utsunomiya-symbole.png',
                 to: '/line/timelimited/utsunomiya',
             },
             {
+                id: 'kawagoe',
+                name: '川越線',
+                tip: '川越 ~ 高麗川',
+                icon: '/retration2/symbole/Kawagoe-symbole.png',
+                to: '/line/timelimited/kawagoe',
+            },
+            {
                 id: 'keihintohokunegishi',
-                name: '京浜東北.根岸線',
+                name: '京浜東北・根岸線',
                 icon: '/retration2/symbole/Keihintohokunegishi-symbole.png',
                 to: '/line/timelimited/keihintohokunegishi',
             },
@@ -236,13 +273,36 @@ const operators = [
             },
             {
                 id: 'saikyokawagoe',
-                name: '埼京.川越線',
+                name: '埼京・川越線',
+                tip: '大崎 ~ 川越',
                 icon: '/retration2/symbole/Saikyokawagoe-symbole.png',
                 to: '/line/timelimited/saikyokawagoe',
             },
             {
+                id: 'jobanrapid',
+                name: '常磐線快速',
+                tip: '品川 ~ 取手',
+                icon: '/retration2/symbole/Jobanrapid-symbole.png',
+                to: '/line/timelimited/jobanrapid',
+            },
+            {
+                id: 'jobanlocal',
+                name: '常磐線各駅停車',
+                tip: '綾瀬 ~ 取手',
+                icon: '/retration2/symbole/Jobanlocal-symbole.png',
+                to: '/line/timelimited/jobanlocal',
+            },
+            {
+                id: 'sotetsudirect',
+                name: '相鉄線直通列車',
+                tip: '大崎 ~ 羽沢横浜国大',
+                icon: '/retration2/symbole/Sotetsudirect-symbole.png',
+                to: '/line/timelimited/sotetsudirect',
+            },
+            {
                 id: 'soburapid',
                 name: '総武快速線',
+                tip: '東京 ~ 千葉',
                 icon: '/retration2/symbole/Soburapid-symbole.png',
                 to: '/line/timelimited/soburapid',
             },
@@ -255,8 +315,36 @@ const operators = [
             {
                 id: 'takasaki',
                 name: '高崎線',
+                tip: '東京 ~ 高崎',
                 icon: '/retration2/symbole/Takasaki-symbole.png',
                 to: '/line/timelimited/takasaki',
+            },
+            {
+                id: 'tokaido',
+                name: '東海道線',
+                tip: '東京 ~ 熱海',
+                icon: '/retration2/symbole/Tokaido-symbole.png',
+                to: '/line/timelimited/tokaido',
+            },
+            {
+                id: 'chuorapid',
+                name: '中央線快速',
+                tip: '東京 ~ 高尾',
+                icon: '/retration2/symbole/Chuorapid-symbole.png',
+                to: '/line/timelimited/chuorapid',
+            },
+            {
+                id: 'chuosobulocal',
+                name: '中央・総武線各停',
+                tip: '千葉 ~ 三鷹',
+                icon: '/retration2/symbole/Chuosobulocal-symbole.png',
+                to: '/line/timelimited/chuosobulocal',
+            },
+            {
+                id: 'nambu',
+                name: '南武線',
+                icon: '/retration2/symbole/Nambu-symbole.png',
+                to: '/line/timelimited/nambu',
             },
             {
                 id: 'musashino',
@@ -265,8 +353,15 @@ const operators = [
                 to: '/line/timelimited/musashino',
             },
             {
+                id: 'yamanote',
+                name: '山手線',
+                icon: '/retration2/symbole/Yamanote-symbole.png',
+                to: '/line/timelimited/yamanote',
+            },
+            {
                 id: 'yokosuka',
                 name: '横須賀線',
+                tip: '東京 ~ 久里浜',
                 icon: '/retration2/symbole/Yokosuka-symbole.png',
                 to: '/line/timelimited/yokosuka',
             },
@@ -275,6 +370,60 @@ const operators = [
                 name: '横浜線',
                 icon: '/retration2/symbole/Yokohama-symbole.png',
                 to: '/line/timelimited/yokohama',
+            },
+        ],
+    },
+    {
+        id: 'tobu',
+        name: '東武鉄道(期間限定公開)',
+        lines: [
+            {
+                id: 'tobuurbanpark',
+                name: 'アーバンパークライン',
+                icon: '/retration2/symbole/Tobuurbanpark-symbole.png',
+                to: '/line/timelimited/tobuurbanpark',
+            },
+            {
+                id: 'isesaki',
+                name: '伊勢崎線',
+                icon: '/retration2/symbole/Isesaki-symbole.png',
+                to: '/line/timelimited/isesaki',
+            },
+            {
+                id: 'ogose',
+                name: '越生線',
+                icon: '/retration2/symbole/Ogose-symbole.png',
+                to: '/line/timelimited/ogose',
+            },
+            {
+                id: 'kameido',
+                name: '亀戸線',
+                icon: '/retration2/symbole/Kameido-symbole.png',
+                to: '/line/timelimited/kameido',
+            },
+            {
+                id: 'tobuskytree',
+                name: 'スカイツリーライン',
+                icon: '/retration2/symbole/Tobuskytree-symbole.png',
+                to: '/line/timelimited/tobuskytree',
+            },
+            {
+                id: 'daishi',
+                name: '大師線',
+                icon: '/retration2/symbole/Daishi-symbole.png',
+                to: '/line/timelimited/daishi',
+            },
+            {
+                id: 'tojo',
+                name: '東上線',
+                icon: '/retration2/symbole/Tojo-symbole.png',
+                to: '/line/timelimited/tojo',
+            },
+            {
+                id: 'nikko',
+                name: '日光線',
+                icon: '/retration2/symbole/Nikko-symbole.png',
+                to: '/line/timelimited/nikko',
             },
         ],
     },
@@ -327,21 +476,23 @@ const formatDate = (dateStr: string) => {
     gap: 40px;
     max-width: 1100px;
     margin: 60px auto 0;
-    padding: 0 16px;
     animation: fadeUp 0.6s ease-out;
 }
 
 .hero-image {
     flex: 1;
     order: 2;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+.yoko {
+    display: block;
 }
 
 .main-visual {
     max-width: 1000px;
-    margin: 45px auto 0;
-    padding: 0 16px;
+    margin: 80px auto 0;
 }
 
 .main-photo {
@@ -361,6 +512,9 @@ const formatDate = (dateStr: string) => {
 }
 
 .main-title h1 {
+    font-family: 'Inter';
+    letter-spacing: 1px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 1;
     margin-bottom: 12px;
@@ -368,6 +522,8 @@ const formatDate = (dateStr: string) => {
 }
 
 .main-title h2 {
+    font-family: 'Inter', 'Zen Kaku Gothic New', sans-serif;
+    font-size: 55px;
     font-weight: bold;
     line-height: 1.3;
     margin-bottom: 12px;
@@ -386,7 +542,6 @@ const formatDate = (dateStr: string) => {
 .line-section {
     max-width: 1000px;
     margin: 45px auto 60px;
-    padding: 0 16px;
 }
 
 .line-container {
@@ -430,10 +585,14 @@ const formatDate = (dateStr: string) => {
     white-space: normal;
 }
 
+.line-tip {
+    font-size: 15px;
+    color: #a0a0a0;
+}
+
 .notice-section {
     max-width: 1000px;
     margin: 60px auto 30px;
-    padding: 0 16px;
 }
 
 .notice-item {
@@ -489,7 +648,6 @@ const formatDate = (dateStr: string) => {
 
 .warning-section {
     max-width: 1000px;
-    padding: 0 16px;
 }
 
 .slide-enter-active,
@@ -524,8 +682,14 @@ const formatDate = (dateStr: string) => {
         order: 2;
     }
 
-    .main-title h1,
-    .main-title h2,
+    .main-title h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+    .main-title h2 {
+        text-align: center;
+        font-size: 40px;
+    }
     .main-title h3 {
         text-align: center;
     }
@@ -537,8 +701,8 @@ const formatDate = (dateStr: string) => {
 
 @media (max-width: 600px) {
     .hero-image {
-        width: 140px;
-        height: 140px;
+        width: 160px;
+        height: 160px;
     }
 
     .line-button {

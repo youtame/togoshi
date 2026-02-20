@@ -1,18 +1,69 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
+import type { RouteLocationNormalized } from 'vue-router';
+
 const Home = () => import('@/pages/Home.vue');
+const Home2 = () => import('@/pages/Home2.vue');
 const Comments = () => import('@/pages/Comments.vue');
 const AboutSite = () => import('@/pages/AboutSite.vue');
 const Manager = () => import('@/pages/Manager.vue');
 const LinePage = () => import('@/pages/LinePage.vue');
 const LinePageLT = () => import('@/pages/LinePageLT.vue');
 const NotFound = () => import('@/pages/NotFound.vue');
+const Status = () => import('@/pages/Status.vue');
+
+const VALID_LINES = [
+    'asakusa',
+    'mita',
+    'shinjuku',
+    'oedo',
+    'blueline',
+    'greenline',
+    'nambu',
+    'chuo',
+    'musashino',
+    'shonanshinjuku',
+    'yokosuka',
+    'yokohama',
+    'soburapid',
+    'keihintohokunegishi',
+    'utsunomiya',
+    'jobanrapid',
+    'jobanlocal',
+    'keiyo',
+    'saikyokawagoe',
+    'takasaki',
+    'chuorapid',
+    'chuosobulocal',
+    'tokaido',
+    'sotetsudirect',
+    'itsukaichi',
+    'ome',
+    'yamanote',
+    'chuo',
+    'kawagoe',
+    'tojo',
+    'tobuskytree',
+    'daishi',
+    'ogose',
+    'kameido',
+    'isesaki',
+    'nikko',
+    'tobuurbanpark',
+    'main',
+];
 
 const routes = [
     {
         path: '/',
         name: 'home',
         component: Home,
+        meta: { title: 'Retration｜列車位置検索' },
+    },
+    {
+        path: '/home2',
+        name: 'home2',
+        component: Home2,
         meta: { title: 'Retration｜列車位置検索' },
     },
     {
@@ -34,11 +85,25 @@ const routes = [
         meta: { title: 'Retration｜列車位置検索' },
     },
     {
+        path: '/status',
+        name: 'status',
+        component: Status,
+        meta: { title: 'Retration｜列車位置検索' },
+    },
+    {
         path: '/line/:lineId',
         name: 'line',
         component: LinePage,
         props: true,
         meta: { title: 'Retration｜列車位置検索' },
+        beforeEnter: (to: RouteLocationNormalized) => {
+            const param = to.params.lineId;
+            const lineId = Array.isArray(param) ? param[0] : param;
+
+            if (typeof lineId !== 'string' || !VALID_LINES.includes(lineId)) {
+                return { name: 'NotFound' };
+            }
+        },
     },
     {
         path: '/line/timelimited/:lineId',
@@ -46,7 +111,16 @@ const routes = [
         component: LinePageLT,
         props: true,
         meta: { title: 'Retration｜列車位置検索' },
+        beforeEnter: (to: RouteLocationNormalized) => {
+            const param = to.params.lineId;
+            const lineId = Array.isArray(param) ? param[0] : param;
+
+            if (typeof lineId !== 'string' || !VALID_LINES.includes(lineId)) {
+                return { name: 'NotFound' };
+            }
+        },
     },
+
     {
         path: '/:pathMatch(.*)*',
         name: 'NotFound',

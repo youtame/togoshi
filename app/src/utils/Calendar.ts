@@ -10,13 +10,24 @@ const Manual_holiday = [
     '2026-01-03',
 ];
 
+function isHolidayOrWeekend(date: Date): boolean {
+    const ymd = date.toISOString().slice(0, 10);
+    const day = date.getDay();
+    return (
+        Manual_holiday.includes(ymd) ||
+        day === 0 ||
+        day === 6 ||
+        isHoliday(date)
+    );
+}
+
 export function getCalendar(dateInput?: DateInput): string {
     const date =
         dateInput instanceof Date
             ? dateInput
             : dateInput
-            ? new Date(dateInput)
-            : new Date();
+              ? new Date(dateInput)
+              : new Date();
 
     if (isNaN(date.getTime())) {
         console.warn('Invalid date input, fallback to Weekday');
@@ -25,22 +36,24 @@ export function getCalendar(dateInput?: DateInput): string {
 
     const ymd = date.toISOString().slice(0, 10);
     const day = date.getDay();
+    const hour = date.getHours();
 
-    // Railway specific holiday dates
-    if (Manual_holiday.includes(ymd)) {
+    const yesterday = new Date(date);
+    yesterday.setDate(date.getDate() - 1);
+    const yesterdayIsHoliday = isHolidayOrWeekend(yesterday);
+
+    if (!yesterdayIsHoliday && hour < 2) {
+        return 'odpt.Calendar:Weekday';
+    }
+
+    if (yesterdayIsHoliday && hour < 2) {
         return 'odpt.Calendar:SaturdayHoliday';
     }
 
-    // Saturday or Sunday
-    if (day === 0 || day === 6) {
+    if (isHolidayOrWeekend(date)) {
         return 'odpt.Calendar:SaturdayHoliday';
     }
 
-    // Japananse national holiday
-    if (isHoliday(date)) {
-        return 'odpt.Calendar:SaturdayHoliday';
-    }
-    // Weekday
     return 'odpt.Calendar:Weekday';
 }
 
