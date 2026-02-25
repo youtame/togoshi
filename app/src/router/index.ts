@@ -3,7 +3,6 @@ import { createRouter, createWebHistory } from 'vue-router';
 import type { RouteLocationNormalized } from 'vue-router';
 
 const Home = () => import('@/pages/Home.vue');
-const Home2 = () => import('@/pages/Home2.vue');
 const Comments = () => import('@/pages/Comments.vue');
 const AboutSite = () => import('@/pages/AboutSite.vue');
 const Manager = () => import('@/pages/Manager.vue');
@@ -51,6 +50,7 @@ const VALID_LINES = [
     'nikko',
     'tobuurbanpark',
     'main',
+    'uchibo',
 ];
 
 const routes = [
@@ -58,12 +58,6 @@ const routes = [
         path: '/',
         name: 'home',
         component: Home,
-        meta: { title: 'Retration｜列車位置検索' },
-    },
-    {
-        path: '/home2',
-        name: 'home2',
-        component: Home2,
         meta: { title: 'Retration｜列車位置検索' },
     },
     {

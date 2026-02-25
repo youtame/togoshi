@@ -27,6 +27,19 @@
             </div>
         </div>
 
+        <div class="warning-section">
+            <v-alert
+                type="info"
+                variant="tonal"
+                class="warning-card mt-12 rounded-lg"
+            >
+                ただいま、期間限定の任意アンケートを実施中です。（3月13日まで）2分ほどの簡単なアンケートです。回答にご協力いただける方は下のリンクからお願いいたします。<br /><br />アンケートの回答は<a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSe4_HGxyx3yvrsQdwsC3uYzetOzswR8gRu4cdTCjtHMiiWABw/viewform?usp=header"
+                    >こちら</a
+                >から
+            </v-alert>
+        </div>
+
         <div class="line-section">
             <h2 class="mb-3">路線一覧</h2>
 
@@ -246,6 +259,13 @@ const operators = [
                 to: '/line/timelimited/itsukaichi',
             },
             {
+                id: 'ome',
+                name: '青梅線',
+                tip: '立川 ~ 青梅',
+                icon: '/retration2/symbole/Ome-symbole.png',
+                to: '/line/timelimited/ome',
+            },
+            {
                 id: 'utsunomiya',
                 name: '宇都宮線',
                 tip: '東京 ~ 黒磯',
@@ -332,6 +352,13 @@ const operators = [
                 tip: '東京 ~ 高尾',
                 icon: '/retration2/symbole/Chuorapid-symbole.png',
                 to: '/line/timelimited/chuorapid',
+            },
+            {
+                id: 'chuo',
+                name: '中央本線',
+                tip: '高尾 ~ 甲府',
+                icon: '/retration2/symbole/Chuo-symbole.png',
+                to: '/line/timelimited/chuo',
             },
             {
                 id: 'chuosobulocal',

@@ -831,6 +831,20 @@
         "color": "#ffd400"
     },
     {
+        "TrainDestination": "odpt.Station:TokyoMetro.Tozai.Nakano",
+        "name": "中野",
+        "Line": "東京メトロ東西線",
+        "code": "T01",
+        "color": "#009bbf"
+    },
+    {
+        "TrainDestination": "odpt.Station:TokyoMetro.Tozai.Myoden",
+        "name": "妙典",
+        "Line": "東京メトロ東西線",
+        "code": "T21",
+        "color": "#009bbf"
+    },
+    {
         "TrainDestination": "odpt.Station:TokyoMetro.Tozai.NishiFunabashi",
         "name": "西船橋",
         "Line": "東京メトロ東西線",
@@ -997,6 +1011,13 @@
         "Line": "JR烏山線",
         "code": null,
         "color": "#339966"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Nikko.Nikko",
+        "name": "日光",
+        "Line": "JR日光線",
+        "code": null,
+        "color": "#880022"
     },
     {
         "TrainDestination": "odpt.Station:JR-East.Tokaido.Atami",
@@ -1422,6 +1443,13 @@
         "name": "代々木上原",
         "Line": "東京メトロ千代田線",
         "code": "C01",
+        "color": "#00bb85"
+    },
+    {
+        "TrainDestination": "odpt.Station:TokyoMetro.Chiyoda.Kasumigaseki",
+        "name": "霞ケ関",
+        "Line": "東京メトロ千代田線",
+        "code": "C08",
         "color": "#00bb85"
     },
     {

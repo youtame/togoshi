@@ -616,6 +616,7 @@ const ROUTE_ICONS: Record<string, string> = {
     kawagoe: '/retration2/symbole/Kawagoe-train.png',
     yamanote: '/retration2/symbole/Yamanote-train.png',
     ome: '/retration2/symbole/Ome-train.png',
+    chuo: '/retration2/symbole/Chuo-train.png',
     tojo: '/retration2/symbole/Tojo-train.png',
     tobuskytree: '/retration2/symbole/Tobuskytree-train.png',
     ogose: '/retration2/symbole/Ogose-train.png',
@@ -640,6 +641,7 @@ const NOTICE: Record<string, string> = {
         '山手線は、大崎行きのすべての列車の行き先が外回りか内回りと表示されます',
     ome: 'データの都合上奥多摩〜青梅間の列車は表示されません',
     itsukaichi: '立川〜拝島間の列車は青梅線のページに表示されます',
+    chuo: '中央線は、甲府 〜 塩尻間とすべての列車時の時刻表は表示されません',
     kameido:
         '亀戸線の 小村井 - 東あずま - 亀戸水神 の区間については、列車在線位置の区別ができません',
     isesaki:

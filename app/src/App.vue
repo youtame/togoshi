@@ -313,6 +313,11 @@ const lineItems: LineItem[] = [
         label: '五日市線',
     },
     {
+        to: '/line/timelimited/ome',
+        img: '/retration2/symbole/Ome-symbole.png',
+        label: '青梅線',
+    },
+    {
         to: '/line/timelimited/utsunomiya',
         img: '/retration2/symbole/Utsunomiya-symbole.png',
         label: '宇都宮線',
@@ -378,6 +383,11 @@ const lineItems: LineItem[] = [
         label: '中央線快速',
     },
     {
+        to: '/line/timelimited/chuo',
+        img: '/retration2/symbole/Chuo-symbole.png',
+        label: '中央本線',
+    },
+    {
         to: '/line/timelimited/chuosobulocal',
         img: '/retration2/symbole/Chuosobulocal-symbole.png',
         label: '中央・総武線各停',
@@ -390,7 +400,7 @@ const lineItems: LineItem[] = [
     {
         to: '/line/timelimited/musashino',
         img: '/retration2/symbole/Musashino-symbole.png',
-        label: 'JR武蔵野線',
+        label: '武蔵野線',
     },
     {
         to: '/line/timelimited/yamanote',
@@ -559,6 +569,10 @@ const LINE_MAP = {
         name: '青梅線走行位置',
         icon: '/retration2/symbole/Ome-symbole.png',
     },
+    chuo: {
+        name: '中央本線走行位置',
+        icon: '/retration2/symbole/Chuo-symbole.png',
+    },
     tojo: {
         name: '東上線走行位置',
         icon: '/retration2/symbole/Tojo-symbole.png',
@@ -706,6 +720,10 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
             primary: '#f15a22',
             secondary: '#ff8a50',
         },
+        chuo: {
+            primary: '#0074be',
+            secondary: '#66b0e8',
+        },
         tojo: {
             primary: '#0050a8',
             secondary: '#66b0e8',
@@ -774,10 +792,13 @@ const closeNotice = () => {
 };
 
 onMounted(() => {
-    const prefersDark = window.matchMedia(
-        '(prefers-color-scheme: dark)',
-    ).matches;
-    theme.change(prefersDark ? 'dark' : 'light');
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+    theme.change(mediaQuery.matches ? 'dark' : 'light');
+
+    mediaQuery.addEventListener('change', (e) => {
+        theme.change(e.matches ? 'dark' : 'light');
+    });
     const seen = localStorage.getItem('retration_first_notice');
     if (!seen) {
         showFirstNotice.value = true;

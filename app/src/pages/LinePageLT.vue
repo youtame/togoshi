@@ -53,6 +53,7 @@ const LINE_NAME: Record<string, string> = {
     ome: 'JR青梅線',
     yamanote: 'JR山手線',
     kawagoe: 'JR川越線',
+    chuo: 'JR中央本線',
     tojo: '東武東上線',
     tobuskytree: '東武スカイツリーライン',
     ogose: '東武越生線',

@@ -60,6 +60,7 @@ const LINE_MAP: Record<string, string> = {
     kawagoe: 'odpt.TrainInformation:JR-East.Kawagoe',
     yamanote: 'odpt.TrainInformation:JR-East.Yamanote',
     ome: 'odpt.TrainInformation:JR-East.Ome',
+    chuo: 'odpt.TrainInformation:JR-East.Chuo',
     tojo: 'odpt.TrainInformation:Tobu.Tojo',
     tobuskytree: 'odpt.TrainInformation:Tobu.TobuSkytree',
     tobuurbanpark: 'odpt.TrainInformation:Tobu.TobuUrbanPark',
