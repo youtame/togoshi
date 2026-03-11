@@ -6,7 +6,7 @@
         </v-card-title>
         <v-card-subtitle class="ma-1 text-subtitle-2">
             データ最終更新: {{ fetchTime }}<br />
-            データは45sで自動更新されます
+            データは45sで自動更新されます<br />
         </v-card-subtitle>
         <v-card-text class="pa-3">
             <v-alert
@@ -22,7 +22,7 @@
                 variant="tonal"
                 class="text-body-1 warning-card mt-3 mb-6 rounded-lg"
             >
-                こちらのページは期間限定公開です
+                こちらのページは3月13日までの公開です
             </v-alert>
             <v-list class="train-line" dense>
                 <v-list-item

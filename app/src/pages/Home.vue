@@ -29,9 +29,16 @@
 
         <div class="warning-section">
             <v-alert
+                type="warning"
+                variant="tonal"
+                class="warning-card mt-12 mb-3 rounded-lg"
+            >
+                JR線と東武線の列車走行位置は3月13日をもって、公開を終了します<br /><br />お知らせの詳細はこのページ一番したの「サイトからのお知らせ」をご覧ください
+            </v-alert>
+            <v-alert
                 type="info"
                 variant="tonal"
-                class="warning-card mt-12 rounded-lg"
+                class="warning-card mt-3 rounded-lg"
             >
                 ただいま、期間限定の任意アンケートを実施中です。（3月13日まで）2分ほどの簡単なアンケートです。回答にご協力いただける方は下のリンクからお願いいたします。<br /><br />アンケートの回答は<a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSe4_HGxyx3yvrsQdwsC3uYzetOzswR8gRu4cdTCjtHMiiWABw/viewform?usp=header"
@@ -55,7 +62,8 @@
                         class="line-button d-flex align-center font-weight-bold border-md"
                         color="surface"
                         elevation="0"
-                        :to="line.to"
+                        :to="operator.status === 1 ? line.to : undefined"
+                        :disabled="operator.status === 0"
                     >
                         <v-img
                             :src="line.icon"
@@ -105,6 +113,32 @@
 
                         <v-expansion-panel-text>
                             {{ item.information }}
+
+                            <div v-if="item.links?.length">
+                                <template v-for="(link, i) in item.links">
+                                    <v-btn
+                                        v-if="link.external"
+                                        :key="'external-' + i"
+                                        :href="link.url"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        variant="text"
+                                        class="notice-link font-weight-semibold"
+                                    >
+                                        {{ link.text }}
+                                    </v-btn>
+
+                                    <v-btn
+                                        v-else
+                                        :key="'internal-' + i"
+                                        :to="link.url"
+                                        variant="text"
+                                        class="notice-link font-weight-semibold border-md"
+                                    >
+                                        {{ link.text }}
+                                    </v-btn>
+                                </template>
+                            </div>
                         </v-expansion-panel-text>
                     </v-expansion-panel>
                 </v-expansion-panels>
@@ -112,7 +146,7 @@
         </div>
 
         <v-row
-            class="gap-4 mb-4"
+            class="gap-4"
             justify="start"
             direction="column"
             :md-direction="'row'"
@@ -125,14 +159,15 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
-                    to="/aboutsite"
+                    to="/information/all"
                 >
                     <v-icon
-                        icon="mdi-alert-outline"
+                        icon="mdi-list-box-outline"
                         class="mr-2"
                         size="large"
+                        target="_blank"
                     ></v-icon>
-                    サイト注意事項
+                    全てのお知らせを表示
                 </v-btn></v-col
             >
             <v-col>
@@ -155,22 +190,49 @@
             >
         </v-row>
 
-        <v-btn
-            variant="flat"
-            rounded="lg"
-            class="main-button d-flex align-center font-weight-bold mb-12 border-md"
-            color="surface"
-            elevation="0"
-            rel="noopener"
-            to="/manager"
+        <v-row
+            class="gap-4 mb-12"
+            justify="start"
+            direction="column"
+            :md-direction="'row'"
         >
-            <v-icon
-                icon="mdi-account-outline"
-                class="mr-2"
-                size="large"
-            ></v-icon>
-            サイト運営者
-        </v-btn>
+            <v-col>
+                <v-btn
+                    variant="flat"
+                    rounded="lg"
+                    class="main-button d-flex align-center font-weight-bold border-md"
+                    color="surface"
+                    elevation="0"
+                    rel="noopener"
+                    to="/manager"
+                >
+                    <v-icon
+                        icon="mdi-account-outline"
+                        class="mr-2"
+                        size="large"
+                    ></v-icon>
+                    サイト運営者
+                </v-btn>
+            </v-col>
+            <v-col>
+                <v-btn
+                    variant="flat"
+                    rounded="lg"
+                    class="main-button d-flex align-center font-weight-bold border-md"
+                    color="surface"
+                    elevation="0"
+                    rel="noopener"
+                    to="/aboutsite"
+                >
+                    <v-icon
+                        icon="mdi-alert-outline"
+                        class="mr-2"
+                        size="large"
+                    ></v-icon>
+                    サイト注意事項
+                </v-btn></v-col
+            >
+        </v-row>
 
         <div class="warning-section">
             <v-alert
@@ -188,10 +250,17 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 
+export interface NoticeLink {
+    text: string;
+    url: string;
+    external?: boolean;
+}
+
 type Notice = {
     title: string;
     information: string;
     info_date: string;
+    links?: NoticeLink[];
 };
 
 const notices = ref<Notice[]>([]);
@@ -202,6 +271,7 @@ const operators = [
     {
         id: 'toei',
         name: '東京都交通局',
+        status: 1,
         lines: [
             {
                 id: 'asakusa',
@@ -232,6 +302,7 @@ const operators = [
     {
         id: 'yokohama',
         name: '横浜市交通局',
+        status: 1,
         lines: [
             {
                 id: 'blueline',
@@ -250,6 +321,7 @@ const operators = [
     {
         id: 'JR-East',
         name: 'JR東日本(期間限定公開)',
+        status: 1,
         lines: [
             {
                 id: 'itsukaichi',
@@ -403,6 +475,7 @@ const operators = [
     {
         id: 'tobu',
         name: '東武鉄道(期間限定公開)',
+        status: 1,
         lines: [
             {
                 id: 'tobuurbanpark',
@@ -625,6 +698,10 @@ const formatDate = (dateStr: string) => {
 .notice-item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     padding: 18px 0;
+}
+
+.notice-link {
+    margin: 10px 0px 10px 0px;
 }
 
 .notice-header {

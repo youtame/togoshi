@@ -501,6 +501,7 @@ const LINE_MAP: Record<string, string> = {
     mita: 'odpt.Railway:Toei.Mita',
     shinjuku: 'odpt.Railway:Toei.Shinjuku',
     oedo: 'odpt.Railway:Toei.Oedo',
+    arakawa: 'odpt.Railway:Toei.Arakawa',
     blueline: 'odpt.Railway:YokohamaMunicipal.Blue',
     greenline: 'odpt.Railway:YokohamaMunicipal.Green',
 };

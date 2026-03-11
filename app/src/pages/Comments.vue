@@ -35,6 +35,24 @@
                     color="surface"
                     elevation="0"
                     rel="noopener"
+                    to="/"
+                >
+                    <v-icon
+                        icon="mdi-home-outline"
+                        class="mr-2"
+                        size="large"
+                    ></v-icon>
+                    ホームに戻る
+                </v-btn></v-col
+            >
+            <v-col>
+                <v-btn
+                    variant="flat"
+                    rounded="lg"
+                    class="main-button d-flex align-center font-weight-bold border-md"
+                    color="surface"
+                    elevation="0"
+                    rel="noopener"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSdyeRFBKR_QTMeqWeL5Fo7LkrVCtyPdEl4KSL9nPPcViuqP6A/viewform?usp=dialog"
                 >
                     <v-icon
@@ -44,25 +62,6 @@
                         target="_blank"
                     ></v-icon>
                     お問い合わせへ
-                </v-btn></v-col
-            >
-
-            <v-col>
-                <v-btn
-                    variant="flat"
-                    rounded="lg"
-                    class="main-button d-flex align-center font-weight-bold border-md"
-                    color="surface"
-                    elevation="0"
-                    rel="noopener"
-                    to="/"
-                >
-                    <v-icon
-                        icon="mdi-home-outline"
-                        class="mr-2"
-                        size="large"
-                    ></v-icon>
-                    ホームに戻る
                 </v-btn></v-col
             >
         </v-row>

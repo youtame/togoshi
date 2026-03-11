@@ -10,12 +10,15 @@ const LinePage = () => import('@/pages/LinePage.vue');
 const LinePageLT = () => import('@/pages/LinePageLT.vue');
 const NotFound = () => import('@/pages/NotFound.vue');
 const Status = () => import('@/pages/Status.vue');
+const Infomation = () => import('@/pages/information.vue');
+const Outofservice = () => import('@/pages/Outofservice.vue');
 
 const VALID_LINES = [
     'asakusa',
     'mita',
     'shinjuku',
     'oedo',
+    'arakawa',
     'blueline',
     'greenline',
     'nambu',
@@ -29,6 +32,7 @@ const VALID_LINES = [
     'utsunomiya',
     'jobanrapid',
     'jobanlocal',
+    'joban',
     'keiyo',
     'saikyokawagoe',
     'takasaki',
@@ -101,8 +105,8 @@ const routes = [
     },
     {
         path: '/line/timelimited/:lineId',
-        name: 'lineLT',
-        component: LinePageLT,
+        name: 'outofservice',
+        component: Outofservice,
         props: true,
         meta: { title: 'Retration｜列車位置検索' },
         beforeEnter: (to: RouteLocationNormalized) => {
@@ -113,6 +117,13 @@ const routes = [
                 return { name: 'NotFound' };
             }
         },
+    },
+    {
+        path: '/information/:informationId',
+        name: 'lineInfomation',
+        component: Infomation,
+        props: true,
+        meta: { title: 'Retrationお知らせ｜列車位置検索' },
     },
 
     {

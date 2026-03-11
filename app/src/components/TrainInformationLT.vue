@@ -49,6 +49,7 @@ const LINE_MAP: Record<string, string> = {
     takasaki: 'odpt.TrainInformation:JR-East.Takasaki',
     jobanrapid: 'odpt.TrainInformation:JR-East.JobanRapid',
     jobanlocal: 'odpt.TrainInformation:JR-East.JobanLocal',
+    joban: 'odpt.TrainInformation:JR-East.Joban',
     keiyo: 'odpt.TrainInformation:JR-East.Keiyo',
     chuorapid: 'odpt.TrainInformation:JR-East.ChuoRapid',
     saikyokawagoe: 'odpt.TrainInformation:JR-East.SaikyoKawagoe',

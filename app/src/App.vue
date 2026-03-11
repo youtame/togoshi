@@ -76,7 +76,33 @@
                                 v-if="isExpanded"
                                 class="ml-3 text-subtitle-1 drawer-label"
                             >
-                                <strong>ホームへ</strong>
+                                <strong>ホーム</strong>
+                            </span>
+                        </v-btn>
+                    </v-list-item-title>
+                </v-list-item>
+                <v-list-item>
+                    <v-list-item-title>
+                        <v-btn
+                            :class="
+                                isExpanded
+                                    ? 'd-flex align-center justify-start text-left'
+                                    : 'd-flex align-center justify-center'
+                            "
+                            elevation="0"
+                            size="large"
+                            width="100%"
+                            to="/information/all"
+                        >
+                            <v-icon
+                                icon="mdi-list-box-outline"
+                                size="large"
+                            ></v-icon>
+                            <span
+                                v-if="isExpanded"
+                                class="ml-3 text-subtitle-1 drawer-label"
+                            >
+                                <strong>お知らせ</strong>
                             </span>
                         </v-btn>
                     </v-list-item-title>
@@ -202,6 +228,7 @@
                             size="large"
                             width="auto"
                             :to="item.to"
+                            :disabled="item.status === 0"
                         >
                             <v-img
                                 :src="item.img"
@@ -274,6 +301,7 @@ type LineItem = {
     to: string;
     img: string;
     label?: string;
+    status: number;
 };
 
 const lineItems: LineItem[] = [
@@ -281,181 +309,217 @@ const lineItems: LineItem[] = [
         to: '/line/asakusa',
         img: '/retration2/symbole/Asakusa-symbole.png',
         label: '浅草線',
+        status: 1,
     },
     {
         to: '/line/oedo',
         img: '/retration2/symbole/Oedo-symbole.png',
         label: '大江戸線',
+        status: 1,
     },
     {
         to: '/line/shinjuku',
         img: '/retration2/symbole/Shinjuku-symbole.png',
         label: '新宿線',
+        status: 1,
     },
     {
         to: '/line/mita',
         img: '/retration2/symbole/Mita-symbole.png',
         label: '三田線',
+        status: 1,
     },
     {
         to: '/line/blueline',
         img: '/retration2/symbole/BlueLine-symbole.png',
         label: 'ブルーライン',
+        status: 1,
     },
     {
         to: '/line/greenline',
         img: '/retration2/symbole/GreenLine-symbole.png',
         label: 'グリーンライン',
+        status: 1,
     },
     {
         to: '/line/timelimited/itsukaichi',
         img: '/retration2/symbole/Itsukaichi-symbole.png',
         label: '五日市線',
+        status: 1,
     },
     {
         to: '/line/timelimited/ome',
         img: '/retration2/symbole/Ome-symbole.png',
         label: '青梅線',
+        status: 1,
     },
     {
         to: '/line/timelimited/utsunomiya',
         img: '/retration2/symbole/Utsunomiya-symbole.png',
         label: '宇都宮線',
+        status: 1,
     },
     {
         to: '/line/timelimited/kawagoe',
         img: '/retration2/symbole/Kawagoe-symbole.png',
         label: '川越線',
+        status: 1,
     },
     {
         to: '/line/timelimited/keihintohokunegishi',
         img: '/retration2/symbole/Keihintohokunegishi-symbole.png',
         label: '京浜東北・根岸線',
+        status: 1,
     },
     {
         to: '/line/timelimited/keiyo',
         img: '/retration2/symbole/Keiyo-symbole.png',
         label: '京葉線',
+        status: 1,
     },
     {
         to: '/line/timelimited/saikyokawagoe',
         img: '/retration2/symbole/Saikyokawagoe-symbole.png',
         label: '埼京・川越線',
+        status: 1,
     },
     {
         to: '/line/timelimited/jobanrapid',
         img: '/retration2/symbole/Jobanrapid-symbole.png',
         label: '常磐線快速',
+        status: 1,
     },
     {
         to: '/line/timelimited/jobanlocal',
         img: '/retration2/symbole/Jobanlocal-symbole.png',
         label: '常磐線各駅停車',
+        status: 1,
     },
     {
         to: '/line/timelimited/sotetsudirect',
         img: '/retration2/symbole/Sotetsudirect-symbole.png',
         label: 'JR・相鉄線直通',
+        status: 1,
     },
     {
         to: '/line/timelimited/soburapid',
         img: '/retration2/symbole/Soburapid-symbole.png',
         label: '総武快速線',
+        status: 1,
     },
     {
         to: '/line/timelimited/shonanshinjuku',
         img: '/retration2/symbole/Shonanshinjuku-symbole.png',
         label: '湘南新宿ライン',
+        status: 1,
     },
     {
         to: '/line/timelimited/takasaki',
         img: '/retration2/symbole/Takasaki-symbole.png',
         label: '高崎線',
+        status: 1,
     },
     {
         to: '/line/timelimited/tokaido',
         img: '/retration2/symbole/Tokaido-symbole.png',
         label: '東海道線',
+        status: 1,
     },
     {
         to: '/line/timelimited/chuorapid',
         img: '/retration2/symbole/Chuorapid-symbole.png',
         label: '中央線快速',
+        status: 1,
     },
     {
         to: '/line/timelimited/chuo',
         img: '/retration2/symbole/Chuo-symbole.png',
         label: '中央本線',
+        status: 1,
     },
     {
         to: '/line/timelimited/chuosobulocal',
         img: '/retration2/symbole/Chuosobulocal-symbole.png',
         label: '中央・総武線各停',
+        status: 1,
     },
     {
         to: '/line/timelimited/nambu',
         img: '/retration2/symbole/Nambu-symbole.png',
         label: '南武線',
+        status: 1,
     },
     {
         to: '/line/timelimited/musashino',
         img: '/retration2/symbole/Musashino-symbole.png',
         label: '武蔵野線',
+        status: 1,
     },
     {
         to: '/line/timelimited/yamanote',
         img: '/retration2/symbole/Yamanote-symbole.png',
         label: '山手線',
+        status: 1,
     },
     {
         to: '/line/timelimited/yokosuka',
         img: '/retration2/symbole/Yokosuka-symbole.png',
         label: '横須賀線',
+        status: 1,
     },
     {
         to: '/line/timelimited/yokohama',
         img: '/retration2/symbole/Yokohama-symbole.png',
         label: '横浜線',
+        status: 1,
     },
     {
         to: '/line/timelimited/tobuurbanpark',
         img: '/retration2/symbole/Tobuurbanpark-symbole.png',
         label: 'アーバンパークライン',
+        status: 1,
     },
     {
         to: '/line/timelimited/isesaki',
         img: '/retration2/symbole/Isesaki-symbole.png',
         label: '伊勢崎線',
+        status: 1,
     },
     {
         to: '/line/timelimited/ogose',
         img: '/retration2/symbole/Ogose-symbole.png',
         label: '越生線',
+        status: 1,
     },
     {
         to: '/line/timelimited/kameido',
         img: '/retration2/symbole/Kameido-symbole.png',
         label: '亀戸線',
+        status: 1,
     },
     {
         to: '/line/timelimited/tobuskytree',
         img: '/retration2/symbole/Tobuskytree-symbole.png',
         label: 'スカイツリーライン',
+        status: 1,
     },
     {
         to: '/line/timelimited/daishi',
         img: '/retration2/symbole/Daishi-symbole.png',
         label: '大師線',
+        status: 1,
     },
     {
         to: '/line/timelimited/tojo',
         img: '/retration2/symbole/Tojo-symbole.png',
         label: '東上線',
+        status: 1,
     },
     {
         to: '/line/timelimited/nikko',
         img: '/retration2/symbole/Nikko-symbole.png',
         label: '日光線',
+        status: 1,
     },
 ];
 
@@ -476,6 +540,10 @@ const LINE_MAP = {
     oedo: {
         name: '大江戸線走行位置',
         icon: '/retration2/symbole/Oedo-symbole.png',
+    },
+    arakawa: {
+        name: '都電荒川線走行位置',
+        icon: '/retration2/symbole/Arakawa-symbole.png',
     },
     blueline: {
         name: 'ブルーライン走行位置',
@@ -557,6 +625,10 @@ const LINE_MAP = {
         name: '常磐線快速走行位置',
         icon: '/retration2/symbole/Jobanrapid-symbole.png',
     },
+    joban: {
+        name: '常磐線走行位置',
+        icon: '/retration2/symbole/Joban-symbole.png',
+    },
     kawagoe: {
         name: '川越線走行位置',
         icon: '/retration2/symbole/Kawagoe-symbole.png',
@@ -627,6 +699,10 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
         oedo: {
             primary: '#b6007a',
             secondary: '#e066ad',
+        },
+        arakawa: {
+            primary: '#ee86a7',
+            secondary: '#f4a09a',
         },
         blueline: {
             primary: '#2f56a5',
@@ -707,6 +783,10 @@ const LINE_THEME_COLOR: Record<string, { primary: string; secondary: string }> =
         jobanrapid: {
             primary: '#00b261',
             secondary: '#66d18e',
+        },
+        joban: {
+            primary: '#3355ff',
+            secondary: '#8888ff',
         },
         kawagoe: {
             primary: '#a8a39d',

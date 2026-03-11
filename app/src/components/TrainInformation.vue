@@ -42,6 +42,7 @@ const LINE_MAP: Record<string, string> = {
     mita: 'odpt.TrainInformation:Toei.Mita',
     shinjuku: 'odpt.TrainInformation:Toei.Shinjuku',
     oedo: 'odpt.TrainInformation:Toei.Oedo',
+    arakawa: 'odpt.TrainInformation:Toei.Arakawa',
     blueline: 'odpt.TrainInformation:YokohamaMunicipal.Blue',
     greenline: 'odpt.TrainInformation:YokohamaMunicipal.Green',
 };

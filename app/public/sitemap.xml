@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+
+    <url>
+        <loc>https://lozdo.com/retration2</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <url><loc>https://lozdo.com/retration2/line/asakusa</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/mita</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/shinjuku</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/oedo</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/blueline</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/greenline</loc><priority>0.8</priority></url>
+
+    <url><loc>https://lozdo.com/retration2/line/timelimited/musashino</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/shonanshinjuku</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/yokosuka</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/yokohama</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/soburapid</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/keihintohokunegishi</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/utsunomiya</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/jobanrapid</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/jobanlocal</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/keiyo</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/saikyokawagoe</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/takasaki</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/chuorapid</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/chuosobulocal</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/tokaido</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/sotetsudirect</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/itsukaichi</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/nambu</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/ome</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/yamanote</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/kawagoe</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/chuo</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/tojo</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/tobuskytreeline</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/ogose</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/daishi</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/kameido</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/tobuurbanpark</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/isesaki</loc><priority>0.8</priority></url>
+    <url><loc>https://lozdo.com/retration2/line/timelimited/nikko</loc><priority>0.8</priority></url>
+
+</urlset>
