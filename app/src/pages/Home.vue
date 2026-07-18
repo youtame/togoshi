@@ -33,17 +33,7 @@
                 variant="tonal"
                 class="warning-card mt-12 mb-3 rounded-lg"
             >
-                JR線と東武線の列車走行位置は3月13日をもって、公開を終了します<br /><br />お知らせの詳細はこのページ一番したの「サイトからのお知らせ」をご覧ください
-            </v-alert>
-            <v-alert
-                type="info"
-                variant="tonal"
-                class="warning-card mt-3 rounded-lg"
-            >
-                ただいま、期間限定の任意アンケートを実施中です。（3月13日まで）2分ほどの簡単なアンケートです。回答にご協力いただける方は下のリンクからお願いいたします。<br /><br />アンケートの回答は<a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSe4_HGxyx3yvrsQdwsC3uYzetOzswR8gRu4cdTCjtHMiiWABw/viewform?usp=header"
-                    >こちら</a
-                >から
+                データ引用元での公開が終了したため、JR線と東武線の列車走行位置は2026年3月13日をもって、いったん公開を終了しました<br /><br />このお知らせの詳細はこのページ一番下の「サイトからのお知らせ」をご覧ください
             </v-alert>
         </div>
 
@@ -320,8 +310,8 @@ const operators = [
     },
     {
         id: 'JR-East',
-        name: 'JR東日本(期間限定公開)',
-        status: 1,
+        name: 'JR東日本(公開期間終了)',
+        status: 0,
         lines: [
             {
                 id: 'itsukaichi',
@@ -474,8 +464,8 @@ const operators = [
     },
     {
         id: 'tobu',
-        name: '東武鉄道(期間限定公開)',
-        status: 1,
+        name: '東武鉄道(公開期間終了)',
+        status: 0,
         lines: [
             {
                 id: 'tobuurbanpark',

@@ -50,15 +50,17 @@
             <div class="text-center">
                 <h1 class="text-h2 font-weight-bold mb-6">公開終了</h1>
                 <h2 class="headline font-weight-semibold mb-4">
-                    期間限定公開が終了いたしました
+                    期間限定公開終了
                 </h2>
-                <p class="body-large mb-6">
-                    このページはデータ取得元でのデータ公開が終了したことに伴って、<br />
+                <p class="text-label-large mb-10">
+                    <span class="font-weight-bold"
+                        >このページはデータ引用元でのデータ公開が3月13日をもって終了したことに伴って、</span
+                    ><br />
                     当ページもデータ公開が終了いたしました。<br />
                     お知らせの詳細は<v-btn
-                        class="text-none text-decoration-underline"
+                        class="text-none text-decoration-underline font-weight-bold"
                         variant="text"
-                        to="/information/202602271211"
+                        to="/information/202603140000"
                         >こちら</v-btn
                     >から
                 </p>
