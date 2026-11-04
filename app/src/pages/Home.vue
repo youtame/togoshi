@@ -9,7 +9,7 @@
             <div class="main-title">
                 <h1>Retration</h1>
                 <h2>Find train<br />locations fast</h2>
-                <h3>今、大体列車がどこにいるのかがわかります</h3>
+                <h3>列車の現在地がすぐわかる</h3>
             </div>
         </div>
 
@@ -27,15 +27,7 @@
             </div>
         </div>
 
-        <div class="warning-section">
-            <v-alert
-                type="warning"
-                variant="tonal"
-                class="warning-card mt-12 mb-3 rounded-lg"
-            >
-                データ引用元での公開が終了したため、JR線と東武線の列車走行位置は2026年3月13日をもって、いったん公開を終了しました<br /><br />このお知らせの詳細はこのページ一番下の「サイトからのお知らせ」をご覧ください
-            </v-alert>
-        </div>
+        <div class="warning-section"></div>
 
         <div class="line-section">
             <h2 class="mb-3">路線一覧</h2>
@@ -310,8 +302,8 @@ const operators = [
     },
     {
         id: 'JR-East',
-        name: 'JR東日本(公開期間終了)',
-        status: 0,
+        name: 'JR東日本',
+        status: 1,
         lines: [
             {
                 id: 'itsukaichi',
@@ -464,8 +456,8 @@ const operators = [
     },
     {
         id: 'tobu',
-        name: '東武鉄道(公開期間終了)',
-        status: 0,
+        name: '東武鉄道',
+        status: 1,
         lines: [
             {
                 id: 'tobuurbanpark',

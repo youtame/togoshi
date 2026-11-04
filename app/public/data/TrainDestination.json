@@ -357,6 +357,13 @@
         "color": "#d5007f"
     },
     {
+        "TrainDestination": "odpt.Station:Keio.Takao.Takaosanguchi",
+        "name": "高尾山口",
+        "Line": "京王高尾線",
+        "code": "KO-53",
+        "color": "#d5007f"
+    },
+    {
         "TrainDestination": "odpt.Station:Toei.Oedo.Tochomae",
         "name": "都庁前",
         "Line": "都営大江戸線",
@@ -1139,6 +1146,20 @@
         "color": "#f68b1e"
     },
     {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "name": "北本",
+        "Line": "JR高崎線",
+        "code": null,
+        "color": "#f68b1e"
+    },
+    {
+        "TrainDestination": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "name": "桶川",
+        "Line": "JR高崎線",
+        "code": null,
+        "color": "#f68b1e"
+    },
+    {
         "TrainDestination": "odpt.Station:JR-East.Takasaki.Takasaki",
         "name": "高崎",
         "Line": "JR高崎線",
@@ -1178,6 +1199,13 @@
         "name": "鬼怒川温泉",
         "Line": "東武鬼怒川線",
         "code": "TN-56",
+        "color": "#ffa500"
+    },
+    {
+        "TrainDestination": "odpt.Station:Tobu.Kinugawa.ShinFujiwara",
+        "name": "新藤原",
+        "Line": "東武鬼怒川線",
+        "code": "TN-58",
         "color": "#ffa500"
     },
     {
@@ -1681,6 +1709,13 @@
         "name": "新木場",
         "Line": "東京メトロ有楽町線",
         "code": "Y24",
+        "color": "#c1a470"
+    },
+    {
+        "TrainDestination": "odpt.Station:TokyoMetro.Yurakucho.Ikebukuro",
+        "name": "池袋",
+        "Line": "東京メトロ有楽町線",
+        "code": "Y09",
         "color": "#c1a470"
     },
     {

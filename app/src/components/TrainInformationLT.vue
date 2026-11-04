@@ -75,7 +75,7 @@ const LINE_MAP: Record<string, string> = {
 async function fetchTrainInfo() {
     try {
         const response = await fetch(
-            'https://api-challenge.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:jre-is,odpt.Operator:Tobu&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0',
+            'https://api-challenge.odpt.org/api/v4/odpt:TrainInformation?odpt:operator=odpt.Operator:jre-is,odpt.Operator:Tobu&acl:consumerKey=afmhykpz33qobg7dpbyo4bhkhur56ycejirn00w98fekyxk5v2gpwgisbvexx7tg',
         );
         if (!response.ok) throw new Error('Network Error');
         jsonData.value = await response.json();

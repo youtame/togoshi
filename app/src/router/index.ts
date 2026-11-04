@@ -106,7 +106,7 @@ const routes = [
     {
         path: '/line/timelimited/:lineId',
         name: 'outofservice',
-        component: Outofservice,
+        component: LinePageLT,
         props: true,
         meta: { title: 'Retration｜列車位置検索' },
         beforeEnter: (to: RouteLocationNormalized) => {

@@ -1,56 +1,5 @@
 [
   {
-    "train": "odpt.Train:JR-East.Tokaido.3072M",
-    "train_number": "3072M",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "06:25",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "06:30",
-        "time_ar": "06:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "06:34",
-        "time_ar": "06:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "06:38",
-        "time_ar": "06:37",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "06:42",
-        "time_ar": "06:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "07:11",
-        "time_ar": "07:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": null,
-        "time_ar": "07:18",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Tokaido.4824Y",
     "train_number": "4824Y",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -91,6 +40,165 @@
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": null,
         "time_ar": "11:33",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.4824Y",
+    "train_number": "4824Y",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.SpecialRapid",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Odawara",
+        "time_de": "11:04",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "11:10",
+        "time_ar": "11:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "11:19",
+        "time_ar": "11:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "11:23",
+        "time_ar": "11:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "11:29",
+        "time_ar": "11:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": null,
+        "time_ar": "11:33",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.3026M",
+    "train_number": "3026M",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Atami",
+        "time_de": "14:30",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Yugawara",
+        "time_de": "14:35",
+        "time_ar": "14:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Odawara",
+        "time_de": "14:48",
+        "time_ar": "14:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "15:14",
+        "time_ar": "15:13",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
+        "time_de": "15:27",
+        "time_ar": "15:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
+        "time_de": "15:35",
+        "time_ar": "15:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
+        "time_de": "15:43",
+        "time_ar": "15:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
+        "time_de": null,
+        "time_ar": "15:49",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.2832Y",
+    "train_number": "2832Y",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "10:32",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
+        "time_de": "10:36",
+        "time_ar": "10:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Oiso",
+        "time_de": "10:41",
+        "time_ar": "10:41",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "10:45",
+        "time_ar": "10:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "10:50",
+        "time_ar": "10:49",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "10:53",
+        "time_ar": "10:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "10:57",
+        "time_ar": "10:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": null,
+        "time_ar": "11:01",
         "platform": null
       }
     ]
@@ -941,7 +1049,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "06:23",
+        "time_de": "06:24",
         "time_ar": "06:23",
         "platform": null
       },
@@ -1809,58 +1917,76 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.2834Y",
-    "train_number": "2834Y",
+    "train": "odpt.Train:JR-East.Tokaido.1544E",
+    "train_number": "1544E",
     "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "train_type": "odpt.TrainType:JR-East.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "10:32",
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "07:23",
         "time_ar": null,
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "10:36",
-        "time_ar": "10:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "10:41",
-        "time_ar": "10:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "10:45",
-        "time_ar": "10:44",
-        "platform": null
-      },
-      {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "10:50",
-        "time_ar": "10:49",
+        "time_de": "07:29",
+        "time_ar": "07:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "10:53",
-        "time_ar": "10:53",
+        "time_de": "07:33",
+        "time_ar": "07:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "10:57",
-        "time_ar": "10:56",
+        "time_de": "07:37",
+        "time_ar": "07:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "07:43",
+        "time_ar": "07:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
+        "time_de": "07:50",
+        "time_ar": "07:49",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
+        "time_de": "08:02",
+        "time_ar": "08:01",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
+        "time_de": "08:11",
+        "time_ar": "08:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
+        "time_de": "08:23",
+        "time_ar": "08:21",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
+        "time_de": "08:29",
+        "time_ar": "08:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
         "time_de": null,
-        "time_ar": "11:01",
+        "time_ar": "08:32",
         "platform": null
       }
     ]
@@ -1928,14 +2054,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "07:12",
+        "time_de": "07:11",
         "time_ar": "07:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": "07:20",
-        "time_ar": "07:16",
+        "time_ar": "07:15",
         "platform": null
       },
       {
@@ -2009,19 +2135,19 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "07:26",
+        "time_de": "07:27",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "07:32",
+        "time_de": "07:33",
         "time_ar": "07:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "07:36",
+        "time_de": "07:37",
         "time_ar": "07:36",
         "platform": null
       },
@@ -2076,76 +2202,52 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.1544E",
-    "train_number": "1544E",
+    "train": "odpt.Train:JR-East.Tokaido.3072M",
+    "train_number": "3072M",
     "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Local",
+    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "07:23",
+        "time_de": "06:25",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "07:29",
-        "time_ar": "07:28",
+        "time_de": "06:30",
+        "time_ar": "06:29",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "07:33",
-        "time_ar": "07:32",
+        "time_de": "06:34",
+        "time_ar": "06:33",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "07:37",
-        "time_ar": "07:37",
+        "time_de": "06:38",
+        "time_ar": "06:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "07:43",
-        "time_ar": "07:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "07:50",
-        "time_ar": "07:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "08:02",
-        "time_ar": "08:01",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "08:11",
-        "time_ar": "08:11",
+        "time_de": "06:42",
+        "time_ar": "06:42",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "08:23",
-        "time_ar": "08:21",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "08:29",
-        "time_ar": "08:28",
+        "time_de": "07:11",
+        "time_ar": "07:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
         "time_de": null,
-        "time_ar": "08:32",
+        "time_ar": "07:18",
         "platform": null
       }
     ]
@@ -2265,7 +2367,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
         "time_de": "06:58",
-        "time_ar": "06:57",
+        "time_ar": "06:58",
         "platform": null
       },
       {
@@ -2277,7 +2379,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
         "time_de": "07:08",
-        "time_ar": "07:07",
+        "time_ar": "07:08",
         "platform": null
       },
       {
@@ -2577,6 +2679,81 @@
     ]
   },
   {
+    "train": "odpt.Train:JR-East.Tokaido.1558E",
+    "train_number": "1558E",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "08:06",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "08:11",
+        "time_ar": "08:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "08:15",
+        "time_ar": "08:15",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "08:19",
+        "time_ar": "08:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "08:24",
+        "time_ar": "08:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
+        "time_de": "08:29",
+        "time_ar": "08:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
+        "time_de": "08:40",
+        "time_ar": "08:39",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
+        "time_de": "08:50",
+        "time_ar": "08:49",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
+        "time_de": "09:02",
+        "time_ar": "09:00",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
+        "time_de": "09:07",
+        "time_ar": "09:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
+        "time_de": null,
+        "time_ar": "09:10",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:JR-East.Tokaido.1550E",
     "train_number": "1550E",
     "calendar": "odpt.Calendar:Weekday",
@@ -2598,7 +2775,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
         "time_de": "06:58",
-        "time_ar": "06:57",
+        "time_ar": "06:58",
         "platform": null
       },
       {
@@ -2610,13 +2787,13 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
         "time_de": "07:08",
-        "time_ar": "07:07",
+        "time_ar": "07:08",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": "07:13",
-        "time_ar": "07:11",
+        "time_ar": "07:12",
         "platform": null
       },
       {
@@ -3182,88 +3359,13 @@
   {
     "train": "odpt.Train:JR-East.Tokaido.1558E",
     "train_number": "1558E",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "08:06",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "08:11",
-        "time_ar": "08:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "08:15",
-        "time_ar": "08:15",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "08:19",
-        "time_ar": "08:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "08:24",
-        "time_ar": "08:23",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "08:29",
-        "time_ar": "08:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "08:40",
-        "time_ar": "08:39",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "08:50",
-        "time_ar": "08:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "09:02",
-        "time_ar": "09:00",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "09:07",
-        "time_ar": "09:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": null,
-        "time_ar": "09:10",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Tokaido.1558E",
-    "train_number": "1558E",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "08:00",
+        "time_de": "07:59",
         "time_ar": null,
         "platform": null
       },
@@ -3345,31 +3447,31 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
         "time_de": "07:19",
-        "time_ar": "07:18",
+        "time_ar": "07:19",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
         "time_de": "07:23",
-        "time_ar": "07:22",
+        "time_ar": "07:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
         "time_de": "07:28",
-        "time_ar": "07:27",
+        "time_ar": "07:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
         "time_de": "07:33",
-        "time_ar": "07:32",
+        "time_ar": "07:33",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": "07:38",
-        "time_ar": "07:36",
+        "time_ar": "07:37",
         "platform": null
       },
       {
@@ -3804,7 +3906,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
         "time_de": "08:51",
-        "time_ar": "08:51",
+        "time_ar": "08:50",
         "platform": null
       },
       {
@@ -4442,44 +4544,44 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "09:32",
+        "time_de": "09:31",
         "time_ar": "09:31",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "09:37",
+        "time_de": "09:36",
         "time_ar": "09:36",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "09:47",
-        "time_ar": "09:46",
+        "time_de": "09:46",
+        "time_ar": "09:45",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
         "time_de": "09:55",
-        "time_ar": "09:55",
+        "time_ar": "09:54",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "10:05",
-        "time_ar": "10:04",
+        "time_de": "10:04",
+        "time_ar": "10:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "10:10",
-        "time_ar": "10:10",
+        "time_de": "10:08",
+        "time_ar": "10:08",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
         "time_de": null,
-        "time_ar": "10:13",
+        "time_ar": "10:11",
         "platform": null
       }
     ]
@@ -6513,7 +6615,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
         "time_de": "11:09",
-        "time_ar": "11:08",
+        "time_ar": "11:09",
         "platform": null
       },
       {
@@ -6525,18 +6627,18 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
         "time_de": "11:18",
-        "time_ar": "11:17",
+        "time_ar": "11:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "11:22",
+        "time_de": "11:23",
         "time_ar": "11:22",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "11:25",
+        "time_de": "11:26",
         "time_ar": "11:25",
         "platform": null
       },
@@ -6548,8 +6650,8 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "11:32",
-        "time_ar": "11:31",
+        "time_de": "11:33",
+        "time_ar": "11:32",
         "platform": null
       },
       {
@@ -6561,7 +6663,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
         "time_de": "11:41",
-        "time_ar": "11:40",
+        "time_ar": "11:41",
         "platform": null
       },
       {
@@ -6648,7 +6750,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
         "time_de": "11:09",
-        "time_ar": "11:08",
+        "time_ar": "11:09",
         "platform": null
       },
       {
@@ -6660,18 +6762,18 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
         "time_de": "11:18",
-        "time_ar": "11:17",
+        "time_ar": "11:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "11:22",
+        "time_de": "11:23",
         "time_ar": "11:22",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "11:25",
+        "time_de": "11:26",
         "time_ar": "11:25",
         "platform": null
       },
@@ -6683,8 +6785,8 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "11:32",
-        "time_ar": "11:31",
+        "time_de": "11:33",
+        "time_ar": "11:32",
         "platform": null
       },
       {
@@ -6696,7 +6798,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
         "time_de": "11:41",
-        "time_ar": "11:40",
+        "time_ar": "11:41",
         "platform": null
       },
       {
@@ -8883,7 +8985,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
         "time_de": "15:32",
-        "time_ar": "15:31",
+        "time_ar": "15:32",
         "platform": null
       },
       {
@@ -9017,7 +9119,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "15:56",
+        "time_de": "15:57",
         "time_ar": "15:56",
         "platform": null
       },
@@ -10271,7 +10373,7 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "17:04",
+        "time_de": "17:03",
         "time_ar": null,
         "platform": null
       },
@@ -10826,20 +10928,20 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "19:05",
+        "time_de": "19:06",
         "time_ar": "19:04",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "19:10",
-        "time_ar": "19:09",
+        "time_de": "19:11",
+        "time_ar": "19:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
         "time_de": null,
-        "time_ar": "19:13",
+        "time_ar": "19:14",
         "platform": null
       }
     ]
@@ -12560,8 +12662,8 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "21:02",
-        "time_ar": "21:01",
+        "time_de": "21:01",
+        "time_ar": "21:00",
         "platform": null
       },
       {
@@ -12572,20 +12674,20 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "21:21",
-        "time_ar": "21:19",
+        "time_de": "21:19",
+        "time_ar": "21:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "21:26",
-        "time_ar": "21:25",
+        "time_de": "21:24",
+        "time_ar": "21:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
         "time_de": null,
-        "time_ar": "21:29",
+        "time_ar": "21:27",
         "platform": null
       }
     ]
@@ -13694,37 +13796,37 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
-        "time_de": "21:26",
+        "time_de": "21:27",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
         "time_de": "21:32",
-        "time_ar": "21:31",
+        "time_ar": "21:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "21:35",
+        "time_de": "21:36",
         "time_ar": "21:35",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
         "time_de": "21:41",
-        "time_ar": "21:40",
+        "time_ar": "21:41",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "21:45",
+        "time_de": "21:46",
         "time_ar": "21:45",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "21:48",
+        "time_de": "21:49",
         "time_ar": "21:48",
         "platform": null
       },
@@ -13736,8 +13838,8 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "21:55",
-        "time_ar": "21:54",
+        "time_de": "21:56",
+        "time_ar": "21:55",
         "platform": null
       },
       {
@@ -13749,7 +13851,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
         "time_de": "22:04",
-        "time_ar": "22:03",
+        "time_ar": "22:04",
         "platform": null
       },
       {
@@ -15257,20 +15359,20 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "07:12",
+        "time_de": "07:13",
         "time_ar": "07:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "07:18",
-        "time_ar": "07:18",
+        "time_de": "07:19",
+        "time_ar": "07:19",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "07:25",
-        "time_ar": "07:23",
+        "time_de": "07:26",
+        "time_ar": "07:25",
         "platform": null
       },
       {
@@ -15419,20 +15521,20 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "07:06",
+        "time_de": "07:08",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "07:09",
-        "time_ar": "07:09",
+        "time_de": "07:12",
+        "time_ar": "07:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "07:14",
-        "time_ar": "07:13",
+        "time_de": "07:16",
+        "time_ar": "07:15",
         "platform": null
       },
       {
@@ -15722,13 +15824,13 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "07:48",
+        "time_de": "07:47",
         "time_ar": "07:47",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "07:53",
+        "time_de": "07:52",
         "time_ar": "07:52",
         "platform": null
       },
@@ -16130,7 +16232,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "08:21",
+        "time_de": "08:22",
         "time_ar": "08:21",
         "platform": null
       },
@@ -17588,32 +17690,32 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "12:05",
+        "time_de": "12:06",
         "time_ar": "12:05",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
         "time_de": "12:09",
-        "time_ar": "12:08",
+        "time_ar": "12:09",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "12:12",
+        "time_de": "12:13",
         "time_ar": "12:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": "12:17",
-        "time_ar": "12:16",
+        "time_ar": "12:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
         "time_de": "12:22",
-        "time_ar": "12:21",
+        "time_ar": "12:22",
         "platform": null
       },
       {
@@ -17828,32 +17930,32 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "12:05",
+        "time_de": "12:06",
         "time_ar": "12:05",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
         "time_de": "12:09",
-        "time_ar": "12:08",
+        "time_ar": "12:09",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "12:12",
+        "time_de": "12:13",
         "time_ar": "12:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": "12:17",
-        "time_ar": "12:16",
+        "time_ar": "12:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
         "time_de": "12:22",
-        "time_ar": "12:21",
+        "time_ar": "12:22",
         "platform": null
       },
       {
@@ -19046,14 +19148,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "14:15",
+        "time_de": "14:16",
         "time_ar": "14:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
         "time_de": "14:21",
-        "time_ar": "14:20",
+        "time_ar": "14:21",
         "platform": null
       },
       {
@@ -19421,14 +19523,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "14:15",
+        "time_de": "14:16",
         "time_ar": "14:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
         "time_de": "14:21",
-        "time_ar": "14:20",
+        "time_ar": "14:21",
         "platform": null
       },
       {
@@ -20837,7 +20939,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "15:56",
+        "time_de": "15:57",
         "time_ar": "15:56",
         "platform": null
       },
@@ -21305,13 +21407,13 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "17:18",
+        "time_de": "17:17",
         "time_ar": "17:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "17:23",
+        "time_de": "17:22",
         "time_ar": "17:22",
         "platform": null
       },
@@ -22469,20 +22571,20 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "19:18",
+        "time_de": "19:19",
         "time_ar": "19:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "19:23",
-        "time_ar": "19:23",
+        "time_de": "19:25",
+        "time_ar": "19:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
         "time_de": null,
-        "time_ar": "19:26",
+        "time_ar": "19:27",
         "platform": null
       }
     ]
@@ -22904,7 +23006,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "18:34",
+        "time_de": "18:33",
         "time_ar": "18:33",
         "platform": null
       },
@@ -23144,7 +23246,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "18:34",
+        "time_de": "18:33",
         "time_ar": "18:33",
         "platform": null
       },
@@ -25286,14 +25388,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "07:14",
-        "time_ar": "07:13",
+        "time_de": "07:15",
+        "time_ar": "07:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": "07:19",
-        "time_ar": "07:17",
+        "time_ar": "07:18",
         "platform": null
       },
       {
@@ -25379,8 +25481,8 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "07:12",
-        "time_ar": "07:11",
+        "time_de": "07:11",
+        "time_ar": "07:10",
         "platform": null
       },
       {
@@ -25518,7 +25620,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": "07:28",
-        "time_ar": "07:26",
+        "time_ar": "07:27",
         "platform": null
       },
       {
@@ -25646,63 +25748,6 @@
   {
     "train": "odpt.Train:JR-East.Tokaido.2832Y",
     "train_number": "2832Y",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "10:32",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "10:36",
-        "time_ar": "10:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "10:41",
-        "time_ar": "10:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "10:45",
-        "time_ar": "10:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "10:50",
-        "time_ar": "10:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "10:53",
-        "time_ar": "10:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "10:57",
-        "time_ar": "10:56",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": null,
-        "time_ar": "11:01",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Tokaido.2832Y",
-    "train_number": "2832Y",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Rapid",
     "direction": "odpt.RailDirection:Inbound",
@@ -25774,6 +25819,63 @@
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": null,
         "time_ar": "12:02",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.2834Y",
+    "train_number": "2834Y",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "10:32",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
+        "time_de": "10:36",
+        "time_ar": "10:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Oiso",
+        "time_de": "10:41",
+        "time_ar": "10:41",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "10:45",
+        "time_ar": "10:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "10:50",
+        "time_ar": "10:49",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "10:53",
+        "time_ar": "10:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "10:57",
+        "time_ar": "10:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": null,
+        "time_ar": "11:01",
         "platform": null
       }
     ]
@@ -25930,6 +26032,63 @@
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": null,
         "time_ar": "13:00",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.2858Y",
+    "train_number": "2858Y",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "19:17",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
+        "time_de": "19:22",
+        "time_ar": "19:21",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Oiso",
+        "time_de": "19:27",
+        "time_ar": "19:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "19:31",
+        "time_ar": "19:30",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "19:36",
+        "time_ar": "19:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "19:40",
+        "time_ar": "19:39",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "19:43",
+        "time_ar": "19:43",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": null,
+        "time_ar": "19:47",
         "platform": null
       }
     ]
@@ -26111,56 +26270,68 @@
   {
     "train": "odpt.Train:JR-East.Tokaido.2858Y",
     "train_number": "2858Y",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Rapid",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "19:17",
+        "station": "odpt.Station:JR-East.Tokaido.Odawara",
+        "time_de": "18:50",
         "time_ar": null,
         "platform": null
       },
       {
+        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
+        "time_de": "18:53",
+        "time_ar": "18:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "18:59",
+        "time_ar": "18:57",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "19:22",
-        "time_ar": "19:21",
+        "time_de": "19:03",
+        "time_ar": "19:02",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "19:27",
-        "time_ar": "19:26",
+        "time_de": "19:08",
+        "time_ar": "19:07",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "19:31",
-        "time_ar": "19:30",
+        "time_de": "19:12",
+        "time_ar": "19:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "19:36",
-        "time_ar": "19:36",
+        "time_de": "19:17",
+        "time_ar": "19:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "19:40",
-        "time_ar": "19:39",
+        "time_de": "19:21",
+        "time_ar": "19:21",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "19:43",
-        "time_ar": "19:43",
+        "time_de": "19:25",
+        "time_ar": "19:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": null,
-        "time_ar": "19:47",
+        "time_ar": "19:29",
         "platform": null
       }
     ]
@@ -26257,75 +26428,6 @@
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": null,
         "time_ar": "16:00",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Tokaido.2858Y",
-    "train_number": "2858Y",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "18:50",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "18:53",
-        "time_ar": "18:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "18:59",
-        "time_ar": "18:57",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "19:03",
-        "time_ar": "19:02",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "19:08",
-        "time_ar": "19:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "19:12",
-        "time_ar": "19:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "19:17",
-        "time_ar": "19:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "19:21",
-        "time_ar": "19:21",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "19:25",
-        "time_ar": "19:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": null,
-        "time_ar": "19:29",
         "platform": null
       }
     ]
@@ -26486,7 +26588,7 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "16:58",
+        "time_de": "16:57",
         "time_ar": null,
         "platform": null
       },
@@ -27123,75 +27225,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.2864Y",
-    "train_number": "2864Y",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "20:14",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "20:17",
-        "time_ar": "20:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "20:22",
-        "time_ar": "20:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "20:26",
-        "time_ar": "20:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "20:31",
-        "time_ar": "20:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "20:35",
-        "time_ar": "20:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "20:40",
-        "time_ar": "20:39",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "20:43",
-        "time_ar": "20:43",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "20:47",
-        "time_ar": "20:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": null,
-        "time_ar": "20:52",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Tokaido.2862Y",
     "train_number": "2862Y",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -27334,6 +27367,75 @@
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": null,
         "time_ar": "21:30",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.2864Y",
+    "train_number": "2864Y",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Odawara",
+        "time_de": "20:15",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
+        "time_de": "20:19",
+        "time_ar": "20:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "20:23",
+        "time_ar": "20:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
+        "time_de": "20:26",
+        "time_ar": "20:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Oiso",
+        "time_de": "20:31",
+        "time_ar": "20:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "20:35",
+        "time_ar": "20:35",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "20:40",
+        "time_ar": "20:39",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "20:43",
+        "time_ar": "20:43",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "20:47",
+        "time_ar": "20:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": null,
+        "time_ar": "20:52",
         "platform": null
       }
     ]
@@ -27812,19 +27914,19 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "14:13",
+        "time_de": "14:14",
         "time_ar": "14:13",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "14:26",
-        "time_ar": "14:25",
+        "time_de": "14:27",
+        "time_ar": "14:26",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "14:34",
+        "time_de": "14:35",
         "time_ar": "14:34",
         "platform": null
       },
@@ -27869,19 +27971,19 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "14:13",
+        "time_de": "14:14",
         "time_ar": "14:13",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "14:26",
-        "time_ar": "14:25",
+        "time_de": "14:27",
+        "time_ar": "14:26",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "14:34",
+        "time_de": "14:35",
         "time_ar": "14:34",
         "platform": null
       },
@@ -27903,63 +28005,6 @@
     "train": "odpt.Train:JR-East.Tokaido.3026M",
     "train_number": "3026M",
     "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Atami",
-        "time_de": "14:30",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "14:35",
-        "time_ar": "14:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "14:48",
-        "time_ar": "14:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "15:14",
-        "time_ar": "15:13",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "15:27",
-        "time_ar": "15:26",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "15:35",
-        "time_ar": "15:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "15:43",
-        "time_ar": "15:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": null,
-        "time_ar": "15:49",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Tokaido.3026M",
-    "train_number": "3026M",
-    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.LimitedExpress",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
@@ -29193,13 +29238,13 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
         "time_de": "07:09",
-        "time_ar": "07:09",
+        "time_ar": "07:08",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "07:15",
-        "time_ar": "07:14",
+        "time_de": "07:14",
+        "time_ar": "07:13",
         "platform": null
       },
       {
@@ -29631,51 +29676,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.4824Y",
-    "train_number": "4824Y",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.SpecialRapid",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "11:04",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "11:10",
-        "time_ar": "11:09",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "11:19",
-        "time_ar": "11:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "11:23",
-        "time_ar": "11:23",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "11:29",
-        "time_ar": "11:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": null,
-        "time_ar": "11:33",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Tokaido.4826Y",
     "train_number": "4826Y",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -31872,103 +31872,109 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.3071M",
-    "train_number": "3071M",
+    "train": "odpt.Train:JR-East.Tokaido.3087M",
+    "train_number": "3087M",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.LimitedExpress",
     "direction": "odpt.RailDirection:Outbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "17:30",
+        "time_de": "21:35",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "17:39",
-        "time_ar": "17:37",
+        "time_de": "21:45",
+        "time_ar": "21:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "18:06",
-        "time_ar": "18:05",
+        "time_de": "22:13",
+        "time_ar": "22:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "18:10",
-        "time_ar": "18:10",
+        "time_de": "22:18",
+        "time_ar": "22:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "18:14",
-        "time_ar": "18:14",
+        "time_de": "22:22",
+        "time_ar": "22:21",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "18:18",
-        "time_ar": "18:18",
+        "time_de": "22:26",
+        "time_ar": "22:25",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": null,
-        "time_ar": "18:23",
+        "time_ar": "22:31",
         "platform": null
       }
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.6089M",
-    "train_number": "6089M",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
+    "train": "odpt.Train:JR-East.Tokaido.2831Y",
+    "train_number": "2831Y",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
     "direction": "odpt.RailDirection:Outbound",
     "timetable": [
       {
-        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "23:00",
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "10:57",
         "time_ar": null,
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "23:09",
-        "time_ar": "23:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "23:36",
-        "time_ar": "23:35",
-        "platform": null
-      },
-      {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "23:41",
-        "time_ar": "23:40",
+        "time_de": "11:01",
+        "time_ar": "11:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "23:45",
-        "time_ar": "23:44",
+        "time_de": "11:05",
+        "time_ar": "11:04",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "23:49",
-        "time_ar": "23:49",
+        "time_de": "11:08",
+        "time_ar": "11:08",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "11:13",
+        "time_ar": "11:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Oiso",
+        "time_de": "11:16",
+        "time_ar": "11:16",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
+        "time_de": "11:21",
+        "time_ar": "11:20",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": null,
-        "time_ar": "23:54",
+        "time_ar": "11:25",
         "platform": null
       }
     ]
@@ -32026,111 +32032,6 @@
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": null,
         "time_ar": "10:04",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Tokaido.1525E",
-    "train_number": "1525E",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "07:09",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "07:12",
-        "time_ar": "07:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "07:19",
-        "time_ar": "07:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "07:28",
-        "time_ar": "07:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "07:37",
-        "time_ar": "07:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "07:47",
-        "time_ar": "07:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "07:54",
-        "time_ar": "07:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "07:59",
-        "time_ar": "07:58",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "08:03",
-        "time_ar": "08:02",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "08:07",
-        "time_ar": "08:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "08:14",
-        "time_ar": "08:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "08:18",
-        "time_ar": "08:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "08:23",
-        "time_ar": "08:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "08:29",
-        "time_ar": "08:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "08:33",
-        "time_ar": "08:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": null,
-        "time_ar": "08:37",
         "platform": null
       }
     ]
@@ -32656,6 +32557,111 @@
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": null,
         "time_ar": "07:51",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.1525E",
+    "train_number": "1525E",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
+        "time_de": "07:09",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
+        "time_de": "07:12",
+        "time_ar": "07:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
+        "time_de": "07:19",
+        "time_ar": "07:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
+        "time_de": "07:28",
+        "time_ar": "07:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
+        "time_de": "07:37",
+        "time_ar": "07:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
+        "time_de": "07:47",
+        "time_ar": "07:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "07:54",
+        "time_ar": "07:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "07:59",
+        "time_ar": "07:58",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "08:03",
+        "time_ar": "08:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "08:07",
+        "time_ar": "08:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "08:14",
+        "time_ar": "08:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Oiso",
+        "time_de": "08:18",
+        "time_ar": "08:17",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
+        "time_de": "08:23",
+        "time_ar": "08:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "08:29",
+        "time_ar": "08:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
+        "time_de": "08:33",
+        "time_ar": "08:33",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Odawara",
+        "time_de": null,
+        "time_ar": "08:37",
         "platform": null
       }
     ]
@@ -33419,25 +33425,25 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "08:26",
+        "time_de": "08:28",
         "time_ar": "08:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "08:35",
-        "time_ar": "08:35",
+        "time_de": "08:36",
+        "time_ar": "08:36",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "08:44",
-        "time_ar": "08:43",
+        "time_de": "08:45",
+        "time_ar": "08:44",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "08:54",
+        "time_de": "08:55",
         "time_ar": "08:54",
         "platform": null
       },
@@ -33617,13 +33623,13 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "08:26",
+        "time_de": "08:27",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "08:29",
+        "time_de": "08:30",
         "time_ar": "08:29",
         "platform": null
       },
@@ -33740,50 +33746,50 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "08:37",
+        "time_de": "08:38",
         "time_ar": "08:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "08:45",
-        "time_ar": "08:45",
+        "time_de": "08:47",
+        "time_ar": "08:46",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "08:55",
-        "time_ar": "08:54",
+        "time_de": "08:58",
+        "time_ar": "08:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "09:00",
-        "time_ar": "09:00",
+        "time_de": "09:04",
+        "time_ar": "09:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "09:05",
-        "time_ar": "09:04",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
         "time_de": "09:08",
         "time_ar": "09:08",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
         "time_de": "09:12",
         "time_ar": "09:11",
         "platform": null
       },
       {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "09:15",
+        "time_ar": "09:15",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": null,
-        "time_ar": "09:17",
+        "time_ar": "09:20",
         "platform": null
       }
     ]
@@ -34247,38 +34253,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "10:43",
+        "time_de": "10:46",
         "time_ar": "10:42",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "10:45",
-        "time_ar": "10:45",
+        "time_de": "10:48",
+        "time_ar": "10:48",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "10:50",
-        "time_ar": "10:50",
+        "time_de": "10:53",
+        "time_ar": "10:53",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "10:55",
-        "time_ar": "10:55",
+        "time_de": "10:58",
+        "time_ar": "10:58",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "10:59",
-        "time_ar": "10:59",
+        "time_de": "11:02",
+        "time_ar": "11:02",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "11:06",
+        "time_ar": "11:09",
         "platform": null
       }
     ]
@@ -34706,38 +34712,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "10:43",
+        "time_de": "10:46",
         "time_ar": "10:42",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "10:45",
-        "time_ar": "10:45",
+        "time_de": "10:48",
+        "time_ar": "10:48",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "10:50",
-        "time_ar": "10:50",
+        "time_de": "10:53",
+        "time_ar": "10:53",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "10:55",
-        "time_ar": "10:55",
+        "time_de": "10:58",
+        "time_ar": "10:58",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "10:59",
-        "time_ar": "10:59",
+        "time_de": "11:02",
+        "time_ar": "11:02",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "11:06",
+        "time_ar": "11:09",
         "platform": null
       }
     ]
@@ -35008,6 +35014,81 @@
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
         "time_ar": "11:25",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.1557E",
+    "train_number": "1557E",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
+        "time_de": "10:57",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
+        "time_de": "11:00",
+        "time_ar": "10:59",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
+        "time_de": "11:05",
+        "time_ar": "11:04",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
+        "time_de": "11:14",
+        "time_ar": "11:13",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
+        "time_de": "11:26",
+        "time_ar": "11:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
+        "time_de": "11:37",
+        "time_ar": "11:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "11:42",
+        "time_ar": "11:41",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "11:46",
+        "time_ar": "11:46",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "11:50",
+        "time_ar": "11:49",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "11:53",
+        "time_ar": "11:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": null,
+        "time_ar": "11:58",
         "platform": null
       }
     ]
@@ -35995,81 +36076,6 @@
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
         "time_ar": "13:28",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Tokaido.1557E",
-    "train_number": "1557E",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "10:57",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "11:00",
-        "time_ar": "10:59",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "11:05",
-        "time_ar": "11:04",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "11:14",
-        "time_ar": "11:13",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "11:26",
-        "time_ar": "11:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "11:37",
-        "time_ar": "11:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "11:42",
-        "time_ar": "11:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "11:46",
-        "time_ar": "11:46",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "11:50",
-        "time_ar": "11:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "11:53",
-        "time_ar": "11:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": null,
-        "time_ar": "11:58",
         "platform": null
       }
     ]
@@ -38597,20 +38603,20 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "17:23",
+        "time_de": "17:24",
         "time_ar": "17:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
         "time_de": "17:28",
-        "time_ar": "17:27",
+        "time_ar": "17:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "17:32",
-        "time_ar": "17:31",
+        "time_de": "17:33",
+        "time_ar": "17:32",
         "platform": null
       },
       {
@@ -38967,7 +38973,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "17:23",
+        "time_ar": "17:24",
         "platform": null
       }
     ]
@@ -39047,32 +39053,32 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "18:07",
+        "time_de": "18:06",
         "time_ar": "18:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
         "time_de": "18:11",
-        "time_ar": "18:11",
+        "time_ar": "18:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "18:16",
-        "time_ar": "18:15",
+        "time_de": "18:15",
+        "time_ar": "18:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
         "time_de": "18:19",
-        "time_ar": "18:19",
+        "time_ar": "18:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "18:23",
+        "time_ar": "18:22",
         "platform": null
       }
     ]
@@ -39152,26 +39158,26 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "17:23",
-        "time_ar": "17:23",
+        "time_de": "17:24",
+        "time_ar": "17:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "17:28",
-        "time_ar": "17:27",
+        "time_de": "17:29",
+        "time_ar": "17:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "17:32",
-        "time_ar": "17:31",
+        "time_de": "17:33",
+        "time_ar": "17:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
         "time_de": "17:36",
-        "time_ar": "17:35",
+        "time_ar": "17:36",
         "platform": null
       },
       {
@@ -39498,12 +39504,12 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
         "time_de": "18:39",
-        "time_ar": "18:38",
+        "time_ar": "18:39",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "18:43",
+        "time_de": "18:44",
         "time_ar": "18:43",
         "platform": null
       },
@@ -39632,32 +39638,32 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "18:07",
+        "time_de": "18:06",
         "time_ar": "18:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
         "time_de": "18:11",
-        "time_ar": "18:11",
+        "time_ar": "18:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "18:16",
-        "time_ar": "18:15",
+        "time_de": "18:15",
+        "time_ar": "18:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
         "time_de": "18:19",
-        "time_ar": "18:19",
+        "time_ar": "18:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "18:23",
+        "time_ar": "18:22",
         "platform": null
       }
     ]
@@ -41402,38 +41408,38 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "18:32",
+        "time_de": "18:35",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "18:36",
-        "time_ar": "18:35",
+        "time_de": "18:39",
+        "time_ar": "18:38",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "18:42",
-        "time_ar": "18:41",
+        "time_de": "18:44",
+        "time_ar": "18:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "18:52",
-        "time_ar": "18:51",
+        "time_de": "18:54",
+        "time_ar": "18:53",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "19:01",
-        "time_ar": "19:00",
+        "time_de": "19:02",
+        "time_ar": "19:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
         "time_de": "19:12",
-        "time_ar": "19:11",
+        "time_ar": "19:12",
         "platform": null
       },
       {
@@ -41660,38 +41666,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "19:56",
+        "time_de": "19:57",
         "time_ar": "19:50",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "20:00",
-        "time_ar": "19:59",
+        "time_de": "20:01",
+        "time_ar": "20:00",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "20:04",
-        "time_ar": "20:04",
+        "time_de": "20:06",
+        "time_ar": "20:05",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "20:09",
-        "time_ar": "20:08",
+        "time_de": "20:11",
+        "time_ar": "20:09",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "20:13",
-        "time_ar": "20:12",
+        "time_de": "20:15",
+        "time_ar": "20:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": "20:21",
-        "time_ar": "20:18",
+        "time_ar": "20:19",
         "platform": null
       },
       {
@@ -42815,14 +42821,14 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:12",
+        "time_de": "21:11",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
         "time_de": "21:15",
-        "time_ar": "21:15",
+        "time_ar": "21:14",
         "platform": null
       },
       {
@@ -42869,7 +42875,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "22:13",
+        "time_de": "22:12",
         "time_ar": "22:12",
         "platform": null
       },
@@ -42995,98 +43001,98 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:32",
+        "time_de": "21:31",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "21:36",
-        "time_ar": "21:35",
+        "time_de": "21:35",
+        "time_ar": "21:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "21:43",
-        "time_ar": "21:41",
+        "time_de": "21:40",
+        "time_ar": "21:39",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "21:52",
-        "time_ar": "21:51",
+        "time_de": "21:49",
+        "time_ar": "21:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "22:02",
-        "time_ar": "22:00",
+        "time_de": "21:59",
+        "time_ar": "21:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "22:13",
-        "time_ar": "22:12",
+        "time_de": "22:10",
+        "time_ar": "22:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "22:18",
-        "time_ar": "22:17",
+        "time_de": "22:17",
+        "time_ar": "22:15",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "22:23",
-        "time_ar": "22:23",
+        "time_de": "22:22",
+        "time_ar": "22:22",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "22:27",
+        "time_de": "22:26",
         "time_ar": "22:26",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "22:31",
+        "time_de": "22:30",
         "time_ar": "22:30",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "22:36",
+        "time_de": "22:35",
         "time_ar": "22:35",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "22:40",
-        "time_ar": "22:39",
+        "time_de": "22:39",
+        "time_ar": "22:38",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "22:45",
-        "time_ar": "22:44",
+        "time_de": "22:43",
+        "time_ar": "22:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "22:51",
-        "time_ar": "22:48",
+        "time_de": "22:49",
+        "time_ar": "22:47",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "22:55",
-        "time_ar": "22:54",
+        "time_de": "22:52",
+        "time_ar": "22:52",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "22:58",
+        "time_ar": "22:56",
         "platform": null
       }
     ]
@@ -43505,38 +43511,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "23:55",
+        "time_de": "23:54",
         "time_ar": "23:48",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "23:58",
-        "time_ar": "23:57",
+        "time_de": "23:57",
+        "time_ar": "23:56",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "00:03",
-        "time_ar": "00:02",
+        "time_de": "00:01",
+        "time_ar": "00:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "00:08",
-        "time_ar": "00:07",
+        "time_de": "00:07",
+        "time_ar": "00:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "00:12",
-        "time_ar": "00:11",
+        "time_de": "00:10",
+        "time_ar": "00:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "00:17",
+        "time_ar": "00:16",
         "platform": null
       }
     ]
@@ -43748,14 +43754,14 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:12",
+        "time_de": "21:11",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
         "time_de": "21:15",
-        "time_ar": "21:15",
+        "time_ar": "21:14",
         "platform": null
       },
       {
@@ -43791,25 +43797,25 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
         "time_de": "22:04",
-        "time_ar": "22:04",
+        "time_ar": "22:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "22:08",
-        "time_ar": "22:08",
+        "time_de": "22:07",
+        "time_ar": "22:07",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "22:13",
-        "time_ar": "22:12",
+        "time_de": "22:12",
+        "time_ar": "22:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": null,
-        "time_ar": "22:18",
+        "time_ar": "22:17",
         "platform": null
       }
     ]
@@ -43898,7 +43904,7 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:32",
+        "time_de": "21:31",
         "time_ar": null,
         "platform": null
       },
@@ -43910,74 +43916,74 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "21:42",
-        "time_ar": "21:41",
+        "time_de": "21:41",
+        "time_ar": "21:40",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "21:52",
-        "time_ar": "21:51",
+        "time_de": "21:50",
+        "time_ar": "21:50",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "22:01",
-        "time_ar": "22:00",
+        "time_de": "22:02",
+        "time_ar": "21:59",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "22:11",
-        "time_ar": "22:11",
+        "time_de": "22:12",
+        "time_ar": "22:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "22:18",
+        "time_de": "22:19",
         "time_ar": "22:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "22:23",
-        "time_ar": "22:22",
+        "time_de": "22:24",
+        "time_ar": "22:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "22:27",
-        "time_ar": "22:26",
+        "time_de": "22:28",
+        "time_ar": "22:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "22:31",
-        "time_ar": "22:30",
+        "time_de": "22:32",
+        "time_ar": "22:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "22:36",
-        "time_ar": "22:35",
+        "time_de": "22:38",
+        "time_ar": "22:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "22:40",
-        "time_ar": "22:39",
+        "time_de": "22:42",
+        "time_ar": "22:42",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "22:45",
-        "time_ar": "22:44",
+        "time_de": "22:47",
+        "time_ar": "22:46",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": "22:51",
-        "time_ar": "22:48",
+        "time_ar": "22:50",
         "platform": null
       },
       {
@@ -44228,38 +44234,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "23:55",
+        "time_de": "23:54",
         "time_ar": "23:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "23:58",
-        "time_ar": "23:57",
+        "time_de": "23:57",
+        "time_ar": "23:56",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "00:03",
-        "time_ar": "00:02",
+        "time_de": "00:01",
+        "time_ar": "00:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "00:08",
-        "time_ar": "00:07",
+        "time_de": "00:07",
+        "time_ar": "00:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "00:12",
-        "time_ar": "00:11",
+        "time_de": "00:10",
+        "time_ar": "00:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "00:17",
+        "time_ar": "00:16",
         "platform": null
       }
     ]
@@ -44366,26 +44372,26 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "08:48",
+        "time_de": "08:47",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "08:51",
-        "time_ar": "08:51",
+        "time_de": "08:50",
+        "time_ar": "08:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "08:57",
-        "time_ar": "08:56",
+        "time_de": "08:56",
+        "time_ar": "08:55",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
         "time_de": "09:06",
-        "time_ar": "09:06",
+        "time_ar": "09:05",
         "platform": null
       },
       {
@@ -45962,8 +45968,8 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "08:41",
-        "time_ar": "08:41",
+        "time_de": "08:40",
+        "time_ar": "08:40",
         "platform": null
       },
       {
@@ -46067,26 +46073,26 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "08:09",
+        "time_de": "08:12",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "08:13",
-        "time_ar": "08:12",
+        "time_de": "08:15",
+        "time_ar": "08:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "08:19",
-        "time_ar": "08:18",
+        "time_de": "08:20",
+        "time_ar": "08:19",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "08:28",
-        "time_ar": "08:28",
+        "time_de": "08:29",
+        "time_ar": "08:29",
         "platform": null
       },
       {
@@ -46233,7 +46239,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
         "time_de": "08:51",
-        "time_ar": "08:51",
+        "time_ar": "08:50",
         "platform": null
       },
       {
@@ -47198,20 +47204,20 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "09:45",
+        "time_de": "09:49",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "09:48",
-        "time_ar": "09:48",
+        "time_de": "09:52",
+        "time_ar": "09:51",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
         "time_de": null,
-        "time_ar": "09:54",
+        "time_ar": "09:57",
         "platform": null
       }
     ]
@@ -47330,14 +47336,14 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "09:51",
+        "time_de": "09:52",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
         "time_de": "09:55",
-        "time_ar": "09:54",
+        "time_ar": "09:55",
         "platform": null
       },
       {
@@ -47421,7 +47427,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": "11:22",
-        "time_ar": "11:18",
+        "time_ar": "11:19",
         "platform": null
       },
       {
@@ -47457,58 +47463,58 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.2831Y",
-    "train_number": "2831Y",
+    "train": "odpt.Train:JR-East.Tokaido.2841Y",
+    "train_number": "2841Y",
     "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:JR-East.Rapid",
     "direction": "odpt.RailDirection:Outbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "10:57",
+        "time_de": "15:17",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "11:01",
-        "time_ar": "11:01",
+        "time_de": "15:21",
+        "time_ar": "15:21",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "11:05",
-        "time_ar": "11:04",
+        "time_de": "15:25",
+        "time_ar": "15:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "11:08",
-        "time_ar": "11:08",
+        "time_de": "15:28",
+        "time_ar": "15:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "11:13",
-        "time_ar": "11:12",
+        "time_de": "15:33",
+        "time_ar": "15:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "11:16",
-        "time_ar": "11:16",
+        "time_de": "15:36",
+        "time_ar": "15:36",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "11:21",
-        "time_ar": "11:20",
+        "time_de": "15:41",
+        "time_ar": "15:40",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": null,
-        "time_ar": "11:25",
+        "time_ar": "15:45",
         "platform": null
       }
     ]
@@ -49901,7 +49907,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "22:47",
+        "time_de": "22:48",
         "time_ar": "22:47",
         "platform": null
       },
@@ -53988,7 +53994,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
         "time_de": "19:36",
-        "time_ar": "19:36",
+        "time_ar": "19:35",
         "platform": null
       },
       {
@@ -54143,7 +54149,7 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "18:26",
+        "time_de": "18:27",
         "time_ar": null,
         "platform": null
       },
@@ -54377,7 +54383,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "18:43",
+        "time_de": "18:44",
         "time_ar": "18:43",
         "platform": null
       },
@@ -54431,26 +54437,26 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "19:47",
+        "time_de": "19:46",
         "time_ar": "19:44",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "19:50",
-        "time_ar": "19:50",
+        "time_de": "19:49",
+        "time_ar": "19:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "19:55",
-        "time_ar": "19:54",
+        "time_de": "19:54",
+        "time_ar": "19:53",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": null,
-        "time_ar": "19:59",
+        "time_ar": "19:58",
         "platform": null
       }
     ]
@@ -55238,44 +55244,44 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "20:51",
-        "time_ar": "20:49",
+        "time_de": "20:52",
+        "time_ar": "20:50",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "21:01",
-        "time_ar": "21:01",
+        "time_de": "21:03",
+        "time_ar": "21:02",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "21:07",
-        "time_ar": "21:06",
+        "time_de": "21:10",
+        "time_ar": "21:08",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "21:12",
-        "time_ar": "21:12",
+        "time_de": "21:15",
+        "time_ar": "21:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "21:16",
-        "time_ar": "21:16",
+        "time_de": "21:19",
+        "time_ar": "21:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "21:20",
-        "time_ar": "21:20",
+        "time_de": "21:23",
+        "time_ar": "21:22",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": "21:29",
-        "time_ar": "21:26",
+        "time_ar": "21:28",
         "platform": null
       },
       {
@@ -55814,38 +55820,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "22:37",
+        "time_de": "22:40",
         "time_ar": "22:31",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "22:41",
-        "time_ar": "22:40",
+        "time_de": "22:43",
+        "time_ar": "22:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "22:45",
-        "time_ar": "22:45",
+        "time_de": "22:48",
+        "time_ar": "22:48",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "22:51",
-        "time_ar": "22:50",
+        "time_de": "22:53",
+        "time_ar": "22:53",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "22:54",
-        "time_ar": "22:54",
+        "time_de": "22:57",
+        "time_ar": "22:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "23:01",
+        "time_ar": "23:04",
         "platform": null
       }
     ]
@@ -55908,13 +55914,13 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
         "time_de": "21:56",
-        "time_ar": "21:56",
+        "time_ar": "21:55",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
         "time_de": "22:00",
-        "time_ar": "22:00",
+        "time_ar": "21:59",
         "platform": null
       },
       {
@@ -55949,38 +55955,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "22:37",
+        "time_de": "22:40",
         "time_ar": "22:31",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "22:41",
-        "time_ar": "22:40",
+        "time_de": "22:43",
+        "time_ar": "22:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "22:45",
-        "time_ar": "22:45",
+        "time_de": "22:48",
+        "time_ar": "22:48",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "22:51",
-        "time_ar": "22:50",
+        "time_de": "22:53",
+        "time_ar": "22:53",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "22:54",
-        "time_ar": "22:54",
+        "time_de": "22:57",
+        "time_ar": "22:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "23:01",
+        "time_ar": "23:04",
         "platform": null
       }
     ]
@@ -55994,44 +56000,44 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:22",
+        "time_de": "21:20",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "21:25",
-        "time_ar": "21:24",
+        "time_de": "21:24",
+        "time_ar": "21:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "21:32",
-        "time_ar": "21:30",
+        "time_de": "21:30",
+        "time_ar": "21:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "21:42",
-        "time_ar": "21:41",
+        "time_de": "21:39",
+        "time_ar": "21:38",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "21:52",
-        "time_ar": "21:50",
+        "time_de": "21:47",
+        "time_ar": "21:46",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "22:01",
-        "time_ar": "22:01",
+        "time_de": "21:57",
+        "time_ar": "21:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": "22:07",
-        "time_ar": "22:06",
+        "time_ar": "22:02",
         "platform": null
       },
       {
@@ -56073,7 +56079,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": "22:44",
-        "time_ar": "22:39",
+        "time_ar": "22:38",
         "platform": null
       },
       {
@@ -56129,49 +56135,49 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:24",
+        "time_de": "21:20",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shimbashi",
-        "time_de": "21:28",
-        "time_ar": "21:27",
+        "time_de": "21:24",
+        "time_ar": "21:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
-        "time_de": "21:33",
-        "time_ar": "21:32",
+        "time_de": "21:30",
+        "time_ar": "21:29",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kawasaki",
-        "time_de": "21:42",
-        "time_ar": "21:42",
+        "time_de": "21:39",
+        "time_ar": "21:38",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "21:51",
-        "time_ar": "21:50",
+        "time_de": "21:48",
+        "time_ar": "21:47",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Totsuka",
-        "time_de": "22:01",
-        "time_ar": "22:00",
+        "time_de": "21:57",
+        "time_ar": "21:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
         "time_de": "22:07",
-        "time_ar": "22:06",
+        "time_ar": "22:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "22:11",
+        "time_de": "22:12",
         "time_ar": "22:11",
         "platform": null
       },
@@ -56184,7 +56190,7 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
         "time_de": "22:19",
-        "time_ar": "22:18",
+        "time_ar": "22:19",
         "platform": null
       },
       {
@@ -56900,38 +56906,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "00:19",
+        "time_de": "00:27",
         "time_ar": "00:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "00:22",
-        "time_ar": "00:21",
+        "time_de": "00:30",
+        "time_ar": "00:29",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "00:27",
-        "time_ar": "00:26",
+        "time_de": "00:35",
+        "time_ar": "00:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "00:32",
-        "time_ar": "00:31",
+        "time_de": "00:40",
+        "time_ar": "00:39",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "00:36",
-        "time_ar": "00:35",
+        "time_de": "00:44",
+        "time_ar": "00:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "00:42",
+        "time_ar": "00:50",
         "platform": null
       }
     ]
@@ -57035,38 +57041,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": "00:19",
+        "time_de": "00:27",
         "time_ar": "00:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
-        "time_de": "00:22",
-        "time_ar": "00:21",
+        "time_de": "00:30",
+        "time_ar": "00:29",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
-        "time_de": "00:27",
-        "time_ar": "00:26",
+        "time_de": "00:35",
+        "time_ar": "00:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
-        "time_de": "00:32",
-        "time_ar": "00:31",
+        "time_de": "00:40",
+        "time_ar": "00:39",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
-        "time_de": "00:36",
-        "time_ar": "00:35",
+        "time_de": "00:44",
+        "time_ar": "00:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "00:42",
+        "time_ar": "00:50",
         "platform": null
       }
     ]
@@ -57266,13 +57272,13 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "08:44",
+        "time_de": "08:43",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "08:49",
+        "time_de": "08:48",
         "time_ar": "08:48",
         "platform": null
       },
@@ -57392,50 +57398,50 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "09:04",
+        "time_de": "09:00",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "09:05",
+        "time_ar": "09:04",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
         "time_de": "09:08",
         "time_ar": "09:08",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
         "time_de": "09:12",
         "time_ar": "09:11",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "09:15",
-        "time_ar": "09:15",
-        "platform": null
-      },
-      {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "09:20",
-        "time_ar": "09:19",
+        "time_de": "09:17",
+        "time_ar": "09:16",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "09:23",
-        "time_ar": "09:23",
+        "time_de": "09:21",
+        "time_ar": "09:21",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "09:28",
-        "time_ar": "09:27",
+        "time_de": "09:26",
+        "time_ar": "09:25",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": null,
-        "time_ar": "09:32",
+        "time_ar": "09:30",
         "platform": null
       }
     ]
@@ -57753,58 +57759,70 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.2841Y",
-    "train_number": "2841Y",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train": "odpt.Train:JR-East.Tokaido.2857Y",
+    "train_number": "2857Y",
+    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Rapid",
     "direction": "odpt.RailDirection:Outbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "15:17",
+        "time_de": "19:21",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "15:21",
-        "time_ar": "15:21",
+        "time_de": "19:26",
+        "time_ar": "19:25",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "15:25",
-        "time_ar": "15:24",
+        "time_de": "19:30",
+        "time_ar": "19:30",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "15:28",
-        "time_ar": "15:28",
+        "time_de": "19:35",
+        "time_ar": "19:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "15:33",
-        "time_ar": "15:32",
+        "time_de": "19:41",
+        "time_ar": "19:40",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "15:36",
-        "time_ar": "15:36",
+        "time_de": "19:44",
+        "time_ar": "19:44",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "15:41",
-        "time_ar": "15:40",
+        "time_de": "19:49",
+        "time_ar": "19:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": "19:54",
+        "time_ar": "19:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
+        "time_de": "19:57",
+        "time_ar": "19:57",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "15:45",
+        "time_ar": "20:01",
         "platform": null
       }
     ]
@@ -57913,75 +57931,6 @@
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
         "time_ar": "11:23",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Tokaido.2857Y",
-    "train_number": "2857Y",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "19:21",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "19:26",
-        "time_ar": "19:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "19:30",
-        "time_ar": "19:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "19:35",
-        "time_ar": "19:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "19:41",
-        "time_ar": "19:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "19:44",
-        "time_ar": "19:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "19:49",
-        "time_ar": "19:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "19:54",
-        "time_ar": "19:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "19:57",
-        "time_ar": "19:57",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Odawara",
-        "time_de": null,
-        "time_ar": "20:01",
         "platform": null
       }
     ]
@@ -58216,6 +58165,63 @@
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": null,
         "time_ar": "17:35",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Tokaido.2859Y",
+    "train_number": "2859Y",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "21:22",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "21:27",
+        "time_ar": "21:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "21:30",
+        "time_ar": "21:30",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "21:34",
+        "time_ar": "21:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": "21:39",
+        "time_ar": "21:38",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Oiso",
+        "time_de": "21:43",
+        "time_ar": "21:43",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
+        "time_de": "21:48",
+        "time_ar": "21:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Kozu",
+        "time_de": null,
+        "time_ar": "21:54",
         "platform": null
       }
     ]
@@ -58640,56 +58646,56 @@
   {
     "train": "odpt.Train:JR-East.Tokaido.2859Y",
     "train_number": "2859Y",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Rapid",
     "direction": "odpt.RailDirection:Outbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "21:22",
+        "time_de": "19:57",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "21:27",
-        "time_ar": "21:26",
+        "time_de": "20:02",
+        "time_ar": "20:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "21:30",
-        "time_ar": "21:30",
+        "time_de": "20:06",
+        "time_ar": "20:05",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "21:34",
-        "time_ar": "21:34",
+        "time_de": "20:10",
+        "time_ar": "20:09",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "21:39",
-        "time_ar": "21:38",
+        "time_de": "20:16",
+        "time_ar": "20:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "21:43",
-        "time_ar": "21:43",
+        "time_de": "20:20",
+        "time_ar": "20:19",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "21:48",
-        "time_ar": "21:48",
+        "time_de": "20:24",
+        "time_ar": "20:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
         "time_de": null,
-        "time_ar": "21:54",
+        "time_ar": "20:29",
         "platform": null
       }
     ]
@@ -58817,7 +58823,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "21:06",
+        "time_de": "21:05",
         "time_ar": "21:05",
         "platform": null
       },
@@ -58872,63 +58878,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.2859Y",
-    "train_number": "2859Y",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
-        "time_de": "19:57",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
-        "time_de": "20:02",
-        "time_ar": "20:01",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
-        "time_de": "20:06",
-        "time_ar": "20:05",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "20:10",
-        "time_ar": "20:09",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "20:16",
-        "time_ar": "20:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "20:20",
-        "time_ar": "20:19",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "20:24",
-        "time_ar": "20:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": null,
-        "time_ar": "20:29",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Tokaido.2861Y",
     "train_number": "2861Y",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -58973,26 +58922,26 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "22:24",
+        "time_de": "22:23",
         "time_ar": "22:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "22:29",
-        "time_ar": "22:28",
+        "time_de": "22:31",
+        "time_ar": "22:27",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "22:32",
-        "time_ar": "22:31",
+        "time_de": "22:34",
+        "time_ar": "22:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "22:35",
+        "time_ar": "22:38",
         "platform": null
       }
     ]
@@ -59360,38 +59309,38 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
-        "time_de": "22:15",
+        "time_de": "22:14",
         "time_ar": "22:13",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Oiso",
-        "time_de": "22:19",
-        "time_ar": "22:18",
+        "time_de": "22:18",
+        "time_ar": "22:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Ninomiya",
-        "time_de": "22:24",
-        "time_ar": "22:23",
+        "time_de": "22:23",
+        "time_ar": "22:22",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "22:29",
-        "time_ar": "22:28",
+        "time_de": "22:31",
+        "time_ar": "22:27",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kamonomiya",
-        "time_de": "22:32",
-        "time_ar": "22:31",
+        "time_de": "22:34",
+        "time_ar": "22:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "22:35",
+        "time_ar": "22:38",
         "platform": null
       }
     ]
@@ -60114,6 +60063,57 @@
     ]
   },
   {
+    "train": "odpt.Train:JR-East.Tokaido.3071M",
+    "train_number": "3071M",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tokyo",
+        "time_de": "17:30",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Shinagawa",
+        "time_de": "17:39",
+        "time_ar": "17:37",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Ofuna",
+        "time_de": "18:06",
+        "time_ar": "18:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Fujisawa",
+        "time_de": "18:10",
+        "time_ar": "18:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Tsujido",
+        "time_de": "18:14",
+        "time_ar": "18:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
+        "time_de": "18:18",
+        "time_ar": "18:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
+        "time_de": null,
+        "time_ar": "18:23",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:JR-East.Tokaido.3073M",
     "train_number": "3073M",
     "calendar": "odpt.Calendar:Weekday",
@@ -60549,8 +60549,8 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Tokaido.3087M",
-    "train_number": "3087M",
+    "train": "odpt.Train:JR-East.Tokaido.3089M",
+    "train_number": "3089M",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.LimitedExpress",
     "direction": "odpt.RailDirection:Outbound",
@@ -60819,31 +60819,31 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
         "time_de": "06:47",
-        "time_ar": "06:46",
+        "time_ar": "06:47",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
         "time_de": "06:52",
-        "time_ar": "06:51",
+        "time_ar": "06:52",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
         "time_de": "06:57",
-        "time_ar": "06:56",
+        "time_ar": "06:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
         "time_de": "07:01",
-        "time_ar": "07:00",
+        "time_ar": "07:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "07:07",
+        "time_ar": "07:08",
         "platform": null
       }
     ]
@@ -60954,31 +60954,31 @@
       {
         "station": "odpt.Station:JR-East.Tokaido.Hayakawa",
         "time_de": "06:47",
-        "time_ar": "06:46",
+        "time_ar": "06:47",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Nebukawa",
         "time_de": "06:52",
-        "time_ar": "06:51",
+        "time_ar": "06:52",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Manazuru",
         "time_de": "06:57",
-        "time_ar": "06:56",
+        "time_ar": "06:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yugawara",
         "time_de": "07:01",
-        "time_ar": "07:00",
+        "time_ar": "07:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "07:07",
+        "time_ar": "07:08",
         "platform": null
       }
     ]
@@ -61973,26 +61973,26 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "17:57",
+        "time_de": "17:56",
         "time_ar": "17:56",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": "18:01",
-        "time_ar": "18:01",
+        "time_ar": "18:00",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "18:12",
-        "time_ar": "18:11",
+        "time_de": "18:11",
+        "time_ar": "18:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "18:18",
+        "time_ar": "18:17",
         "platform": null
       }
     ]
@@ -62063,26 +62063,26 @@
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Chigasaki",
-        "time_de": "17:57",
+        "time_de": "17:56",
         "time_ar": "17:56",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Hiratsuka",
         "time_de": "18:01",
-        "time_ar": "18:01",
+        "time_ar": "18:00",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Kozu",
-        "time_de": "18:12",
-        "time_ar": "18:11",
+        "time_de": "18:11",
+        "time_ar": "18:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Odawara",
         "time_de": null,
-        "time_ar": "18:18",
+        "time_ar": "18:17",
         "platform": null
       }
     ]
@@ -62096,20 +62096,20 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:50",
+        "time_de": "21:26",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "22:15",
-        "time_ar": "22:14",
+        "time_de": "21:52",
+        "time_ar": "21:51",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "23:21",
+        "time_ar": "22:55",
         "platform": null
       }
     ]
@@ -62123,20 +62123,20 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Tokaido.Tokyo",
-        "time_de": "21:50",
+        "time_de": "21:26",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Yokohama",
-        "time_de": "22:15",
-        "time_ar": "22:14",
+        "time_de": "21:52",
+        "time_ar": "21:51",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Tokaido.Atami",
         "time_de": null,
-        "time_ar": "23:21",
+        "time_ar": "22:55",
         "platform": null
       }
     ]
