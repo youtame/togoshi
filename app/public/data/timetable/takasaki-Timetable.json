@@ -2,7 +2,7 @@
   {
     "train": "odpt.Train:JR-East.Takasaki.3004M",
     "train_number": "3004M",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.LimitedExpress",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
@@ -40,6 +40,123 @@
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": null,
         "time_ar": "18:09",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Takasaki.1823E",
+    "train_number": "1823E",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "time_de": "05:33",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "05:39",
+        "time_ar": "05:39",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
+        "time_de": "05:44",
+        "time_ar": "05:43",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
+        "time_de": "05:47",
+        "time_ar": "05:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
+        "time_de": "05:51",
+        "time_ar": "05:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
+        "time_de": "05:55",
+        "time_ar": "05:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "05:59",
+        "time_ar": "05:58",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "06:03",
+        "time_ar": "06:03",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "06:06",
+        "time_ar": "06:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "06:09",
+        "time_ar": "06:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "06:13",
+        "time_ar": "06:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "06:18",
+        "time_ar": "06:17",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
+        "time_de": "06:21",
+        "time_ar": "06:20",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "06:25",
+        "time_ar": "06:25",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
+        "time_de": "06:33",
+        "time_ar": "06:33",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "time_de": "06:38",
+        "time_ar": "06:38",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ueno",
+        "time_de": "06:47",
+        "time_ar": "06:45",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Tokyo",
+        "time_de": null,
+        "time_ar": "06:52",
         "platform": null
       }
     ]
@@ -274,123 +391,6 @@
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
         "time_ar": "06:22",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Takasaki.1823E",
-    "train_number": "1823E",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "05:33",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "05:39",
-        "time_ar": "05:39",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "05:44",
-        "time_ar": "05:43",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "05:47",
-        "time_ar": "05:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "05:51",
-        "time_ar": "05:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "05:55",
-        "time_ar": "05:54",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "05:59",
-        "time_ar": "05:58",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "06:03",
-        "time_ar": "06:03",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "06:06",
-        "time_ar": "06:05",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "06:09",
-        "time_ar": "06:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "06:13",
-        "time_ar": "06:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "06:18",
-        "time_ar": "06:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "06:21",
-        "time_ar": "06:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "06:25",
-        "time_ar": "06:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "06:33",
-        "time_ar": "06:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "06:38",
-        "time_ar": "06:38",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "06:47",
-        "time_ar": "06:45",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Tokyo",
-        "time_de": null,
-        "time_ar": "06:52",
         "platform": null
       }
     ]
@@ -826,6 +826,87 @@
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
         "time_ar": "06:59",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Takasaki.2843Y",
+    "train_number": "2843Y",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "time_de": "14:12",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "14:18",
+        "time_ar": "14:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
+        "time_de": "14:23",
+        "time_ar": "14:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
+        "time_de": "14:26",
+        "time_ar": "14:25",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
+        "time_de": "14:29",
+        "time_ar": "14:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
+        "time_de": "14:33",
+        "time_ar": "14:33",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "14:37",
+        "time_ar": "14:37",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "14:41",
+        "time_ar": "14:41",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "14:44",
+        "time_ar": "14:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "14:47",
+        "time_ar": "14:46",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "14:51",
+        "time_ar": "14:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": null,
+        "time_ar": "14:55",
         "platform": null
       }
     ]
@@ -2123,14 +2204,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "08:03",
+        "time_de": "08:05",
         "time_ar": "08:02",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "08:08",
+        "time_ar": "08:10",
         "platform": null
       }
     ]
@@ -2228,13 +2309,13 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "07:18",
-        "time_ar": "07:17",
+        "time_de": "07:17",
+        "time_ar": "07:16",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "07:21",
+        "time_de": "07:20",
         "time_ar": "07:20",
         "platform": null
       },
@@ -2246,26 +2327,26 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "07:29",
-        "time_ar": "07:28",
+        "time_de": "07:28",
+        "time_ar": "07:27",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "07:36",
-        "time_ar": "07:34",
+        "time_de": "07:35",
+        "time_ar": "07:33",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "07:39",
-        "time_ar": "07:39",
+        "time_de": "07:38",
+        "time_ar": "07:38",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "07:44",
-        "time_ar": "07:43",
+        "time_de": "07:43",
+        "time_ar": "07:42",
         "platform": null
       },
       {
@@ -2810,13 +2891,13 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "08:01",
+        "time_de": "08:02",
         "time_ar": "08:00",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "08:04",
+        "time_de": "08:05",
         "time_ar": "08:04",
         "platform": null
       },
@@ -3062,110 +3143,110 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "07:27",
+        "time_de": "07:26",
         "time_ar": "07:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "07:34",
-        "time_ar": "07:33",
+        "time_de": "07:32",
+        "time_ar": "07:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "07:39",
-        "time_ar": "07:38",
+        "time_de": "07:37",
+        "time_ar": "07:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "07:42",
-        "time_ar": "07:42",
+        "time_de": "07:40",
+        "time_ar": "07:40",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "07:46",
-        "time_ar": "07:45",
+        "time_de": "07:44",
+        "time_ar": "07:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "07:50",
-        "time_ar": "07:50",
+        "time_de": "07:48",
+        "time_ar": "07:48",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "07:54",
-        "time_ar": "07:54",
+        "time_de": "07:52",
+        "time_ar": "07:51",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "07:59",
-        "time_ar": "07:58",
+        "time_de": "07:56",
+        "time_ar": "07:56",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "08:01",
-        "time_ar": "08:01",
+        "time_de": "07:59",
+        "time_ar": "07:59",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "08:04",
-        "time_ar": "08:04",
+        "time_de": "08:02",
+        "time_ar": "08:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "08:09",
-        "time_ar": "08:08",
+        "time_de": "08:06",
+        "time_ar": "08:05",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "08:14",
-        "time_ar": "08:13",
+        "time_de": "08:12",
+        "time_ar": "08:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "08:17",
-        "time_ar": "08:16",
+        "time_de": "08:15",
+        "time_ar": "08:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "08:21",
-        "time_ar": "08:21",
+        "time_de": "08:19",
+        "time_ar": "08:19",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "08:30",
-        "time_ar": "08:29",
+        "time_de": "08:27",
+        "time_ar": "08:27",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "08:35",
-        "time_ar": "08:34",
+        "time_de": "08:32",
+        "time_ar": "08:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "08:42",
-        "time_ar": "08:40",
+        "time_de": "08:40",
+        "time_ar": "08:39",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "08:47",
+        "time_ar": "08:45",
         "platform": null
       }
     ]
@@ -3345,7 +3426,7 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.Kuragano",
         "time_de": "07:04",
-        "time_ar": "07:03",
+        "time_ar": "07:04",
         "platform": null
       },
       {
@@ -3483,7 +3564,7 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "09:00",
+        "time_ar": "09:01",
         "platform": null
       }
     ]
@@ -4323,43 +4404,43 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
         "time_de": "08:42",
-        "time_ar": "08:42",
+        "time_ar": "08:41",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
         "time_de": "08:46",
-        "time_ar": "08:46",
+        "time_ar": "08:45",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "08:51",
-        "time_ar": "08:50",
+        "time_de": "08:50",
+        "time_ar": "08:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "08:54",
-        "time_ar": "08:53",
+        "time_de": "08:53",
+        "time_ar": "08:52",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "08:56",
-        "time_ar": "08:56",
+        "time_de": "08:55",
+        "time_ar": "08:55",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "09:01",
-        "time_ar": "09:00",
+        "time_de": "08:59",
+        "time_ar": "08:59",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
         "time_de": "09:07",
-        "time_ar": "09:06",
+        "time_ar": "09:04",
         "platform": null
       },
       {
@@ -4388,14 +4469,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "09:39",
-        "time_ar": "09:36",
+        "time_de": "09:41",
+        "time_ar": "09:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "09:44",
+        "time_ar": "09:47",
         "platform": null
       }
     ]
@@ -4706,14 +4787,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "09:45",
+        "time_de": "09:47",
         "time_ar": "09:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "09:50",
+        "time_ar": "09:51",
         "platform": null
       }
     ]
@@ -5469,37 +5550,37 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
         "time_de": "09:49",
-        "time_ar": "09:49",
+        "time_ar": "09:48",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
         "time_de": "09:53",
-        "time_ar": "09:53",
+        "time_ar": "09:52",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "09:58",
+        "time_de": "09:57",
         "time_ar": "09:57",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "10:01",
+        "time_de": "10:00",
         "time_ar": "10:00",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "10:04",
+        "time_de": "10:03",
         "time_ar": "10:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "10:08",
-        "time_ar": "10:08",
+        "time_de": "10:07",
+        "time_ar": "10:07",
         "platform": null
       },
       {
@@ -12731,14 +12812,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "18:20",
+        "time_de": "18:21",
         "time_ar": "18:19",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "18:25",
+        "time_ar": "18:26",
         "platform": null
       }
     ]
@@ -13049,7 +13130,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "18:33",
+        "time_de": "18:34",
         "time_ar": "18:32",
         "platform": null
       },
@@ -13890,46 +13971,46 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.3002M",
-    "train_number": "3002M",
-    "calendar": "odpt.Calendar:Weekday",
+    "train": "odpt.Train:JR-East.Takasaki.3004M",
+    "train_number": "3004M",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:JR-East.LimitedExpress",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Takasaki.Takasaki",
-        "time_de": "14:06",
+        "time_de": "16:46",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "14:34",
-        "time_ar": "14:33",
+        "time_de": "17:16",
+        "time_ar": "17:15",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "15:00",
-        "time_ar": "14:59",
+        "time_de": "17:44",
+        "time_ar": "17:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "15:07",
-        "time_ar": "15:06",
+        "time_de": "17:50",
+        "time_ar": "17:50",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "15:15",
-        "time_ar": "15:15",
+        "time_de": "17:59",
+        "time_ar": "17:58",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": null,
-        "time_ar": "15:26",
+        "time_ar": "18:09",
         "platform": null
       }
     ]
@@ -15214,153 +15295,111 @@
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
-        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
-        "time_de": "19:30",
-        "time_ar": "19:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kuragano",
-        "time_de": "19:35",
-        "time_ar": "19:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Shimmachi",
-        "time_de": "19:40",
-        "time_ar": "19:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Jimbohara",
-        "time_de": "19:44",
-        "time_ar": "19:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Honjo",
-        "time_de": "19:48",
-        "time_ar": "19:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okabe",
-        "time_de": "19:53",
-        "time_ar": "19:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukaya",
-        "time_de": "19:57",
-        "time_ar": "19:57",
-        "platform": null
-      },
-      {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "20:05",
-        "time_ar": "20:01",
+        "time_de": "19:59",
+        "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "20:11",
-        "time_ar": "20:10",
+        "time_de": "20:05",
+        "time_ar": "20:05",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "20:15",
-        "time_ar": "20:15",
+        "time_de": "20:10",
+        "time_ar": "20:09",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "20:18",
-        "time_ar": "20:18",
+        "time_de": "20:13",
+        "time_ar": "20:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "20:22",
-        "time_ar": "20:21",
+        "time_de": "20:16",
+        "time_ar": "20:16",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "20:26",
-        "time_ar": "20:25",
+        "time_de": "20:20",
+        "time_ar": "20:20",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "20:30",
-        "time_ar": "20:29",
+        "time_de": "20:24",
+        "time_ar": "20:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "20:28",
+        "time_ar": "20:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "20:31",
+        "time_ar": "20:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
         "time_de": "20:34",
         "time_ar": "20:33",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "20:37",
-        "time_ar": "20:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "20:39",
-        "time_ar": "20:39",
-        "platform": null
-      },
-      {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "20:43",
-        "time_ar": "20:43",
+        "time_de": "20:38",
+        "time_ar": "20:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "20:48",
-        "time_ar": "20:47",
+        "time_de": "20:43",
+        "time_ar": "20:42",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "20:51",
-        "time_ar": "20:50",
+        "time_de": "20:46",
+        "time_ar": "20:46",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "20:55",
-        "time_ar": "20:55",
+        "time_de": "20:50",
+        "time_ar": "20:50",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "21:03",
-        "time_ar": "21:03",
+        "time_de": "20:59",
+        "time_ar": "20:58",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "21:08",
-        "time_ar": "21:08",
+        "time_de": "21:04",
+        "time_ar": "21:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "21:15",
-        "time_ar": "21:14",
+        "time_de": "21:13",
+        "time_ar": "21:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "21:20",
+        "time_ar": "21:18",
         "platform": null
       }
     ]
@@ -15373,153 +15412,111 @@
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
-        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
-        "time_de": "19:30",
-        "time_ar": "19:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kuragano",
-        "time_de": "19:35",
-        "time_ar": "19:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Shimmachi",
-        "time_de": "19:40",
-        "time_ar": "19:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Jimbohara",
-        "time_de": "19:45",
-        "time_ar": "19:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Honjo",
-        "time_de": "19:49",
-        "time_ar": "19:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okabe",
-        "time_de": "19:54",
-        "time_ar": "19:54",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukaya",
-        "time_de": "19:58",
-        "time_ar": "19:58",
-        "platform": null
-      },
-      {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "20:06",
-        "time_ar": "20:03",
+        "time_de": "20:00",
+        "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "20:12",
-        "time_ar": "20:12",
+        "time_de": "20:06",
+        "time_ar": "20:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "20:17",
-        "time_ar": "20:16",
+        "time_de": "20:11",
+        "time_ar": "20:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "20:20",
-        "time_ar": "20:20",
+        "time_de": "20:14",
+        "time_ar": "20:14",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "20:24",
-        "time_ar": "20:23",
+        "time_de": "20:18",
+        "time_ar": "20:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "20:28",
-        "time_ar": "20:28",
+        "time_de": "20:22",
+        "time_ar": "20:21",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "20:25",
+        "time_ar": "20:25",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "20:30",
+        "time_ar": "20:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
         "time_de": "20:32",
         "time_ar": "20:32",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "20:37",
-        "time_ar": "20:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "20:40",
-        "time_ar": "20:39",
-        "platform": null
-      },
-      {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "20:42",
-        "time_ar": "20:42",
+        "time_de": "20:35",
+        "time_ar": "20:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "20:46",
-        "time_ar": "20:46",
+        "time_de": "20:39",
+        "time_ar": "20:38",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "20:51",
-        "time_ar": "20:50",
+        "time_de": "20:44",
+        "time_ar": "20:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "20:54",
-        "time_ar": "20:54",
+        "time_de": "20:47",
+        "time_ar": "20:47",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "20:59",
-        "time_ar": "20:58",
+        "time_de": "20:51",
+        "time_ar": "20:51",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "21:07",
-        "time_ar": "21:07",
+        "time_de": "21:00",
+        "time_ar": "20:59",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "21:12",
-        "time_ar": "21:11",
+        "time_de": "21:05",
+        "time_ar": "21:04",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "21:18",
-        "time_ar": "21:17",
+        "time_de": "21:13",
+        "time_ar": "21:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
-        "time_ar": "21:23",
+        "time_ar": "21:18",
         "platform": null
       }
     ]
@@ -16390,6 +16387,87 @@
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
         "time_de": null,
         "time_ar": "22:10",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Takasaki.2839Y",
+    "train_number": "2839Y",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "time_de": "09:08",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "09:15",
+        "time_ar": "09:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
+        "time_de": "09:20",
+        "time_ar": "09:19",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
+        "time_de": "09:23",
+        "time_ar": "09:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
+        "time_de": "09:27",
+        "time_ar": "09:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
+        "time_de": "09:32",
+        "time_ar": "09:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "09:36",
+        "time_ar": "09:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "09:41",
+        "time_ar": "09:41",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "09:45",
+        "time_ar": "09:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "09:47",
+        "time_ar": "09:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "09:52",
+        "time_ar": "09:51",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": null,
+        "time_ar": "09:56",
         "platform": null
       }
     ]
@@ -17735,7 +17813,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "07:25",
+        "time_de": "07:24",
         "time_ar": "07:24",
         "platform": null
       },
@@ -17747,14 +17825,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "07:33",
-        "time_ar": "07:32",
+        "time_de": "07:32",
+        "time_ar": "07:31",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
         "time_de": null,
-        "time_ar": "07:38",
+        "time_ar": "07:36",
         "platform": null
       }
     ]
@@ -18020,14 +18098,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kuragano",
-        "time_de": "08:18",
+        "time_de": "08:19",
         "time_ar": "08:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Shimmachi",
         "time_de": "08:24",
-        "time_ar": "08:23",
+        "time_ar": "08:24",
         "platform": null
       },
       {
@@ -18039,19 +18117,19 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.Honjo",
         "time_de": "08:32",
-        "time_ar": "08:31",
+        "time_ar": "08:32",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okabe",
         "time_de": "08:37",
-        "time_ar": "08:36",
+        "time_ar": "08:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukaya",
         "time_de": "08:41",
-        "time_ar": "08:40",
+        "time_ar": "08:41",
         "platform": null
       },
       {
@@ -18909,87 +18987,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.2839Y",
-    "train_number": "2839Y",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "09:08",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "09:15",
-        "time_ar": "09:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "09:20",
-        "time_ar": "09:19",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "09:23",
-        "time_ar": "09:23",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "09:27",
-        "time_ar": "09:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "09:32",
-        "time_ar": "09:31",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "09:36",
-        "time_ar": "09:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "09:41",
-        "time_ar": "09:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "09:45",
-        "time_ar": "09:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "09:47",
-        "time_ar": "09:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "09:52",
-        "time_ar": "09:51",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": null,
-        "time_ar": "09:56",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Takasaki.2841Y",
     "train_number": "2841Y",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -19147,87 +19144,6 @@
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
         "time_de": null,
         "time_ar": "10:56",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Takasaki.2843Y",
-    "train_number": "2843Y",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "14:12",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "14:18",
-        "time_ar": "14:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "14:23",
-        "time_ar": "14:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "14:26",
-        "time_ar": "14:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "14:29",
-        "time_ar": "14:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "14:33",
-        "time_ar": "14:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "14:37",
-        "time_ar": "14:37",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "14:41",
-        "time_ar": "14:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "14:44",
-        "time_ar": "14:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "14:47",
-        "time_ar": "14:46",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "14:51",
-        "time_ar": "14:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": null,
-        "time_ar": "14:55",
         "platform": null
       }
     ]
@@ -21966,46 +21882,46 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.3004M",
-    "train_number": "3004M",
+    "train": "odpt.Train:JR-East.Takasaki.3002M",
+    "train_number": "3002M",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.LimitedExpress",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Takasaki.Takasaki",
-        "time_de": "16:46",
+        "time_de": "14:06",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "17:16",
-        "time_ar": "17:15",
+        "time_de": "14:34",
+        "time_ar": "14:33",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "17:44",
-        "time_ar": "17:43",
+        "time_de": "15:00",
+        "time_ar": "14:59",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "17:50",
-        "time_ar": "17:50",
+        "time_de": "15:07",
+        "time_ar": "15:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "17:59",
-        "time_ar": "17:58",
+        "time_de": "15:15",
+        "time_ar": "15:15",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": null,
-        "time_ar": "18:09",
+        "time_ar": "15:26",
         "platform": null
       }
     ]
@@ -24270,117 +24186,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.830M",
-    "train_number": "830M",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "07:17",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "07:25",
-        "time_ar": "07:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "07:30",
-        "time_ar": "07:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "07:33",
-        "time_ar": "07:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "07:37",
-        "time_ar": "07:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "07:41",
-        "time_ar": "07:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "07:45",
-        "time_ar": "07:45",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "07:50",
-        "time_ar": "07:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "07:53",
-        "time_ar": "07:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "07:56",
-        "time_ar": "07:55",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "08:01",
-        "time_ar": "08:00",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "08:08",
-        "time_ar": "08:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "08:11",
-        "time_ar": "08:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "08:16",
-        "time_ar": "08:16",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "08:26",
-        "time_ar": "08:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "08:31",
-        "time_ar": "08:31",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": null,
-        "time_ar": "08:38",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Takasaki.826M",
     "train_number": "826M",
     "calendar": "odpt.Calendar:Weekday",
@@ -24603,58 +24408,58 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.832M",
-    "train_number": "832M",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train": "odpt.Train:JR-East.Takasaki.830M",
+    "train_number": "830M",
+    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "07:20",
+        "time_de": "07:17",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "07:27",
-        "time_ar": "07:26",
+        "time_de": "07:25",
+        "time_ar": "07:24",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "07:31",
-        "time_ar": "07:31",
+        "time_de": "07:30",
+        "time_ar": "07:29",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "07:35",
-        "time_ar": "07:34",
+        "time_de": "07:33",
+        "time_ar": "07:33",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "07:38",
-        "time_ar": "07:38",
+        "time_de": "07:37",
+        "time_ar": "07:36",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "07:42",
-        "time_ar": "07:42",
+        "time_de": "07:41",
+        "time_ar": "07:41",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "07:46",
-        "time_ar": "07:46",
+        "time_de": "07:45",
+        "time_ar": "07:45",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "07:51",
-        "time_ar": "07:50",
+        "time_de": "07:50",
+        "time_ar": "07:49",
         "platform": null
       },
       {
@@ -24666,49 +24471,160 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
         "time_de": "07:56",
-        "time_ar": "07:56",
+        "time_ar": "07:55",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "08:00",
+        "time_de": "08:01",
         "time_ar": "08:00",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "08:06",
-        "time_ar": "08:05",
+        "time_de": "08:08",
+        "time_ar": "08:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "08:08",
-        "time_ar": "08:08",
+        "time_de": "08:11",
+        "time_ar": "08:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "08:13",
-        "time_ar": "08:12",
+        "time_de": "08:16",
+        "time_ar": "08:16",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "08:21",
-        "time_ar": "08:21",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Oku",
         "time_de": "08:26",
         "time_ar": "08:25",
         "platform": null
       },
       {
+        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "time_de": "08:31",
+        "time_ar": "08:31",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": null,
-        "time_ar": "08:32",
+        "time_ar": "08:38",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Takasaki.832M",
+    "train_number": "832M",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "time_de": "09:17",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "09:24",
+        "time_ar": "09:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
+        "time_de": "09:28",
+        "time_ar": "09:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
+        "time_de": "09:31",
+        "time_ar": "09:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
+        "time_de": "09:35",
+        "time_ar": "09:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
+        "time_de": "09:39",
+        "time_ar": "09:38",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "09:43",
+        "time_ar": "09:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "09:47",
+        "time_ar": "09:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "09:50",
+        "time_ar": "09:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "09:53",
+        "time_ar": "09:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "09:57",
+        "time_ar": "09:57",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "10:03",
+        "time_ar": "10:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
+        "time_de": "10:06",
+        "time_ar": "10:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "10:10",
+        "time_ar": "10:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
+        "time_de": "10:18",
+        "time_ar": "10:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "time_de": "10:23",
+        "time_ar": "10:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ueno",
+        "time_de": null,
+        "time_ar": "10:29",
         "platform": null
       }
     ]
@@ -24986,104 +24902,104 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "09:17",
+        "time_de": "09:35",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "09:24",
-        "time_ar": "09:23",
+        "time_de": "09:42",
+        "time_ar": "09:41",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "09:28",
-        "time_ar": "09:28",
+        "time_de": "09:46",
+        "time_ar": "09:46",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "09:31",
-        "time_ar": "09:31",
+        "time_de": "09:50",
+        "time_ar": "09:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "09:35",
-        "time_ar": "09:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "09:39",
-        "time_ar": "09:38",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "09:43",
-        "time_ar": "09:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "09:47",
-        "time_ar": "09:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "09:50",
-        "time_ar": "09:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
         "time_de": "09:53",
         "time_ar": "09:53",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
         "time_de": "09:57",
         "time_ar": "09:57",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "10:03",
-        "time_ar": "10:02",
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "10:01",
+        "time_ar": "10:01",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
         "time_de": "10:06",
         "time_ar": "10:05",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "10:10",
-        "time_ar": "10:09",
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "10:09",
+        "time_ar": "10:08",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "10:18",
-        "time_ar": "10:18",
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "10:11",
+        "time_ar": "10:11",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "10:16",
+        "time_ar": "10:15",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "10:21",
+        "time_ar": "10:20",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
         "time_de": "10:23",
         "time_ar": "10:23",
         "platform": null
       },
       {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "10:28",
+        "time_ar": "10:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
+        "time_de": "10:36",
+        "time_ar": "10:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "time_de": "10:41",
+        "time_ar": "10:40",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": null,
-        "time_ar": "10:29",
+        "time_ar": "10:47",
         "platform": null
       }
     ]
@@ -25478,14 +25394,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kuragano",
-        "time_de": "17:37",
+        "time_de": "17:38",
         "time_ar": "17:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Shimmachi",
         "time_de": "17:43",
-        "time_ar": "17:42",
+        "time_ar": "17:43",
         "platform": null
       },
       {
@@ -25999,105 +25915,147 @@
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
+        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
+        "time_de": "19:30",
+        "time_ar": "19:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kuragano",
+        "time_de": "19:35",
+        "time_ar": "19:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Shimmachi",
+        "time_de": "19:40",
+        "time_ar": "19:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Jimbohara",
+        "time_de": "19:44",
+        "time_ar": "19:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Honjo",
+        "time_de": "19:48",
+        "time_ar": "19:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okabe",
+        "time_de": "19:53",
+        "time_ar": "19:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukaya",
+        "time_de": "19:57",
+        "time_ar": "19:57",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "19:59",
-        "time_ar": null,
+        "time_de": "20:05",
+        "time_ar": "20:01",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "20:05",
-        "time_ar": "20:05",
+        "time_de": "20:11",
+        "time_ar": "20:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "20:10",
-        "time_ar": "20:09",
+        "time_de": "20:15",
+        "time_ar": "20:15",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "20:13",
-        "time_ar": "20:12",
+        "time_de": "20:18",
+        "time_ar": "20:18",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "20:16",
-        "time_ar": "20:16",
+        "time_de": "20:22",
+        "time_ar": "20:21",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "20:20",
-        "time_ar": "20:20",
+        "time_de": "20:26",
+        "time_ar": "20:25",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "20:24",
-        "time_ar": "20:24",
+        "time_de": "20:30",
+        "time_ar": "20:29",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "20:28",
-        "time_ar": "20:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "20:31",
-        "time_ar": "20:31",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
         "time_de": "20:34",
         "time_ar": "20:33",
         "platform": null
       },
       {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "20:37",
+        "time_ar": "20:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "20:39",
+        "time_ar": "20:39",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "20:38",
-        "time_ar": "20:37",
+        "time_de": "20:43",
+        "time_ar": "20:43",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "20:43",
-        "time_ar": "20:42",
+        "time_de": "20:48",
+        "time_ar": "20:47",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "20:46",
-        "time_ar": "20:45",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "20:50",
+        "time_de": "20:51",
         "time_ar": "20:50",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "20:58",
-        "time_ar": "20:58",
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "20:55",
+        "time_ar": "20:55",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
         "time_de": "21:03",
         "time_ar": "21:03",
         "platform": null
       },
       {
+        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "time_de": "21:08",
+        "time_ar": "21:08",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": null,
-        "time_ar": "21:09",
+        "time_ar": "21:14",
         "platform": null
       }
     ]
@@ -26110,105 +26068,147 @@
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
+        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
+        "time_de": "19:30",
+        "time_ar": "19:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kuragano",
+        "time_de": "19:35",
+        "time_ar": "19:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Shimmachi",
+        "time_de": "19:40",
+        "time_ar": "19:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Jimbohara",
+        "time_de": "19:45",
+        "time_ar": "19:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Honjo",
+        "time_de": "19:49",
+        "time_ar": "19:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okabe",
+        "time_de": "19:54",
+        "time_ar": "19:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukaya",
+        "time_de": "19:58",
+        "time_ar": "19:58",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": "20:00",
-        "time_ar": null,
+        "time_de": "20:06",
+        "time_ar": "20:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "20:06",
-        "time_ar": "20:06",
+        "time_de": "20:12",
+        "time_ar": "20:12",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "20:11",
-        "time_ar": "20:10",
+        "time_de": "20:17",
+        "time_ar": "20:16",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "20:14",
-        "time_ar": "20:14",
+        "time_de": "20:20",
+        "time_ar": "20:20",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "20:18",
-        "time_ar": "20:17",
+        "time_de": "20:24",
+        "time_ar": "20:23",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "20:22",
-        "time_ar": "20:21",
+        "time_de": "20:28",
+        "time_ar": "20:28",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "20:25",
-        "time_ar": "20:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "20:30",
-        "time_ar": "20:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
         "time_de": "20:32",
         "time_ar": "20:32",
         "platform": null
       },
       {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "20:37",
+        "time_ar": "20:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "20:40",
+        "time_ar": "20:39",
+        "platform": null
+      },
+      {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "20:35",
-        "time_ar": "20:34",
+        "time_de": "20:42",
+        "time_ar": "20:42",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "20:39",
-        "time_ar": "20:38",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "20:44",
-        "time_ar": "20:43",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "20:47",
+        "time_de": "20:46",
         "time_ar": "20:46",
         "platform": null
       },
       {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
         "time_de": "20:51",
-        "time_ar": "20:51",
+        "time_ar": "20:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
+        "time_de": "20:54",
+        "time_ar": "20:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "20:58",
+        "time_ar": "20:58",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "20:59",
-        "time_ar": "20:59",
+        "time_de": "21:07",
+        "time_ar": "21:06",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "21:04",
-        "time_ar": "21:04",
+        "time_de": "21:11",
+        "time_ar": "21:11",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": null,
-        "time_ar": "21:10",
+        "time_ar": "21:17",
         "platform": null
       }
     ]
@@ -28038,51 +28038,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.3003M",
-    "train_number": "3003M",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "12:10",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "12:19",
-        "time_ar": "12:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "12:28",
-        "time_ar": "12:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "12:35",
-        "time_ar": "12:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "13:02",
-        "time_ar": "13:01",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
-        "time_de": null,
-        "time_ar": "13:31",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Takasaki.1820E",
     "train_number": "1820E",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -28953,123 +28908,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.1828E",
-    "train_number": "1828E",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Tokyo",
-        "time_de": "07:27",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "07:33",
-        "time_ar": "07:32",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "07:38",
-        "time_ar": "07:38",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "07:43",
-        "time_ar": "07:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "07:51",
-        "time_ar": "07:51",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "07:56",
-        "time_ar": "07:55",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "07:59",
-        "time_ar": "07:58",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "08:04",
-        "time_ar": "08:03",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "08:07",
-        "time_ar": "08:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "08:10",
-        "time_ar": "08:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "08:13",
-        "time_ar": "08:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "08:17",
-        "time_ar": "08:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "08:21",
-        "time_ar": "08:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "08:25",
-        "time_ar": "08:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "08:29",
-        "time_ar": "08:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "08:32",
-        "time_ar": "08:31",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "08:36",
-        "time_ar": "08:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": null,
-        "time_ar": "08:43",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Takasaki.1826E",
     "train_number": "1826E",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -29390,6 +29228,123 @@
   {
     "train": "odpt.Train:JR-East.Takasaki.1828E",
     "train_number": "1828E",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Tokyo",
+        "time_de": "07:27",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ueno",
+        "time_de": "07:33",
+        "time_ar": "07:32",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "time_de": "07:38",
+        "time_ar": "07:38",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
+        "time_de": "07:43",
+        "time_ar": "07:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "07:51",
+        "time_ar": "07:51",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
+        "time_de": "07:56",
+        "time_ar": "07:55",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "07:59",
+        "time_ar": "07:58",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "08:04",
+        "time_ar": "08:03",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "08:07",
+        "time_ar": "08:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "08:10",
+        "time_ar": "08:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "08:13",
+        "time_ar": "08:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "08:17",
+        "time_ar": "08:17",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
+        "time_de": "08:21",
+        "time_ar": "08:20",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
+        "time_de": "08:25",
+        "time_ar": "08:25",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
+        "time_de": "08:29",
+        "time_ar": "08:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
+        "time_de": "08:32",
+        "time_ar": "08:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "08:36",
+        "time_ar": "08:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "time_de": null,
+        "time_ar": "08:43",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Takasaki.1828E",
+    "train_number": "1828E",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Local",
     "direction": "odpt.RailDirection:Outbound",
@@ -29586,13 +29541,13 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
         "time_de": "08:20",
-        "time_ar": "08:20",
+        "time_ar": "08:19",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
         "time_de": "08:24",
-        "time_ar": "08:23",
+        "time_ar": "08:22",
         "platform": null
       },
       {
@@ -30032,14 +29987,14 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "08:49",
+        "time_de": "08:50",
         "time_ar": "08:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
         "time_de": "08:53",
-        "time_ar": "08:52",
+        "time_ar": "08:53",
         "platform": null
       },
       {
@@ -30050,7 +30005,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "08:58",
+        "time_de": "08:59",
         "time_ar": "08:58",
         "platform": null
       },
@@ -32360,44 +32315,44 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "11:37",
+        "time_de": "11:36",
         "time_ar": "11:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "11:42",
-        "time_ar": "11:42",
+        "time_de": "11:41",
+        "time_ar": "11:41",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "11:47",
-        "time_ar": "11:46",
+        "time_de": "11:46",
+        "time_ar": "11:45",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
         "time_de": "11:50",
-        "time_ar": "11:50",
+        "time_ar": "11:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
         "time_de": "11:54",
-        "time_ar": "11:54",
+        "time_ar": "11:53",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "12:00",
+        "time_de": "11:59",
         "time_ar": "11:59",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
         "time_de": "12:04",
-        "time_ar": "12:04",
+        "time_ar": "12:03",
         "platform": null
       },
       {
@@ -37986,7 +37941,7 @@
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
         "time_de": "18:09",
-        "time_ar": "18:07",
+        "time_ar": "18:08",
         "platform": null
       },
       {
@@ -39401,32 +39356,32 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Takasaki.Tokyo",
-        "time_de": "19:27",
+        "time_de": "19:28",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "19:33",
-        "time_ar": "19:32",
+        "time_de": "19:34",
+        "time_ar": "19:33",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "19:39",
+        "time_de": "19:40",
         "time_ar": "19:39",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "19:44",
+        "time_de": "19:45",
         "time_ar": "19:44",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Urawa",
         "time_de": "19:53",
-        "time_ar": "19:52",
+        "time_ar": "19:53",
         "platform": null
       },
       {
@@ -42588,6 +42543,87 @@
     ]
   },
   {
+    "train": "odpt.Train:JR-East.Takasaki.2824Y",
+    "train_number": "2824Y",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.Rapid",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "08:58",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "09:02",
+        "time_ar": "09:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "09:06",
+        "time_ar": "09:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "09:09",
+        "time_ar": "09:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "09:17",
+        "time_ar": "09:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "09:22",
+        "time_ar": "09:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
+        "time_de": "09:26",
+        "time_ar": "09:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
+        "time_de": "09:30",
+        "time_ar": "09:30",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
+        "time_de": "09:34",
+        "time_ar": "09:33",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
+        "time_de": "09:37",
+        "time_ar": "09:37",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "09:42",
+        "time_ar": "09:41",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "time_de": null,
+        "time_ar": "09:48",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:JR-East.Takasaki.1946E",
     "train_number": "1946E",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -43182,51 +43218,6 @@
     ]
   },
   {
-    "train": "odpt.Train:JR-East.Takasaki.3003M",
-    "train_number": "3003M",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "12:10",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "12:19",
-        "time_ar": "12:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "12:28",
-        "time_ar": "12:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "12:35",
-        "time_ar": "12:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "13:02",
-        "time_ar": "13:01",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
-        "time_de": null,
-        "time_ar": "13:31",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:JR-East.Takasaki.2820Y",
     "train_number": "2820Y",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -43637,149 +43628,68 @@
   {
     "train": "odpt.Train:JR-East.Takasaki.2824Y",
     "train_number": "2824Y",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:JR-East.Rapid",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "08:58",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "09:02",
-        "time_ar": "09:02",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "09:06",
-        "time_ar": "09:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "09:09",
-        "time_ar": "09:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "09:17",
-        "time_ar": "09:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "09:22",
-        "time_ar": "09:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "09:26",
-        "time_ar": "09:26",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "09:30",
-        "time_ar": "09:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "09:34",
-        "time_ar": "09:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "09:37",
-        "time_ar": "09:37",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "09:42",
-        "time_ar": "09:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": null,
-        "time_ar": "09:48",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Takasaki.2824Y",
-    "train_number": "2824Y",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:JR-East.Rapid",
     "direction": "odpt.RailDirection:Outbound",
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "08:40",
+        "time_de": "08:42",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "08:45",
-        "time_ar": "08:44",
+        "time_de": "08:46",
+        "time_ar": "08:46",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "08:48",
-        "time_ar": "08:48",
+        "time_de": "08:50",
+        "time_ar": "08:49",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "08:51",
-        "time_ar": "08:50",
+        "time_de": "08:52",
+        "time_ar": "08:52",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "08:54",
-        "time_ar": "08:53",
+        "time_de": "08:55",
+        "time_ar": "08:55",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "08:58",
-        "time_ar": "08:57",
+        "time_de": "08:59",
+        "time_ar": "08:59",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "09:02",
-        "time_ar": "09:01",
+        "time_de": "09:03",
+        "time_ar": "09:03",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "09:06",
-        "time_ar": "09:06",
+        "time_de": "09:07",
+        "time_ar": "09:07",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "09:10",
+        "time_de": "09:11",
         "time_ar": "09:10",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
         "time_de": "09:14",
-        "time_ar": "09:13",
+        "time_ar": "09:14",
         "platform": null
       },
       {
@@ -43994,50 +43904,50 @@
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "09:17",
+        "time_de": "09:18",
         "time_ar": "09:17",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "09:21",
-        "time_ar": "09:21",
+        "time_de": "09:22",
+        "time_ar": "09:22",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "09:25",
-        "time_ar": "09:25",
+        "time_de": "09:26",
+        "time_ar": "09:26",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "09:29",
-        "time_ar": "09:29",
+        "time_de": "09:31",
+        "time_ar": "09:31",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "09:33",
-        "time_ar": "09:32",
+        "time_de": "09:35",
+        "time_ar": "09:34",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "09:36",
-        "time_ar": "09:36",
+        "time_de": "09:38",
+        "time_ar": "09:37",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "09:41",
-        "time_ar": "09:40",
+        "time_de": "09:43",
+        "time_ar": "09:42",
         "platform": null
       },
       {
         "station": "odpt.Station:JR-East.Takasaki.Kagohara",
         "time_de": null,
-        "time_ar": "09:47",
+        "time_ar": "09:50",
         "platform": null
       }
     ]
@@ -48078,6 +47988,96 @@
     ]
   },
   {
+    "train": "odpt.Train:JR-East.Takasaki.3003M",
+    "train_number": "3003M",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ueno",
+        "time_de": "12:10",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
+        "time_de": "12:19",
+        "time_ar": "12:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "12:28",
+        "time_ar": "12:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "12:35",
+        "time_ar": "12:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "13:02",
+        "time_ar": "13:01",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
+        "time_de": null,
+        "time_ar": "13:31",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Takasaki.3003M",
+    "train_number": "3003M",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.LimitedExpress",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ueno",
+        "time_de": "12:10",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
+        "time_de": "12:19",
+        "time_ar": "12:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "12:28",
+        "time_ar": "12:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "12:35",
+        "time_ar": "12:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "13:02",
+        "time_ar": "13:01",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Takasaki",
+        "time_de": null,
+        "time_ar": "13:31",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:JR-East.Takasaki.3920E",
     "train_number": "3920E",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -49364,7 +49364,7 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "10:45",
+        "time_de": "10:46",
         "time_ar": null,
         "platform": null
       },
@@ -53736,6 +53736,117 @@
     ]
   },
   {
+    "train": "odpt.Train:JR-East.Takasaki.855M",
+    "train_number": "855M",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ueno",
+        "time_de": "20:14",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Oku",
+        "time_de": "20:20",
+        "time_ar": "20:20",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Akabane",
+        "time_de": "20:25",
+        "time_ar": "20:24",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Urawa",
+        "time_de": "20:33",
+        "time_ar": "20:33",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
+        "time_de": "20:38",
+        "time_ar": "20:37",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Omiya",
+        "time_de": "20:41",
+        "time_ar": "20:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
+        "time_de": "20:46",
+        "time_ar": "20:46",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Ageo",
+        "time_de": "20:51",
+        "time_ar": "20:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
+        "time_de": "20:54",
+        "time_ar": "20:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
+        "time_de": "20:57",
+        "time_ar": "20:57",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
+        "time_de": "21:02",
+        "time_ar": "21:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Konosu",
+        "time_de": "21:06",
+        "time_ar": "21:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
+        "time_de": "21:11",
+        "time_ar": "21:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
+        "time_de": "21:15",
+        "time_ar": "21:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
+        "time_de": "21:18",
+        "time_ar": "21:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
+        "time_de": "21:23",
+        "time_ar": "21:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
+        "time_de": null,
+        "time_ar": "21:30",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:JR-East.Takasaki.853M",
     "train_number": "853M",
     "calendar": "odpt.Calendar:Weekday",
@@ -53884,117 +53995,6 @@
         "station": "odpt.Station:JR-East.Takasaki.Takasaki",
         "time_de": null,
         "time_ar": "21:01",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Takasaki.855M",
-    "train_number": "855M",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ueno",
-        "time_de": "20:14",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Oku",
-        "time_de": "20:20",
-        "time_ar": "20:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Akabane",
-        "time_de": "20:25",
-        "time_ar": "20:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Urawa",
-        "time_de": "20:33",
-        "time_ar": "20:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.SaitamaShintoshin",
-        "time_de": "20:38",
-        "time_ar": "20:37",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Omiya",
-        "time_de": "20:41",
-        "time_ar": "20:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Miyahara",
-        "time_de": "20:46",
-        "time_ar": "20:46",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Ageo",
-        "time_de": "20:51",
-        "time_ar": "20:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaAgeo",
-        "time_de": "20:54",
-        "time_ar": "20:54",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Okegawa",
-        "time_de": "20:57",
-        "time_ar": "20:57",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kitamoto",
-        "time_de": "21:02",
-        "time_ar": "21:02",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Konosu",
-        "time_de": "21:06",
-        "time_ar": "21:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.KitaKonosu",
-        "time_de": "21:11",
-        "time_ar": "21:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Fukiage",
-        "time_de": "21:15",
-        "time_ar": "21:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Gyoda",
-        "time_de": "21:18",
-        "time_ar": "21:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kumagaya",
-        "time_de": "21:23",
-        "time_ar": "21:23",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Takasaki.Kagohara",
-        "time_de": null,
-        "time_ar": "21:30",
         "platform": null
       }
     ]

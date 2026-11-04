@@ -2933,7 +2933,7 @@
     "timetable": [
       {
         "station": "odpt.Station:JR-East.Kawagoe.Komagawa",
-        "time_de": "05:58",
+        "time_de": "05:59",
         "time_ar": null,
         "platform": null
       },
@@ -2964,7 +2964,7 @@
       {
         "station": "odpt.Station:JR-East.Kawagoe.Kawagoe",
         "time_de": null,
-        "time_ar": "06:17",
+        "time_ar": "06:18",
         "platform": null
       }
     ]
@@ -4142,51 +4142,6 @@
   {
     "train": "odpt.Train:JR-East.Kawagoe.1065H",
     "train_number": "1065H",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:JR-East.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:JR-East.Kawagoe.Kawagoe",
-        "time_de": "10:39",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Kawagoe.NishiKawagoe",
-        "time_de": "10:42",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Kawagoe.Matoba",
-        "time_de": "10:48",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Kawagoe.Kasahata",
-        "time_de": "10:51",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Kawagoe.MusashiTakahagi",
-        "time_de": "10:55",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:JR-East.Kawagoe.Komagawa",
-        "time_de": null,
-        "time_ar": "11:00",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:JR-East.Kawagoe.1065H",
-    "train_number": "1065H",
     "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:JR-East.Local",
     "direction": "odpt.RailDirection:Outbound",
@@ -4225,6 +4180,51 @@
         "station": "odpt.Station:JR-East.Kawagoe.Komagawa",
         "time_de": null,
         "time_ar": "10:29",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:JR-East.Kawagoe.1065H",
+    "train_number": "1065H",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:JR-East.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:JR-East.Kawagoe.Kawagoe",
+        "time_de": "10:39",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Kawagoe.NishiKawagoe",
+        "time_de": "10:42",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Kawagoe.Matoba",
+        "time_de": "10:48",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Kawagoe.Kasahata",
+        "time_de": "10:51",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Kawagoe.MusashiTakahagi",
+        "time_de": "10:55",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:JR-East.Kawagoe.Komagawa",
+        "time_de": null,
+        "time_ar": "11:00",
         "platform": null
       }
     ]
@@ -7277,7 +7277,7 @@
       },
       {
         "station": "odpt.Station:JR-East.Kawagoe.MusashiTakahagi",
-        "time_de": "06:03",
+        "time_de": "06:04",
         "time_ar": null,
         "platform": null
       },

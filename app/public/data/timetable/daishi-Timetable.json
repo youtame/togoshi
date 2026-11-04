@@ -42,639 +42,9 @@
     ]
   },
   {
-    "train": "odpt.Train:Tobu.Daishi.102D",
-    "train_number": "102D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:16",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:18",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.102D",
-    "train_number": "102D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:16",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:18",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.104D",
-    "train_number": "104D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:26",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:28",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.104D",
-    "train_number": "104D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:26",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:28",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.106D",
-    "train_number": "106D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:36",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:38",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.106D",
-    "train_number": "106D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:36",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:38",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.108D",
-    "train_number": "108D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:46",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:48",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.108D",
-    "train_number": "108D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:46",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:48",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.10D",
-    "train_number": "10D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "06:29",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "06:31",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.10D",
-    "train_number": "10D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "06:29",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "06:31",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.110D",
-    "train_number": "110D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:56",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:58",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.110D",
-    "train_number": "110D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "14:56",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "14:58",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.112D",
-    "train_number": "112D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:06",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:08",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.112D",
-    "train_number": "112D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:06",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:08",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.114D",
-    "train_number": "114D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:16",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:18",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.114D",
-    "train_number": "114D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:16",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:18",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.116D",
-    "train_number": "116D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:26",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:28",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.116D",
-    "train_number": "116D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:26",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:28",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.118D",
-    "train_number": "118D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:36",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:38",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.118D",
-    "train_number": "118D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:36",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:38",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.120D",
-    "train_number": "120D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:46",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:48",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.120D",
-    "train_number": "120D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:46",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:48",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.122D",
-    "train_number": "122D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:56",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:58",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.122D",
-    "train_number": "122D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "15:56",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "15:58",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.124D",
-    "train_number": "124D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "16:06",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "16:08",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.124D",
-    "train_number": "124D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "16:06",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "16:08",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.126D",
-    "train_number": "126D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "16:16",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "16:18",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.126D",
-    "train_number": "126D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "16:16",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "16:18",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.128D",
-    "train_number": "128D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "16:26",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "16:28",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.128D",
-    "train_number": "128D",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": "16:26",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": null,
-        "time_ar": "16:28",
-        "platform": null
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Tobu.Daishi.12D",
     "train_number": "12D",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Tobu.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
@@ -693,9 +63,639 @@
     ]
   },
   {
+    "train": "odpt.Train:Tobu.Daishi.102D",
+    "train_number": "102D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:16",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:18",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.102D",
+    "train_number": "102D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:16",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:18",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.104D",
+    "train_number": "104D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:26",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:28",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.104D",
+    "train_number": "104D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:26",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:28",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.106D",
+    "train_number": "106D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:36",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:38",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.106D",
+    "train_number": "106D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:36",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:38",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.108D",
+    "train_number": "108D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:46",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:48",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.108D",
+    "train_number": "108D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:46",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:48",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.10D",
+    "train_number": "10D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "06:29",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "06:31",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.10D",
+    "train_number": "10D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "06:29",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "06:31",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.110D",
+    "train_number": "110D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:56",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:58",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.110D",
+    "train_number": "110D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "14:56",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "14:58",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.112D",
+    "train_number": "112D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:06",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:08",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.112D",
+    "train_number": "112D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:06",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:08",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.114D",
+    "train_number": "114D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:16",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:18",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.114D",
+    "train_number": "114D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:16",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:18",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.116D",
+    "train_number": "116D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:26",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:28",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.116D",
+    "train_number": "116D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:26",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:28",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.118D",
+    "train_number": "118D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:36",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:38",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.118D",
+    "train_number": "118D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:36",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:38",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.120D",
+    "train_number": "120D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:46",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:48",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.120D",
+    "train_number": "120D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:46",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:48",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.122D",
+    "train_number": "122D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:56",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:58",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.122D",
+    "train_number": "122D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "15:56",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "15:58",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.124D",
+    "train_number": "124D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "16:06",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "16:08",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.124D",
+    "train_number": "124D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "16:06",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "16:08",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.126D",
+    "train_number": "126D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "16:16",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "16:18",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.126D",
+    "train_number": "126D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "16:16",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "16:18",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.128D",
+    "train_number": "128D",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "16:26",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "16:28",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Daishi.128D",
+    "train_number": "128D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": "16:26",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": null,
+        "time_ar": "16:28",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Tobu.Daishi.12D",
     "train_number": "12D",
-    "calendar": "odpt.Calendar:Weekday",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:Tobu.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
@@ -4641,6 +4641,27 @@
     ]
   },
   {
+    "train": "odpt.Train:Tobu.Daishi.21D",
+    "train_number": "21D",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
+        "time_de": "07:32",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Daishi.Daishimae",
+        "time_de": null,
+        "time_ar": "07:34",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Tobu.Daishi.103D",
     "train_number": "103D",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -7353,27 +7374,6 @@
     "train": "odpt.Train:Tobu.Daishi.21D",
     "train_number": "21D",
     "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Daishi.Nishiarai",
-        "time_de": "07:32",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Daishi.Daishimae",
-        "time_de": null,
-        "time_ar": "07:34",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Daishi.21D",
-    "train_number": "21D",
-    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Tobu.Local",
     "direction": "odpt.RailDirection:Outbound",
     "timetable": [

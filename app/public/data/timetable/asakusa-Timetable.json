@@ -1,413 +1,5 @@
 [
   {
-    "train": "odpt.Train:Toei.Asakusa.1767K",
-    "train_number": "1767K",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "17:36",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "17:38",
-        "time_ar": "17:38",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "17:40",
-        "time_ar": "17:39",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "17:42",
-        "time_ar": "17:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "17:45",
-        "time_ar": "17:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "17:46",
-        "time_ar": "17:46",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "17:49",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2141T",
-    "train_number": "2141T",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "21:34",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "21:36",
-        "time_ar": "21:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "21:38",
-        "time_ar": "21:38",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "21:40",
-        "time_ar": "21:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "21:43",
-        "time_ar": "21:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "21:44",
-        "time_ar": "21:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "21:47",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1785K",
-    "train_number": "1785K",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "17:21",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "17:23",
-        "time_ar": "17:23",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "17:25",
-        "time_ar": "17:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "17:27",
-        "time_ar": "17:26",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "17:30",
-        "time_ar": "17:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "17:31",
-        "time_ar": "17:31",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "17:34",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1871K",
-    "train_number": "1871K",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "18:36",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "18:38",
-        "time_ar": "18:38",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "18:40",
-        "time_ar": "18:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "18:42",
-        "time_ar": "18:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "18:45",
-        "time_ar": "18:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "18:46",
-        "time_ar": "18:46",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "18:49",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1907T",
-    "train_number": "1907T",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "19:26",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "19:28",
-        "time_ar": "19:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "19:30",
-        "time_ar": "19:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "19:32",
-        "time_ar": "19:31",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "19:34",
-        "time_ar": "19:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "19:36",
-        "time_ar": "19:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "19:38",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1931Nb",
-    "train_number": "1931Nb",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "19:46",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "19:48",
-        "time_ar": "19:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "19:50",
-        "time_ar": "19:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "19:52",
-        "time_ar": "19:52",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "19:55",
-        "time_ar": "19:54",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "19:56",
-        "time_ar": "19:56",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "19:59",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1933N",
-    "train_number": "1933N",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "19:20",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "19:23",
-        "time_ar": "19:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "19:24",
-        "time_ar": "19:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "19:26",
-        "time_ar": "19:26",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "19:29",
-        "time_ar": "19:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "19:31",
-        "time_ar": "19:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "19:33",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1933N",
-    "train_number": "1933N",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "19:48",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "19:50",
-        "time_ar": "19:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "19:52",
-        "time_ar": "19:51",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "19:54",
-        "time_ar": "19:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "19:57",
-        "time_ar": "19:56",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "19:58",
-        "time_ar": "19:58",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "20:01",
-        "platform": "3"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.1951H",
     "train_number": "1951H",
     "calendar": "odpt.Calendar:Weekday",
@@ -612,108 +204,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.2111T",
-    "train_number": "2111T",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "21:09",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "21:11",
-        "time_ar": "21:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "21:13",
-        "time_ar": "21:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "21:15",
-        "time_ar": "21:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "21:18",
-        "time_ar": "21:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "21:19",
-        "time_ar": "21:19",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "21:22",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2139T",
-    "train_number": "2139T",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "21:06",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "21:08",
-        "time_ar": "21:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "21:10",
-        "time_ar": "21:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "21:12",
-        "time_ar": "21:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "21:15",
-        "time_ar": "21:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "21:16",
-        "time_ar": "21:16",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "21:19",
-        "platform": "3"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.1627N",
     "train_number": "1627N",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -867,52 +357,52 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.1757Ta",
-    "train_number": "1757Ta",
+    "train": "odpt.Train:Toei.Asakusa.2111T",
+    "train_number": "2111T",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:Northbound",
     "timetable": [
       {
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "17:08",
+        "time_de": "21:09",
         "time_ar": null,
         "platform": "1"
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "17:10",
-        "time_ar": "17:10",
+        "time_de": "21:11",
+        "time_ar": "21:11",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "17:12",
-        "time_ar": "17:11",
+        "time_de": "21:13",
+        "time_ar": "21:12",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "17:14",
-        "time_ar": "17:13",
+        "time_de": "21:15",
+        "time_ar": "21:14",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "17:16",
-        "time_ar": "17:16",
+        "time_de": "21:18",
+        "time_ar": "21:17",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "17:18",
-        "time_ar": "17:18",
+        "time_de": "21:19",
+        "time_ar": "21:19",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
         "time_de": null,
-        "time_ar": "17:20",
+        "time_ar": "21:22",
         "platform": "3"
       }
     ]
@@ -964,6 +454,57 @@
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
         "time_de": null,
         "time_ar": "17:40",
+        "platform": "3"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.1871K",
+    "train_number": "1871K",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "18:36",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "18:38",
+        "time_ar": "18:38",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "18:40",
+        "time_ar": "18:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "18:42",
+        "time_ar": "18:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "18:45",
+        "time_ar": "18:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "18:46",
+        "time_ar": "18:46",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "18:49",
         "platform": "3"
       }
     ]
@@ -4028,6 +3569,57 @@
         "time_de": null,
         "time_ar": "15:27",
         "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.1907T",
+    "train_number": "1907T",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "19:26",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "19:28",
+        "time_ar": "19:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "19:30",
+        "time_ar": "19:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "19:32",
+        "time_ar": "19:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "19:34",
+        "time_ar": "19:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "19:36",
+        "time_ar": "19:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "19:38",
+        "platform": "3"
       }
     ]
   },
@@ -22755,6 +22347,108 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.1931Na",
+    "train_number": "1931Na",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "19:01",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "19:03",
+        "time_ar": "19:03",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "19:05",
+        "time_ar": "19:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "19:07",
+        "time_ar": "19:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "19:10",
+        "time_ar": "19:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "19:12",
+        "time_ar": "19:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "19:14",
+        "platform": "3"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.1933N",
+    "train_number": "1933N",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "19:48",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "19:50",
+        "time_ar": "19:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "19:52",
+        "time_ar": "19:51",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "19:54",
+        "time_ar": "19:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "19:57",
+        "time_ar": "19:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "19:58",
+        "time_ar": "19:58",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "20:01",
+        "platform": "3"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.1731N",
     "train_number": "1731N",
     "calendar": "odpt.Calendar:Weekday",
@@ -23487,6 +23181,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.1757Ta",
+    "train_number": "1757Ta",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "17:08",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "17:10",
+        "time_ar": "17:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "17:12",
+        "time_ar": "17:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "17:14",
+        "time_ar": "17:13",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "17:16",
+        "time_ar": "17:16",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "17:18",
+        "time_ar": "17:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "17:20",
+        "platform": "3"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.1759T",
     "train_number": "1759T",
     "calendar": "odpt.Calendar:Weekday",
@@ -24060,6 +23805,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.1767K",
+    "train_number": "1767K",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "17:36",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "17:38",
+        "time_ar": "17:38",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "17:40",
+        "time_ar": "17:39",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "17:42",
+        "time_ar": "17:41",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "17:45",
+        "time_ar": "17:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "17:46",
+        "time_ar": "17:46",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "17:49",
+        "platform": "3"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.1773H",
     "train_number": "1773H",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -24113,6 +23909,57 @@
         "time_de": null,
         "time_ar": "18:25",
         "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.1931Nb",
+    "train_number": "1931Nb",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "19:46",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "19:48",
+        "time_ar": "19:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "19:50",
+        "time_ar": "19:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "19:52",
+        "time_ar": "19:52",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "19:55",
+        "time_ar": "19:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "19:56",
+        "time_ar": "19:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "19:59",
+        "platform": "3"
       }
     ]
   },
@@ -24629,6 +24476,57 @@
         "time_de": null,
         "time_ar": "19:00",
         "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.1785K",
+    "train_number": "1785K",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "17:21",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "17:23",
+        "time_ar": "17:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "17:25",
+        "time_ar": "17:24",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "17:27",
+        "time_ar": "17:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "17:30",
+        "time_ar": "17:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "17:31",
+        "time_ar": "17:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "17:34",
+        "platform": "3"
       }
     ]
   },
@@ -29025,52 +28923,52 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.1931Na",
-    "train_number": "1931Na",
+    "train": "odpt.Train:Toei.Asakusa.1933N",
+    "train_number": "1933N",
     "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:Northbound",
     "timetable": [
       {
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "19:01",
+        "time_de": "19:20",
         "time_ar": null,
-        "platform": "2"
+        "platform": "1"
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "19:03",
-        "time_ar": "19:03",
+        "time_de": "19:23",
+        "time_ar": "19:22",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "19:05",
-        "time_ar": "19:05",
+        "time_de": "19:24",
+        "time_ar": "19:24",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "19:07",
-        "time_ar": "19:07",
+        "time_de": "19:26",
+        "time_ar": "19:26",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "19:10",
-        "time_ar": "19:09",
+        "time_de": "19:29",
+        "time_ar": "19:28",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "19:12",
-        "time_ar": "19:12",
+        "time_de": "19:31",
+        "time_ar": "19:30",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
         "time_de": null,
-        "time_ar": "19:14",
+        "time_ar": "19:33",
         "platform": "3"
       }
     ]
@@ -34824,6 +34722,108 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.2139T",
+    "train_number": "2139T",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "21:06",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "21:08",
+        "time_ar": "21:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "21:10",
+        "time_ar": "21:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "21:12",
+        "time_ar": "21:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "21:15",
+        "time_ar": "21:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "21:16",
+        "time_ar": "21:16",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "21:19",
+        "platform": "3"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.2141T",
+    "train_number": "2141T",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "21:34",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "21:36",
+        "time_ar": "21:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "21:38",
+        "time_ar": "21:38",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "21:40",
+        "time_ar": "21:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "21:43",
+        "time_ar": "21:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "21:44",
+        "time_ar": "21:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "21:47",
+        "platform": "3"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.2151H",
     "train_number": "2151H",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -35748,6 +35748,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.2189K",
+    "train_number": "2189K",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "21:26",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "21:28",
+        "time_ar": "21:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "21:30",
+        "time_ar": "21:30",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "21:32",
+        "time_ar": "21:32",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "21:35",
+        "time_ar": "21:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "21:36",
+        "time_ar": "21:36",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "21:39",
+        "platform": "3"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.2181K",
     "train_number": "2181K",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -35845,57 +35896,6 @@
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
         "time_de": null,
         "time_ar": "21:28",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2189K",
-    "train_number": "2189K",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "21:26",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "21:28",
-        "time_ar": "21:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "21:30",
-        "time_ar": "21:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "21:32",
-        "time_ar": "21:32",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "21:35",
-        "time_ar": "21:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "21:36",
-        "time_ar": "21:36",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "21:39",
         "platform": "3"
       }
     ]
@@ -37089,6 +37089,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.2269Ka",
+    "train_number": "2269Ka",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "22:19",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "22:21",
+        "time_ar": "22:20",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "22:23",
+        "time_ar": "22:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "22:25",
+        "time_ar": "22:24",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "22:27",
+        "time_ar": "22:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "22:29",
+        "time_ar": "22:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "22:31",
+        "platform": "3"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.2259K",
     "train_number": "2259K",
     "calendar": "odpt.Calendar:Weekday",
@@ -37307,57 +37358,6 @@
         "time_de": null,
         "time_ar": "00:27",
         "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2269Ka",
-    "train_number": "2269Ka",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "22:19",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "22:21",
-        "time_ar": "22:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "22:23",
-        "time_ar": "22:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "22:25",
-        "time_ar": "22:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "22:27",
-        "time_ar": "22:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "22:29",
-        "time_ar": "22:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "22:31",
-        "platform": "3"
       }
     ]
   },
@@ -37825,57 +37825,6 @@
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
         "time_de": null,
         "time_ar": "00:01",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2337T",
-    "train_number": "2337T",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "23:39",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "23:41",
-        "time_ar": "23:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "23:43",
-        "time_ar": "23:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "23:45",
-        "time_ar": "23:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "23:47",
-        "time_ar": "23:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "23:49",
-        "time_ar": "23:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "23:51",
         "platform": "3"
       }
     ]
@@ -38501,6 +38450,57 @@
         "time_de": null,
         "time_ar": "23:58",
         "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.2337T",
+    "train_number": "2337T",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "23:39",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "23:41",
+        "time_ar": "23:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "23:43",
+        "time_ar": "23:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "23:45",
+        "time_ar": "23:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "23:47",
+        "time_ar": "23:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "23:49",
+        "time_ar": "23:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "23:51",
+        "platform": "3"
       }
     ]
   },
@@ -39366,57 +39366,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.507Tb",
-    "train_number": "507Tb",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "05:46",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "05:48",
-        "time_ar": "05:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "05:50",
-        "time_ar": "05:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "05:52",
-        "time_ar": "05:52",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "05:55",
-        "time_ar": "05:54",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "05:56",
-        "time_ar": "05:56",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "05:59",
-        "platform": "3"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.505K",
     "train_number": "505K",
     "calendar": "odpt.Calendar:Weekday",
@@ -39584,6 +39533,57 @@
         "time_de": null,
         "time_ar": "05:06",
         "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.507Tb",
+    "train_number": "507Tb",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "05:46",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "05:48",
+        "time_ar": "05:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "05:50",
+        "time_ar": "05:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "05:52",
+        "time_ar": "05:52",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "05:55",
+        "time_ar": "05:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "05:56",
+        "time_ar": "05:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "05:59",
+        "platform": "3"
       }
     ]
   },
@@ -43854,6 +43854,99 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.665H",
+    "train_number": "665H",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "07:49",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Mita",
+        "time_de": "07:51",
+        "time_ar": "07:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Daimon",
+        "time_de": "07:54",
+        "time_ar": "07:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Shimbashi",
+        "time_de": "07:56",
+        "time_ar": "07:55",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HigashiGinza",
+        "time_de": "07:59",
+        "time_ar": "07:58",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takaracho",
+        "time_de": "08:00",
+        "time_ar": "08:00",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nihombashi",
+        "time_de": "08:02",
+        "time_ar": "08:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Ningyocho",
+        "time_de": "08:04",
+        "time_ar": "08:04",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HigashiNihombashi",
+        "time_de": "08:06",
+        "time_ar": "08:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Asakusabashi",
+        "time_de": "08:08",
+        "time_ar": "08:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Kuramae",
+        "time_de": "08:10",
+        "time_ar": "08:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Asakusa",
+        "time_de": "08:11",
+        "time_ar": "08:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HonjoAzumabashi",
+        "time_de": "08:13",
+        "time_ar": "08:13",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Oshiage",
+        "time_de": null,
+        "time_ar": "08:15",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.659H",
     "train_number": "659H",
     "calendar": "odpt.Calendar:Weekday",
@@ -44128,99 +44221,6 @@
         "station": "odpt.Station:Toei.Asakusa.Oshiage",
         "time_de": null,
         "time_ar": "08:05",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.665H",
-    "train_number": "665H",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "07:49",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Mita",
-        "time_de": "07:51",
-        "time_ar": "07:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Daimon",
-        "time_de": "07:54",
-        "time_ar": "07:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Shimbashi",
-        "time_de": "07:56",
-        "time_ar": "07:55",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.HigashiGinza",
-        "time_de": "07:59",
-        "time_ar": "07:58",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takaracho",
-        "time_de": "08:00",
-        "time_ar": "08:00",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nihombashi",
-        "time_de": "08:02",
-        "time_ar": "08:02",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Ningyocho",
-        "time_de": "08:04",
-        "time_ar": "08:04",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.HigashiNihombashi",
-        "time_de": "08:06",
-        "time_ar": "08:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Asakusabashi",
-        "time_de": "08:08",
-        "time_ar": "08:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Kuramae",
-        "time_de": "08:10",
-        "time_ar": "08:09",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Asakusa",
-        "time_de": "08:11",
-        "time_ar": "08:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.HonjoAzumabashi",
-        "time_de": "08:13",
-        "time_ar": "08:13",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Oshiage",
-        "time_de": null,
-        "time_ar": "08:15",
         "platform": null
       }
     ]
@@ -46071,6 +46071,99 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.723N",
+    "train_number": "723N",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "08:28",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Mita",
+        "time_de": "08:30",
+        "time_ar": "08:29",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Daimon",
+        "time_de": "08:33",
+        "time_ar": "08:32",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Shimbashi",
+        "time_de": "08:35",
+        "time_ar": "08:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HigashiGinza",
+        "time_de": "08:38",
+        "time_ar": "08:37",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takaracho",
+        "time_de": "08:39",
+        "time_ar": "08:39",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nihombashi",
+        "time_de": "08:41",
+        "time_ar": "08:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Ningyocho",
+        "time_de": "08:43",
+        "time_ar": "08:43",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HigashiNihombashi",
+        "time_de": "08:45",
+        "time_ar": "08:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Asakusabashi",
+        "time_de": "08:47",
+        "time_ar": "08:46",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Kuramae",
+        "time_de": "08:48",
+        "time_ar": "08:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Asakusa",
+        "time_de": "08:50",
+        "time_ar": "08:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HonjoAzumabashi",
+        "time_de": "08:52",
+        "time_ar": "08:52",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Oshiage",
+        "time_de": null,
+        "time_ar": "08:54",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.719T",
     "train_number": "719T",
     "calendar": "odpt.Calendar:Weekday",
@@ -46247,99 +46340,6 @@
         "time_de": null,
         "time_ar": "08:10",
         "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.723N",
-    "train_number": "723N",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "08:28",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Mita",
-        "time_de": "08:30",
-        "time_ar": "08:29",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Daimon",
-        "time_de": "08:33",
-        "time_ar": "08:32",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Shimbashi",
-        "time_de": "08:35",
-        "time_ar": "08:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.HigashiGinza",
-        "time_de": "08:38",
-        "time_ar": "08:37",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takaracho",
-        "time_de": "08:39",
-        "time_ar": "08:39",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nihombashi",
-        "time_de": "08:41",
-        "time_ar": "08:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Ningyocho",
-        "time_de": "08:43",
-        "time_ar": "08:43",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.HigashiNihombashi",
-        "time_de": "08:45",
-        "time_ar": "08:44",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Asakusabashi",
-        "time_de": "08:47",
-        "time_ar": "08:46",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Kuramae",
-        "time_de": "08:48",
-        "time_ar": "08:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Asakusa",
-        "time_de": "08:50",
-        "time_ar": "08:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.HonjoAzumabashi",
-        "time_de": "08:52",
-        "time_ar": "08:52",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Oshiage",
-        "time_de": null,
-        "time_ar": "08:54",
-        "platform": null
       }
     ]
   },
@@ -53907,57 +53907,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.933Ta",
-    "train_number": "933Ta",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "09:16",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "09:18",
-        "time_ar": "09:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "09:20",
-        "time_ar": "09:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "09:22",
-        "time_ar": "09:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "09:25",
-        "time_ar": "09:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "09:26",
-        "time_ar": "09:26",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "09:29",
-        "platform": "3"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.923H",
     "train_number": "923H",
     "calendar": "odpt.Calendar:Weekday",
@@ -54051,57 +54000,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.933Tb",
-    "train_number": "933Tb",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "09:58",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "10:00",
-        "time_ar": "10:00",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "10:02",
-        "time_ar": "10:01",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "10:04",
-        "time_ar": "10:03",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "10:06",
-        "time_ar": "10:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "10:08",
-        "time_ar": "10:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "10:10",
-        "platform": "3"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.929N",
     "train_number": "929N",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -54190,6 +54088,99 @@
         "station": "odpt.Station:Toei.Asakusa.Oshiage",
         "time_de": null,
         "time_ar": "10:04",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.937N",
+    "train_number": "937N",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "09:51",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Mita",
+        "time_de": "09:53",
+        "time_ar": "09:53",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Daimon",
+        "time_de": "09:56",
+        "time_ar": "09:55",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Shimbashi",
+        "time_de": "09:58",
+        "time_ar": "09:57",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HigashiGinza",
+        "time_de": "10:00",
+        "time_ar": "10:00",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takaracho",
+        "time_de": "10:02",
+        "time_ar": "10:01",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nihombashi",
+        "time_de": "10:03",
+        "time_ar": "10:03",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Ningyocho",
+        "time_de": "10:05",
+        "time_ar": "10:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HigashiNihombashi",
+        "time_de": "10:07",
+        "time_ar": "10:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Asakusabashi",
+        "time_de": "10:09",
+        "time_ar": "10:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Kuramae",
+        "time_de": "10:10",
+        "time_ar": "10:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Asakusa",
+        "time_de": "10:12",
+        "time_ar": "10:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.HonjoAzumabashi",
+        "time_de": "10:14",
+        "time_ar": "10:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Oshiage",
+        "time_de": null,
+        "time_ar": "10:16",
         "platform": null
       }
     ]
@@ -54417,95 +54408,104 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.937N",
-    "train_number": "937N",
-    "calendar": "odpt.Calendar:Weekday",
+    "train": "odpt.Train:Toei.Asakusa.933Ta",
+    "train_number": "933Ta",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:Northbound",
     "timetable": [
       {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "09:51",
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "09:16",
         "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "09:18",
+        "time_ar": "09:18",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.Mita",
-        "time_de": "09:53",
-        "time_ar": "09:53",
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "09:20",
+        "time_ar": "09:20",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.Daimon",
-        "time_de": "09:56",
-        "time_ar": "09:55",
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "09:22",
+        "time_ar": "09:22",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.Shimbashi",
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "09:25",
+        "time_ar": "09:24",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "09:26",
+        "time_ar": "09:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "09:29",
+        "platform": "3"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.933Tb",
+    "train_number": "933Tb",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": "09:58",
-        "time_ar": "09:57",
-        "platform": null
+        "time_ar": null,
+        "platform": "2"
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.HigashiGinza",
+        "station": "odpt.Station:Toei.Asakusa.Magome",
         "time_de": "10:00",
         "time_ar": "10:00",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.Takaracho",
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
         "time_de": "10:02",
         "time_ar": "10:01",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.Nihombashi",
-        "time_de": "10:03",
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "10:04",
         "time_ar": "10:03",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.Ningyocho",
-        "time_de": "10:05",
-        "time_ar": "10:05",
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "10:06",
+        "time_ar": "10:06",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.HigashiNihombashi",
-        "time_de": "10:07",
-        "time_ar": "10:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Asakusabashi",
-        "time_de": "10:09",
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "10:08",
         "time_ar": "10:08",
         "platform": null
       },
       {
-        "station": "odpt.Station:Toei.Asakusa.Kuramae",
-        "time_de": "10:10",
-        "time_ar": "10:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Asakusa",
-        "time_de": "10:12",
-        "time_ar": "10:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.HonjoAzumabashi",
-        "time_de": "10:14",
-        "time_ar": "10:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Oshiage",
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
         "time_de": null,
-        "time_ar": "10:16",
-        "platform": null
+        "time_ar": "10:10",
+        "platform": "3"
       }
     ]
   },
@@ -54886,57 +54886,6 @@
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
         "time_de": null,
         "time_ar": "10:00",
-        "platform": "3"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.983K",
-    "train_number": "983K",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Northbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": "09:22",
-        "time_ar": null,
-        "platform": "1"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "09:24",
-        "time_ar": "09:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "09:26",
-        "time_ar": "09:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "09:28",
-        "time_ar": "09:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "09:31",
-        "time_ar": "09:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "09:32",
-        "time_ar": "09:32",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": null,
-        "time_ar": "09:35",
         "platform": "3"
       }
     ]
@@ -55811,6 +55760,57 @@
   {
     "train": "odpt.Train:Toei.Asakusa.983K",
     "train_number": "983K",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Northbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": "09:22",
+        "time_ar": null,
+        "platform": "1"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "09:24",
+        "time_ar": "09:24",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "09:26",
+        "time_ar": "09:25",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "09:28",
+        "time_ar": "09:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "09:31",
+        "time_ar": "09:30",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "09:32",
+        "time_ar": "09:32",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": null,
+        "time_ar": "09:35",
+        "platform": "3"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.983K",
+    "train_number": "983K",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:Northbound",
@@ -56175,205 +56175,52 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.1772K",
-    "train_number": "1772K",
+    "train": "odpt.Train:Toei.Asakusa.726T",
+    "train_number": "726T",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:Southbound",
     "timetable": [
       {
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "17:40",
+        "time_de": "07:28",
         "time_ar": null,
         "platform": "2"
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "17:43",
-        "time_ar": "17:42",
+        "time_de": "07:30",
+        "time_ar": "07:30",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "17:45",
-        "time_ar": "17:44",
+        "time_de": "07:32",
+        "time_ar": "07:31",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "17:47",
-        "time_ar": "17:47",
+        "time_de": "07:34",
+        "time_ar": "07:34",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "17:49",
-        "time_ar": "17:48",
+        "time_de": "07:36",
+        "time_ar": "07:36",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "17:51",
-        "time_ar": "17:50",
+        "time_de": "07:38",
+        "time_ar": "07:38",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
-        "time_ar": "17:53",
-        "platform": "1"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1812T",
-    "train_number": "1812T",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "18:46",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "18:49",
-        "time_ar": "18:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "18:50",
-        "time_ar": "18:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "18:53",
-        "time_ar": "18:52",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "18:55",
-        "time_ar": "18:54",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "18:57",
-        "time_ar": "18:56",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "18:59",
-        "platform": "1"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2224N",
-    "train_number": "2224N",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "22:29",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "22:31",
-        "time_ar": "22:31",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "22:33",
-        "time_ar": "22:33",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "22:36",
-        "time_ar": "22:35",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "22:38",
-        "time_ar": "22:37",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "22:39",
-        "time_ar": "22:39",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "22:41",
-        "platform": "2"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1932N",
-    "train_number": "1932N",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "19:43",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "19:45",
-        "time_ar": "19:45",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "19:47",
-        "time_ar": "19:46",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "19:49",
-        "time_ar": "19:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "19:51",
-        "time_ar": "19:51",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "19:53",
-        "time_ar": "19:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "19:55",
+        "time_ar": "07:40",
         "platform": "2"
       }
     ]
@@ -56481,210 +56328,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.2122N",
-    "train_number": "2122N",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "21:13",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "21:15",
-        "time_ar": "21:15",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "21:17",
-        "time_ar": "21:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "21:20",
-        "time_ar": "21:19",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "21:22",
-        "time_ar": "21:21",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "21:23",
-        "time_ar": "21:23",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "21:25",
-        "platform": "2"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2140T",
-    "train_number": "2140T",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "21:07",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "21:10",
-        "time_ar": "21:09",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "21:12",
-        "time_ar": "21:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "21:14",
-        "time_ar": "21:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "21:16",
-        "time_ar": "21:15",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "21:18",
-        "time_ar": "21:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "21:20",
-        "platform": "2"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.724T",
-    "train_number": "724T",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "07:18",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "07:20",
-        "time_ar": "07:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "07:22",
-        "time_ar": "07:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "07:25",
-        "time_ar": "07:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "07:27",
-        "time_ar": "07:26",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "07:28",
-        "time_ar": "07:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "07:30",
-        "platform": "2"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.950T",
-    "train_number": "950T",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "09:00",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "09:02",
-        "time_ar": "09:02",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "09:04",
-        "time_ar": "09:04",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "09:07",
-        "time_ar": "09:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "09:09",
-        "time_ar": "09:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "09:10",
-        "time_ar": "09:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "09:12",
-        "platform": "1"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.1722Tb",
     "train_number": "1722Tb",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -56731,6 +56374,108 @@
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
         "time_ar": "18:01",
+        "platform": "2"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.1812T",
+    "train_number": "1812T",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "18:46",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "18:49",
+        "time_ar": "18:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "18:50",
+        "time_ar": "18:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "18:53",
+        "time_ar": "18:52",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "18:55",
+        "time_ar": "18:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "18:57",
+        "time_ar": "18:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "18:59",
+        "platform": "1"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.1828Nb",
+    "train_number": "1828Nb",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "18:52",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "18:54",
+        "time_ar": "18:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "18:56",
+        "time_ar": "18:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "18:59",
+        "time_ar": "18:58",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "19:01",
+        "time_ar": "19:00",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "19:02",
+        "time_ar": "19:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "19:04",
         "platform": "2"
       }
     ]
@@ -59615,57 +59360,6 @@
         "time_de": null,
         "time_ar": "16:11",
         "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.1730N",
-    "train_number": "1730N",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "17:06",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "17:09",
-        "time_ar": "17:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "17:11",
-        "time_ar": "17:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "17:13",
-        "time_ar": "17:13",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "17:15",
-        "time_ar": "17:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "17:17",
-        "time_ar": "17:16",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "17:19",
-        "platform": "2"
       }
     ]
   },
@@ -78582,6 +78276,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.1730N",
+    "train_number": "1730N",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "17:06",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "17:09",
+        "time_ar": "17:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "17:11",
+        "time_ar": "17:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "17:13",
+        "time_ar": "17:13",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "17:15",
+        "time_ar": "17:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "17:17",
+        "time_ar": "17:16",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "17:19",
+        "platform": "2"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.1732N",
     "train_number": "1732N",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -80187,6 +79932,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.1772K",
+    "train_number": "1772K",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "17:40",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "17:43",
+        "time_ar": "17:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "17:45",
+        "time_ar": "17:44",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "17:47",
+        "time_ar": "17:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "17:49",
+        "time_ar": "17:48",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "17:51",
+        "time_ar": "17:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "17:53",
+        "platform": "1"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.1776H",
     "train_number": "1776H",
     "calendar": "odpt.Calendar:Weekday",
@@ -81456,52 +81252,52 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.1828Nb",
-    "train_number": "1828Nb",
+    "train": "odpt.Train:Toei.Asakusa.1932N",
+    "train_number": "1932N",
     "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:Southbound",
     "timetable": [
       {
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "18:52",
+        "time_de": "19:43",
         "time_ar": null,
         "platform": "2"
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "18:54",
-        "time_ar": "18:54",
+        "time_de": "19:45",
+        "time_ar": "19:45",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "18:56",
-        "time_ar": "18:56",
+        "time_de": "19:47",
+        "time_ar": "19:46",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "18:59",
-        "time_ar": "18:58",
+        "time_de": "19:49",
+        "time_ar": "19:49",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "19:01",
-        "time_ar": "19:00",
+        "time_de": "19:51",
+        "time_ar": "19:51",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "19:02",
-        "time_ar": "19:02",
+        "time_de": "19:53",
+        "time_ar": "19:53",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
-        "time_ar": "19:04",
+        "time_ar": "19:55",
         "platform": "2"
       }
     ]
@@ -90432,6 +90228,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.2122N",
+    "train_number": "2122N",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "21:13",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "21:15",
+        "time_ar": "21:15",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "21:17",
+        "time_ar": "21:17",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "21:20",
+        "time_ar": "21:19",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "21:22",
+        "time_ar": "21:21",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "21:23",
+        "time_ar": "21:23",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "21:25",
+        "platform": "2"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.2130N",
     "train_number": "2130N",
     "calendar": "odpt.Calendar:Weekday",
@@ -90623,6 +90470,57 @@
         "time_de": null,
         "time_ar": "21:43",
         "platform": "1"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.2140T",
+    "train_number": "2140T",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "21:07",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "21:10",
+        "time_ar": "21:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "21:12",
+        "time_ar": "21:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "21:14",
+        "time_ar": "21:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "21:16",
+        "time_ar": "21:15",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "21:18",
+        "time_ar": "21:17",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "21:20",
+        "platform": "2"
       }
     ]
   },
@@ -90849,6 +90747,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.2156K",
+    "train_number": "2156K",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "21:05",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "21:08",
+        "time_ar": "21:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "21:10",
+        "time_ar": "21:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "21:12",
+        "time_ar": "21:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "21:14",
+        "time_ar": "21:14",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "21:16",
+        "time_ar": "21:15",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "21:18",
+        "platform": "2"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.2152K",
     "train_number": "2152K",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -91067,57 +91016,6 @@
         "time_de": null,
         "time_ar": "22:05",
         "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2156K",
-    "train_number": "2156K",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "21:05",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "21:08",
-        "time_ar": "21:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "21:10",
-        "time_ar": "21:09",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "21:12",
-        "time_ar": "21:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "21:14",
-        "time_ar": "21:14",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "21:16",
-        "time_ar": "21:15",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "21:18",
-        "platform": "2"
       }
     ]
   },
@@ -91534,57 +91432,6 @@
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
         "time_ar": "22:08",
-        "platform": "2"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.2208Kb",
-    "train_number": "2208Kb",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "22:48",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "22:50",
-        "time_ar": "22:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "22:52",
-        "time_ar": "22:51",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "22:54",
-        "time_ar": "22:54",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "22:56",
-        "time_ar": "22:56",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "22:58",
-        "time_ar": "22:58",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "23:00",
         "platform": "2"
       }
     ]
@@ -92151,6 +91998,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.2208Kb",
+    "train_number": "2208Kb",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "22:48",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "22:50",
+        "time_ar": "22:50",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "22:52",
+        "time_ar": "22:51",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "22:54",
+        "time_ar": "22:54",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "22:56",
+        "time_ar": "22:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "22:58",
+        "time_ar": "22:58",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "23:00",
+        "platform": "2"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.2208T",
     "train_number": "2208T",
     "calendar": "odpt.Calendar:Weekday",
@@ -92420,6 +92318,57 @@
         "time_de": null,
         "time_ar": "22:23",
         "platform": "1"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.2224N",
+    "train_number": "2224N",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "22:29",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "22:31",
+        "time_ar": "22:31",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "22:33",
+        "time_ar": "22:33",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "22:36",
+        "time_ar": "22:35",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "22:38",
+        "time_ar": "22:37",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "22:39",
+        "time_ar": "22:39",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "22:41",
+        "platform": "2"
       }
     ]
   },
@@ -94629,57 +94578,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.2344Ha",
-    "train_number": "2344Ha",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "23:02",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "23:04",
-        "time_ar": "23:04",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "23:06",
-        "time_ar": "23:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "23:09",
-        "time_ar": "23:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "23:11",
-        "time_ar": "23:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "23:12",
-        "time_ar": "23:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "23:14",
-        "platform": "1"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.2334T",
     "train_number": "2334T",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -94906,6 +94804,57 @@
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
         "time_ar": "00:12",
+        "platform": "1"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.2344Ha",
+    "train_number": "2344Ha",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "23:02",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "23:04",
+        "time_ar": "23:04",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "23:06",
+        "time_ar": "23:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "23:09",
+        "time_ar": "23:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "23:11",
+        "time_ar": "23:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "23:12",
+        "time_ar": "23:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "23:14",
         "platform": "1"
       }
     ]
@@ -99525,6 +99474,57 @@
     ]
   },
   {
+    "train": "odpt.Train:Toei.Asakusa.708Ta",
+    "train_number": "708Ta",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "07:18",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "07:21",
+        "time_ar": "07:20",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "07:22",
+        "time_ar": "07:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "07:25",
+        "time_ar": "07:24",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "07:27",
+        "time_ar": "07:26",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "07:28",
+        "time_ar": "07:28",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "07:30",
+        "platform": "1"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Asakusa.618Ta",
     "train_number": "618Ta",
     "calendar": "odpt.Calendar:Weekday",
@@ -99716,6 +99716,57 @@
         "time_de": null,
         "time_ar": "07:32",
         "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.708Tb",
+    "train_number": "708Tb",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "07:59",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "08:02",
+        "time_ar": "08:01",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "08:03",
+        "time_ar": "08:03",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "08:06",
+        "time_ar": "08:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "08:08",
+        "time_ar": "08:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "08:10",
+        "time_ar": "08:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "08:11",
+        "platform": "1"
       }
     ]
   },
@@ -102414,108 +102465,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.708Ta",
-    "train_number": "708Ta",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "07:18",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "07:21",
-        "time_ar": "07:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "07:22",
-        "time_ar": "07:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "07:25",
-        "time_ar": "07:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "07:27",
-        "time_ar": "07:26",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "07:28",
-        "time_ar": "07:28",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "07:30",
-        "platform": "1"
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Asakusa.708Tb",
-    "train_number": "708Tb",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "07:59",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "08:02",
-        "time_ar": "08:01",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "08:03",
-        "time_ar": "08:03",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "08:06",
-        "time_ar": "08:05",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "08:08",
-        "time_ar": "08:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "08:10",
-        "time_ar": "08:09",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "08:11",
-        "platform": "1"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.710T",
     "train_number": "710T",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -103530,52 +103479,52 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.726T",
-    "train_number": "726T",
+    "train": "odpt.Train:Toei.Asakusa.724T",
+    "train_number": "724T",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:Southbound",
     "timetable": [
       {
         "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "07:28",
+        "time_de": "07:18",
         "time_ar": null,
         "platform": "2"
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "07:30",
-        "time_ar": "07:30",
+        "time_de": "07:20",
+        "time_ar": "07:20",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "07:32",
-        "time_ar": "07:31",
+        "time_de": "07:22",
+        "time_ar": "07:22",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "07:34",
-        "time_ar": "07:34",
+        "time_de": "07:25",
+        "time_ar": "07:24",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "07:36",
-        "time_ar": "07:36",
+        "time_de": "07:27",
+        "time_ar": "07:26",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "07:38",
-        "time_ar": "07:38",
+        "time_de": "07:28",
+        "time_ar": "07:28",
         "platform": null
       },
       {
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
-        "time_ar": "07:40",
+        "time_ar": "07:30",
         "platform": "2"
       }
     ]
@@ -107247,57 +107196,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Asakusa.832Ta",
-    "train_number": "832Ta",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:Southbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
-        "time_de": "08:14",
-        "time_ar": null,
-        "platform": "2"
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
-        "time_de": "08:17",
-        "time_ar": "08:16",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Gotanda",
-        "time_de": "08:19",
-        "time_ar": "08:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Togoshi",
-        "time_de": "08:21",
-        "time_ar": "08:21",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
-        "time_de": "08:23",
-        "time_ar": "08:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.Magome",
-        "time_de": "08:25",
-        "time_ar": "08:24",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
-        "time_de": null,
-        "time_ar": "08:27",
-        "platform": "2"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Asakusa.826N",
     "train_number": "826N",
     "calendar": "odpt.Calendar:Weekday",
@@ -107515,6 +107413,57 @@
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
         "time_ar": "10:30",
+        "platform": "2"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.832Ta",
+    "train_number": "832Ta",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "08:14",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "08:17",
+        "time_ar": "08:16",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "08:19",
+        "time_ar": "08:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "08:21",
+        "time_ar": "08:21",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "08:23",
+        "time_ar": "08:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "08:25",
+        "time_ar": "08:24",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "08:27",
         "platform": "2"
       }
     ]
@@ -111301,6 +111250,57 @@
         "station": "odpt.Station:Toei.Asakusa.NishiMagome",
         "time_de": null,
         "time_ar": "10:28",
+        "platform": "1"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Asakusa.950T",
+    "train_number": "950T",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:Southbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Asakusa.Sengakuji",
+        "time_de": "09:00",
+        "time_ar": null,
+        "platform": "2"
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Takanawadai",
+        "time_de": "09:02",
+        "time_ar": "09:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Gotanda",
+        "time_de": "09:04",
+        "time_ar": "09:04",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Togoshi",
+        "time_de": "09:07",
+        "time_ar": "09:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Nakanobu",
+        "time_de": "09:09",
+        "time_ar": "09:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.Magome",
+        "time_de": "09:10",
+        "time_ar": "09:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Asakusa.NishiMagome",
+        "time_de": null,
+        "time_ar": "09:12",
         "platform": "1"
       }
     ]

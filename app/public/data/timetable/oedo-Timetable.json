@@ -1,5 +1,80 @@
 [
   {
+    "train": "odpt.Train:Toei.Oedo.504A",
+    "train_number": "504A",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:InnerLoop",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Oedo.ShinOkachimachi",
+        "time_de": "05:00",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.UenoOkachimachi",
+        "time_de": "05:01",
+        "time_ar": "05:01",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.HongoSanchome",
+        "time_de": "05:03",
+        "time_ar": "05:03",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.Kasuga",
+        "time_de": "05:05",
+        "time_ar": "05:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.Iidabashi",
+        "time_de": "05:07",
+        "time_ar": "05:07",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.UshigomeKagurazaka",
+        "time_de": "05:09",
+        "time_ar": "05:09",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.UshigomeYanagicho",
+        "time_de": "05:12",
+        "time_ar": "05:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.WakamatsuKawada",
+        "time_de": "05:13",
+        "time_ar": "05:13",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.HigashiShinjuku",
+        "time_de": "05:15",
+        "time_ar": "05:15",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.ShinjukuNishiguchi",
+        "time_de": "05:18",
+        "time_ar": "05:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.Tochomae",
+        "time_de": null,
+        "time_ar": "05:20",
+        "platform": "3"
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Toei.Oedo.1001A",
     "train_number": "1001A",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -65736,81 +65811,6 @@
     ]
   },
   {
-    "train": "odpt.Train:Toei.Oedo.504A",
-    "train_number": "504A",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:InnerLoop",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Oedo.ShinOkachimachi",
-        "time_de": "05:00",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.UenoOkachimachi",
-        "time_de": "05:01",
-        "time_ar": "05:01",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.HongoSanchome",
-        "time_de": "05:03",
-        "time_ar": "05:03",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.Kasuga",
-        "time_de": "05:05",
-        "time_ar": "05:05",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.Iidabashi",
-        "time_de": "05:07",
-        "time_ar": "05:07",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.UshigomeKagurazaka",
-        "time_de": "05:09",
-        "time_ar": "05:09",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.UshigomeYanagicho",
-        "time_de": "05:12",
-        "time_ar": "05:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.WakamatsuKawada",
-        "time_de": "05:13",
-        "time_ar": "05:13",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.HigashiShinjuku",
-        "time_de": "05:15",
-        "time_ar": "05:15",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.ShinjukuNishiguchi",
-        "time_de": "05:18",
-        "time_ar": "05:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.Tochomae",
-        "time_de": null,
-        "time_ar": "05:20",
-        "platform": "3"
-      }
-    ]
-  },
-  {
     "train": "odpt.Train:Toei.Oedo.506A",
     "train_number": "506A",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -94898,6 +94898,81 @@
         "time_de": null,
         "time_ar": "10:46",
         "platform": "2"
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Toei.Oedo.523B",
+    "train_number": "523B",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Toei.Local",
+    "direction": "odpt.RailDirection:OuterLoop",
+    "timetable": [
+      {
+        "station": "odpt.Station:Toei.Oedo.Tochomae",
+        "time_de": "05:03",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.NishiShinjukuGochome",
+        "time_de": "05:04",
+        "time_ar": "05:04",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.NakanoSakaue",
+        "time_de": "05:07",
+        "time_ar": "05:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.HigashiNakano",
+        "time_de": "05:09",
+        "time_ar": "05:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.Nakai",
+        "time_de": "05:10",
+        "time_ar": "05:10",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.OchiaiMinamiNagasaki",
+        "time_de": "05:13",
+        "time_ar": "05:12",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.ShinEgota",
+        "time_de": "05:15",
+        "time_ar": "05:15",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.Nerima",
+        "time_de": "05:18",
+        "time_ar": "05:17",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.Toshimaen",
+        "time_de": "05:20",
+        "time_ar": "05:19",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.NerimaKasugacho",
+        "time_de": "05:22",
+        "time_ar": "05:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Toei.Oedo.Hikarigaoka",
+        "time_de": null,
+        "time_ar": "05:24",
+        "platform": null
       }
     ]
   },
@@ -162903,81 +162978,6 @@
     "train": "odpt.Train:Toei.Oedo.522B",
     "train_number": "522B",
     "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Toei.Local",
-    "direction": "odpt.RailDirection:OuterLoop",
-    "timetable": [
-      {
-        "station": "odpt.Station:Toei.Oedo.Tochomae",
-        "time_de": "05:03",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.NishiShinjukuGochome",
-        "time_de": "05:04",
-        "time_ar": "05:04",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.NakanoSakaue",
-        "time_de": "05:07",
-        "time_ar": "05:06",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.HigashiNakano",
-        "time_de": "05:09",
-        "time_ar": "05:08",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.Nakai",
-        "time_de": "05:10",
-        "time_ar": "05:10",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.OchiaiMinamiNagasaki",
-        "time_de": "05:13",
-        "time_ar": "05:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.ShinEgota",
-        "time_de": "05:15",
-        "time_ar": "05:15",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.Nerima",
-        "time_de": "05:18",
-        "time_ar": "05:17",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.Toshimaen",
-        "time_de": "05:20",
-        "time_ar": "05:19",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.NerimaKasugacho",
-        "time_de": "05:22",
-        "time_ar": "05:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Toei.Oedo.Hikarigaoka",
-        "time_de": null,
-        "time_ar": "05:24",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Toei.Oedo.523B",
-    "train_number": "523B",
-    "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Toei.Local",
     "direction": "odpt.RailDirection:OuterLoop",
     "timetable": [

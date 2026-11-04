@@ -17,13 +17,6 @@
             >
                 {{ lineNotice }}
             </v-alert>
-            <v-alert
-                type="warning"
-                variant="tonal"
-                class="text-body-1 warning-card mt-3 mb-6 rounded-lg"
-            >
-                こちらのページは3月13日までの公開です
-            </v-alert>
             <v-list class="train-line" dense>
                 <v-list-item
                     v-for="(station, index) in StationInfo"
@@ -641,7 +634,7 @@ const NOTICE: Record<string, string> = {
         '山手線は、大崎行きのすべての列車の行き先が外回りか内回りと表示されます',
     ome: 'データの都合上奥多摩〜青梅間の列車は表示されません',
     itsukaichi: '立川〜拝島間の列車は青梅線のページに表示されます',
-    chuo: '中央線は、甲府 〜 塩尻間とすべての列車時の時刻表は表示されません',
+    chuo: '中央線は、甲府 〜 塩尻間とすべての列車時刻表は表示されません',
     kameido:
         '亀戸線の 小村井 - 東あずま - 亀戸水神 の区間については、列車在線位置の区別ができません',
     isesaki:
@@ -717,7 +710,7 @@ async function fetchTrainLocation() {
             `https://api-challenge.odpt.org/api/v4/odpt:Train` +
                 `?odpt:operator=odpt.Operator:JR-East,odpt.Operator:Tobu,odpt.Operator:Keikyu` +
                 `&odpt:railway=${encodeURIComponent(lineKey)}` +
-                `&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0`,
+                `&acl:consumerKey=afmhykpz33qobg7dpbyo4bhkhur56ycejirn00w98fekyxk5v2gpwgisbvexx7tg`,
         );
 
         if (!response.ok) throw new Error('Network Error');
@@ -752,7 +745,7 @@ async function fetchStationOrder(
     railwaySameAs: string,
 ): Promise<Map<string, number>> {
     const res = await fetch(
-        `https://api-challenge.odpt.org/api/v4/odpt:Railway?owl:sameAs=${railwaySameAs}&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0`,
+        `https://api-challenge.odpt.org/api/v4/odpt:Railway?owl:sameAs=${railwaySameAs}&acl:consumerKey=afmhykpz33qobg7dpbyo4bhkhur56ycejirn00w98fekyxk5v2gpwgisbvexx7tg`,
     );
     console.log('railway sameas', railwaySameAs);
     console.log(res);
@@ -778,7 +771,7 @@ async function fetchStationInfo() {
             `https://api-challenge.odpt.org/api/v4/odpt:Station` +
                 `?odpt:operator=odpt.Operator:JR-East,odpt.Operator:Tobu,odpt.Operator:Keikyu` +
                 `&odpt:railway=${encodeURIComponent(lineKey)}` +
-                `&acl:consumerKey=5cnfrm3vdwsfg163rrfrar0jqdlo3910alzus7xiwunv9jkd3x0b17e0vy9d50t0`,
+                `&acl:consumerKey=afmhykpz33qobg7dpbyo4bhkhur56ycejirn00w98fekyxk5v2gpwgisbvexx7tg`,
         );
 
         if (!stationRes.ok) throw new Error('Station fetch error');

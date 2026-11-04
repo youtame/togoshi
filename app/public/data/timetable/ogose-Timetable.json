@@ -1,57 +1,171 @@
 [
   {
-    "train": "odpt.Train:Tobu.Ogose.A1484",
-    "train_number": "A1484",
+    "train": "odpt.Train:Tobu.Ogose.A1482",
+    "train_number": "A1482",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Tobu.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": "14:24",
+        "time_de": "14:09",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "14:26",
-        "time_ar": "14:26",
+        "time_de": "14:11",
+        "time_ar": "14:11",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "14:28",
-        "time_ar": "14:27",
+        "time_de": "14:13",
+        "time_ar": "14:12",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "14:30",
-        "time_ar": "14:30",
+        "time_de": "14:15",
+        "time_ar": "14:15",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "14:33",
-        "time_ar": "14:33",
+        "time_de": "14:18",
+        "time_ar": "14:18",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "14:35",
-        "time_ar": "14:35",
+        "time_de": "14:20",
+        "time_ar": "14:20",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "14:38",
-        "time_ar": "14:38",
+        "time_de": "14:23",
+        "time_ar": "14:23",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Sakado",
         "time_de": null,
-        "time_ar": "14:42",
+        "time_ar": "14:27",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Ogose.A1082",
+    "train_number": "A1082",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ogose",
+        "time_de": "10:54",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
+        "time_de": "10:56",
+        "time_ar": "10:56",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
+        "time_de": "10:58",
+        "time_ar": "10:57",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
+        "time_de": "11:00",
+        "time_ar": "11:00",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Kawakado",
+        "time_de": "11:03",
+        "time_ar": "11:03",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.NishiOya",
+        "time_de": "11:05",
+        "time_ar": "11:05",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
+        "time_de": "11:08",
+        "time_ar": "11:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Sakado",
+        "time_de": null,
+        "time_ar": "11:12",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Ogose.A1082",
+    "train_number": "A1082",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Inbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ogose",
+        "time_de": "10:05",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
+        "time_de": "10:07",
+        "time_ar": "10:06",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
+        "time_de": "10:09",
+        "time_ar": "10:08",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
+        "time_de": "10:11",
+        "time_ar": "10:11",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Kawakado",
+        "time_de": "10:14",
+        "time_ar": "10:13",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.NishiOya",
+        "time_de": "10:16",
+        "time_ar": "10:16",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
+        "time_de": "10:22",
+        "time_ar": "10:18",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Sakado",
+        "time_de": null,
+        "time_ar": "10:26",
         "platform": null
       }
     ]
@@ -1819,120 +1933,6 @@
         "station": "odpt.Station:Tobu.Ogose.Sakado",
         "time_de": null,
         "time_ar": "15:12",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Ogose.A1482",
-    "train_number": "A1482",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": "14:09",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "14:11",
-        "time_ar": "14:11",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "14:13",
-        "time_ar": "14:12",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "14:15",
-        "time_ar": "14:15",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "14:18",
-        "time_ar": "14:18",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "14:20",
-        "time_ar": "14:20",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "14:23",
-        "time_ar": "14:23",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Sakado",
-        "time_de": null,
-        "time_ar": "14:27",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Ogose.A1484",
-    "train_number": "A1484",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Inbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": "14:39",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "14:41",
-        "time_ar": "14:41",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "14:43",
-        "time_ar": "14:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "14:45",
-        "time_ar": "14:45",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "14:48",
-        "time_ar": "14:48",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "14:50",
-        "time_ar": "14:50",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "14:53",
-        "time_ar": "14:53",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Sakado",
-        "time_de": null,
-        "time_ar": "14:57",
         "platform": null
       }
     ]
@@ -2052,115 +2052,115 @@
     ]
   },
   {
-    "train": "odpt.Train:Tobu.Ogose.A1082",
-    "train_number": "A1082",
+    "train": "odpt.Train:Tobu.Ogose.A1484",
+    "train_number": "A1484",
     "calendar": "odpt.Calendar:SaturdayHoliday",
     "train_type": "odpt.TrainType:Tobu.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": "10:54",
+        "time_de": "14:39",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "10:56",
-        "time_ar": "10:56",
+        "time_de": "14:41",
+        "time_ar": "14:41",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "10:58",
-        "time_ar": "10:57",
+        "time_de": "14:43",
+        "time_ar": "14:42",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "11:00",
-        "time_ar": "11:00",
+        "time_de": "14:45",
+        "time_ar": "14:45",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "11:03",
-        "time_ar": "11:03",
+        "time_de": "14:48",
+        "time_ar": "14:48",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "11:05",
-        "time_ar": "11:05",
+        "time_de": "14:50",
+        "time_ar": "14:50",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "11:08",
-        "time_ar": "11:08",
+        "time_de": "14:53",
+        "time_ar": "14:53",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Sakado",
         "time_de": null,
-        "time_ar": "11:12",
+        "time_ar": "14:57",
         "platform": null
       }
     ]
   },
   {
-    "train": "odpt.Train:Tobu.Ogose.A1082",
-    "train_number": "A1082",
+    "train": "odpt.Train:Tobu.Ogose.A1484",
+    "train_number": "A1484",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Tobu.Local",
     "direction": "odpt.RailDirection:Inbound",
     "timetable": [
       {
         "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": "10:05",
+        "time_de": "14:24",
         "time_ar": null,
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "10:07",
-        "time_ar": "10:06",
+        "time_de": "14:26",
+        "time_ar": "14:26",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "10:09",
-        "time_ar": "10:08",
+        "time_de": "14:28",
+        "time_ar": "14:27",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "10:11",
-        "time_ar": "10:11",
+        "time_de": "14:30",
+        "time_ar": "14:30",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "10:14",
-        "time_ar": "10:13",
+        "time_de": "14:33",
+        "time_ar": "14:33",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "10:16",
-        "time_ar": "10:16",
+        "time_de": "14:35",
+        "time_ar": "14:35",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "10:22",
-        "time_ar": "10:18",
+        "time_de": "14:38",
+        "time_ar": "14:38",
         "platform": null
       },
       {
         "station": "odpt.Station:Tobu.Ogose.Sakado",
         "time_de": null,
-        "time_ar": "10:26",
+        "time_ar": "14:42",
         "platform": null
       }
     ]
@@ -8265,6 +8265,177 @@
     ]
   },
   {
+    "train": "odpt.Train:Tobu.Ogose.A1483",
+    "train_number": "A1483",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Ogose.Sakado",
+        "time_de": "14:19",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
+        "time_de": "14:23",
+        "time_ar": "14:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.NishiOya",
+        "time_de": "14:25",
+        "time_ar": "14:25",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Kawakado",
+        "time_de": "14:28",
+        "time_ar": "14:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
+        "time_de": "14:31",
+        "time_ar": "14:30",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
+        "time_de": "14:33",
+        "time_ar": "14:32",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
+        "time_de": "14:35",
+        "time_ar": "14:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ogose",
+        "time_de": null,
+        "time_ar": "14:37",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Ogose.A1081",
+    "train_number": "A1081",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Ogose.Sakado",
+        "time_de": "10:34",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
+        "time_de": "10:38",
+        "time_ar": "10:37",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.NishiOya",
+        "time_de": "10:40",
+        "time_ar": "10:40",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Kawakado",
+        "time_de": "10:43",
+        "time_ar": "10:42",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
+        "time_de": "10:46",
+        "time_ar": "10:45",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
+        "time_de": "10:48",
+        "time_ar": "10:47",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
+        "time_de": "10:50",
+        "time_ar": "10:49",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ogose",
+        "time_de": null,
+        "time_ar": "10:52",
+        "platform": null
+      }
+    ]
+  },
+  {
+    "train": "odpt.Train:Tobu.Ogose.A1081",
+    "train_number": "A1081",
+    "calendar": "odpt.Calendar:Weekday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Ogose.Sakado",
+        "time_de": "10:19",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
+        "time_de": "10:23",
+        "time_ar": "10:22",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.NishiOya",
+        "time_de": "10:25",
+        "time_ar": "10:25",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Kawakado",
+        "time_de": "10:28",
+        "time_ar": "10:27",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
+        "time_de": "10:31",
+        "time_ar": "10:30",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
+        "time_de": "10:33",
+        "time_ar": "10:32",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
+        "time_de": "10:35",
+        "time_ar": "10:34",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ogose",
+        "time_de": null,
+        "time_ar": "10:37",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Tobu.Ogose.A1083",
     "train_number": "A1083",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -10091,63 +10262,6 @@
   {
     "train": "odpt.Train:Tobu.Ogose.A1483",
     "train_number": "A1483",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Ogose.Sakado",
-        "time_de": "14:19",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "14:23",
-        "time_ar": "14:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "14:25",
-        "time_ar": "14:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "14:28",
-        "time_ar": "14:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "14:31",
-        "time_ar": "14:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "14:33",
-        "time_ar": "14:32",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "14:35",
-        "time_ar": "14:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": null,
-        "time_ar": "14:37",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Ogose.A1483",
-    "train_number": "A1483",
     "calendar": "odpt.Calendar:Weekday",
     "train_type": "odpt.TrainType:Tobu.Local",
     "direction": "odpt.RailDirection:Outbound",
@@ -10198,120 +10312,6 @@
         "station": "odpt.Station:Tobu.Ogose.Ogose",
         "time_de": null,
         "time_ar": "14:52",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Ogose.A1081",
-    "train_number": "A1081",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Ogose.Sakado",
-        "time_de": "10:34",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "10:38",
-        "time_ar": "10:37",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "10:40",
-        "time_ar": "10:40",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "10:43",
-        "time_ar": "10:42",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "10:46",
-        "time_ar": "10:45",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "10:48",
-        "time_ar": "10:47",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "10:50",
-        "time_ar": "10:49",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": null,
-        "time_ar": "10:52",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Ogose.A1081",
-    "train_number": "A1081",
-    "calendar": "odpt.Calendar:Weekday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Ogose.Sakado",
-        "time_de": "10:19",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "10:23",
-        "time_ar": "10:22",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "10:25",
-        "time_ar": "10:25",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "10:28",
-        "time_ar": "10:27",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "10:31",
-        "time_ar": "10:30",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "10:33",
-        "time_ar": "10:32",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "10:35",
-        "time_ar": "10:34",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": null,
-        "time_ar": "10:37",
         "platform": null
       }
     ]
@@ -15960,6 +15960,63 @@
     ]
   },
   {
+    "train": "odpt.Train:Tobu.Ogose.A987",
+    "train_number": "A987",
+    "calendar": "odpt.Calendar:SaturdayHoliday",
+    "train_type": "odpt.TrainType:Tobu.Local",
+    "direction": "odpt.RailDirection:Outbound",
+    "timetable": [
+      {
+        "station": "odpt.Station:Tobu.Ogose.Sakado",
+        "time_de": "09:48",
+        "time_ar": null,
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
+        "time_de": "09:52",
+        "time_ar": "09:52",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.NishiOya",
+        "time_de": "09:55",
+        "time_ar": "09:55",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Kawakado",
+        "time_de": "09:57",
+        "time_ar": "09:57",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
+        "time_de": "10:00",
+        "time_ar": "10:00",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
+        "time_de": "10:02",
+        "time_ar": "10:02",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
+        "time_de": "10:04",
+        "time_ar": "10:04",
+        "platform": null
+      },
+      {
+        "station": "odpt.Station:Tobu.Ogose.Ogose",
+        "time_de": null,
+        "time_ar": "10:06",
+        "platform": null
+      }
+    ]
+  },
+  {
     "train": "odpt.Train:Tobu.Ogose.A889",
     "train_number": "A889",
     "calendar": "odpt.Calendar:SaturdayHoliday",
@@ -16411,63 +16468,6 @@
         "station": "odpt.Station:Tobu.Ogose.Ogose",
         "time_de": null,
         "time_ar": "10:13",
-        "platform": null
-      }
-    ]
-  },
-  {
-    "train": "odpt.Train:Tobu.Ogose.A987",
-    "train_number": "A987",
-    "calendar": "odpt.Calendar:SaturdayHoliday",
-    "train_type": "odpt.TrainType:Tobu.Local",
-    "direction": "odpt.RailDirection:Outbound",
-    "timetable": [
-      {
-        "station": "odpt.Station:Tobu.Ogose.Sakado",
-        "time_de": "09:48",
-        "time_ar": null,
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ippommatsu",
-        "time_de": "09:52",
-        "time_ar": "09:52",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.NishiOya",
-        "time_de": "09:55",
-        "time_ar": "09:55",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Kawakado",
-        "time_de": "09:57",
-        "time_ar": "09:57",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuNagase",
-        "time_de": "10:00",
-        "time_ar": "10:00",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.HigashiMoro",
-        "time_de": "10:02",
-        "time_ar": "10:02",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.BushuKarasawa",
-        "time_de": "10:04",
-        "time_ar": "10:04",
-        "platform": null
-      },
-      {
-        "station": "odpt.Station:Tobu.Ogose.Ogose",
-        "time_de": null,
-        "time_ar": "10:06",
         "platform": null
       }
     ]
